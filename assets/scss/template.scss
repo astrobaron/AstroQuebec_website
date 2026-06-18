@@ -7,3 +7,202 @@
 .cta-group {
   justify-content: center;
 }
+
+:root {
+  --astroq-blue: #123a63;
+  --astroq-blue-dark: #08243f;
+  --astroq-gold: #d9a441;
+  --astroq-ink: #172033;
+  --astroq-muted: #5d6978;
+  --astroq-soft: #f3f6f9;
+}
+
+body {
+  color: var(--astroq-ink);
+  background: #fff;
+}
+
+.navbar {
+  min-height: 76px;
+  box-shadow: 0 2px 12px rgba(8, 36, 63, 0.12);
+}
+
+.navbar-light {
+  background: #fff;
+}
+
+.navbar-brand {
+  color: var(--astroq-blue-dark) !important;
+  font-weight: 800;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 330px;
+  min-height: 54px;
+  overflow: visible;
+  font-size: 0;
+  text-indent: 0;
+  white-space: nowrap;
+}
+
+.navbar-brand::before {
+  content: "";
+  display: block;
+  width: 128px;
+  height: 54px;
+  flex: 0 0 128px;
+  background: url("/media/astroquebec-logo.png") center / contain no-repeat;
+}
+
+.navbar-brand::after {
+  content: "Centre de recherche en astrophysique du Québec";
+  display: block;
+  max-width: 190px;
+  color: var(--astroq-blue-dark);
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.08;
+  text-indent: 0;
+  white-space: normal;
+}
+
+html[lang="en-us"] .navbar-brand::after {
+  content: "Quebec Astrophysics Research Centre";
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    gap: 8px;
+    max-width: 230px;
+    min-height: 44px;
+  }
+
+  .navbar-brand::before {
+    width: 104px;
+    height: 44px;
+    flex-basis: 104px;
+  }
+
+  .navbar-brand::after {
+    max-width: 112px;
+    font-size: 0.62rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-brand {
+    max-width: 250px;
+  }
+
+  .navbar-brand::before {
+    width: 112px;
+    flex-basis: 112px;
+  }
+
+  .navbar-brand::after {
+    max-width: 126px;
+    font-size: 0.66rem;
+  }
+}
+
+.navbar-nav .nav-link {
+  color: var(--astroq-blue) !important;
+  font-weight: 650;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--astroq-gold) !important;
+}
+
+.home-section {
+  padding: 64px 0;
+}
+
+.wg-hero {
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  padding-top: 72px;
+  padding-bottom: 48px;
+}
+
+.hero-title {
+  color: var(--astroq-blue-dark);
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  font-weight: 800;
+}
+
+.hero-lead {
+  color: var(--astroq-blue);
+  font-size: 1.25rem;
+}
+
+.hero-media img {
+  border-radius: 0;
+  box-shadow: 0 18px 48px rgba(8, 36, 63, 0.22);
+}
+
+.section-heading h1 {
+  color: var(--astroq-blue-dark);
+  font-weight: 800;
+}
+
+.section-heading h1::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 4px;
+  margin: 14px auto 0;
+  background: var(--astroq-gold);
+}
+
+.wg-collection:nth-of-type(2),
+#mission,
+#presentation {
+  background: var(--astroq-soft);
+}
+
+.card-simple {
+  border: 1px solid rgba(18, 58, 99, 0.12);
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.card-simple:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(8, 36, 63, 0.13);
+}
+
+.article-title a,
+.summary-link {
+  color: var(--astroq-blue-dark);
+}
+
+.article-title a:hover {
+  color: var(--astroq-gold);
+}
+
+.article-style {
+  color: var(--astroq-muted);
+}
+
+.btn-primary {
+  background-color: var(--astroq-blue);
+  border-color: var(--astroq-blue);
+  border-radius: 0;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: var(--astroq-blue-dark);
+  border-color: var(--astroq-blue-dark);
+}
+
+.site-footer {
+  color: #d8e4ef;
+}
+
+.page-footer {
+  background: var(--astroq-blue-dark);
+}

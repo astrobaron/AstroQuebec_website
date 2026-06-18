@@ -1,24 +1,24 @@
 ---
-title: Example Event
+title: Séminaire de recherche AstroQuébec
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: Colloques et séminaires
+event_url: ''
 
-location: Wowchemy HQ
+location: AstroQuébec
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: ''
+  city: Quebec
+  region: QC
+  postcode: ''
+  country: Canada
 
-summary: An example event.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Séminaire mensuel consacré aux résultats de recherche, aux plans d’observation et aux méthodes d’analyse.
+abstract: 'Un rendez-vous récurrent pour présenter les travaux en cours, discuter des outils d’analyse et favoriser les échanges entre les membres d’AstroQuébec.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2026-09-10T13:00:00-04:00'
+date_end: '2026-09-10T14:00:00-04:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -54,10 +54,6 @@ slides:
 projects:
 ---
 
-Slides can be added in a few ways:
+Utilisez cette page pour ajouter le résumé du séminaire, la biographie de la personne invitée, les diapositives ou un lien d’inscription.
 
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
-
-Further event details, including page elements such as image galleries, can be added to the body of this page.
+Remplacez la date, le titre et le résumé lorsque le programme sera finalisé.

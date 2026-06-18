@@ -3,10 +3,79 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-en:
-  languageCode: en-us
+fr:
+  locale: fr-ca
+  label: Français
+  title: AstroQuébec | Comprendre l'Univers
+  params:
+    marketing:
+      seo:
+        description: 'AstroQuébec rassemble des chercheurs, chercheuses et étudiants en astrophysique autour de la recherche, de la formation et du rayonnement de l’astronomie québécoise.'
+    footer:
+      copyright:
+        notice: '© {year} AstroQuébec. Ce site est publié sous {license}'
+    locale:
+      date_format: '2 Jan 2006'
+      time_format: '15:04'
+      address_format: fr-ca
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
+  menu:
+    main:
+      - name: Le Centre
+        url: '#presentation'
+        weight: 10
+      - name: Nouvelles
+        url: post
+        weight: 20
+      - name: Répertoire
+        url: people
+        weight: 30
+      - name: Calendrier
+        url: calendrier
+        weight: 40
+      - name: Activités
+        url: event
+        weight: 50
+      - name: Nous joindre
+        url: contact
+        weight: 60
+
+en:
+  locale: en-us
+  label: English
+  title: AstroQuébec | Understanding the Universe
+  params:
+    marketing:
+      seo:
+        description: 'AstroQuébec brings together astrophysics researchers and students around research, training, and the visibility of Quebec astronomy.'
+    footer:
+      copyright:
+        notice: '© {year} AstroQuébec. This site is published under {license}'
+    locale:
+      date_format: 'Jan 2, 2006'
+      time_format: '3:04 PM'
+      address_format: en-us
+  menu:
+    main:
+      - name: Centre
+        url: '#presentation'
+        weight: 10
+      - name: News
+        url: post
+        weight: 20
+      - name: Directory
+        url: people
+        weight: 30
+      - name: Calendar
+        url: calendrier
+        weight: 40
+      - name: Activities
+        url: event
+        weight: 50
+      - name: Contact
+        url: contact
+        weight: 60
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:

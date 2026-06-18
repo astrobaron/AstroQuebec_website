@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Events
+title: Activités
 
 # Listing view
 view: compact

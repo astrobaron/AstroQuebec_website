@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'AstroQuébec'
+    description: 'AstroQuébec rassemble des chercheurs, chercheuses et étudiants en astrophysique autour de la recherche, de la formation et du rayonnement de l’astronomie québécoise.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -36,7 +36,7 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} AstroQuébec. Ce site est publié sous {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -55,9 +55,9 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+  date_format: '2 Jan 2006'
+  time_format: '15:04'
+  address_format: fr-ca
 
 # Site features
 
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/'
     content_dir: content
     branch: main
   avatar:

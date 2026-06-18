@@ -8,21 +8,20 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        AstroQuébec
       image:
-        filename: welcome.jpg
+        filename: astroquebec-hero.png
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        **Comprendre l'Univers** par la recherche, la formation et le rayonnement de l’astronomie québécoise.
+
   - block: collection
     content:
-      title: Latest News
+      title: Nouvelles
       subtitle:
       text:
-      count: 5
+      count: 8
       filters:
         author: ''
         category: ''
@@ -34,8 +33,40 @@ sections:
       page_type: post
     design:
       view: card
+      columns: '2'
+
+  - block: markdown
+    id: mission
+    content:
+      title: Notre mission
+      subtitle: ''
+      text: |
+        La mission d’AstroQuébec est de soutenir une recherche scientifique de pointe en astronomie et en astrophysique, de former la prochaine génération de spécialistes et de faire rayonner l’astronomie québécoise sur la scène nationale et internationale.
+
+        Le centre met en commun l’expertise en observations, instrumentation, modélisation et analyse de données afin de mieux comprendre les planètes, les étoiles, les galaxies et l’évolution de l’Univers.
+    design:
       columns: '1'
-  
+
+  - block: markdown
+    id: activites
+    content:
+      title: Activités
+      subtitle: ''
+      text: |
+        Les membres d’AstroQuébec organisent et participent à des séminaires, colloques, écoles d’été, ateliers de formation, activités publiques et rencontres scientifiques. Ces activités favorisent la collaboration, la diffusion des résultats et le partage des outils de recherche.
+    design:
+      columns: '1'
+
+  - block: markdown
+    id: presentation
+    content:
+      title: Présentation
+      subtitle: ''
+      text: |
+        AstroQuébec regroupe des chercheuses, chercheurs, étudiantes, étudiants et partenaires qui travaillent sur les grandes questions de l’astrophysique moderne. Ses projets couvrent les exoplanètes, la formation stellaire, les galaxies, les trous noirs, l’Univers lointain et les instruments qui rendent ces découvertes possibles.
+    design:
+      columns: '1'
+
   - block: markdown
     content:
       title:
@@ -45,9 +76,9 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: astroquebec-research.png
           filters:
-            brightness: 1
+            brightness: 0.75
           parallax: false
           position: center
           size: cover
@@ -58,7 +89,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Publications récentes
       text: ""
       count: 5
       filters:
@@ -74,7 +105,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="Consulter le répertoire" %}}
     design:
       columns: '1'
 ---
