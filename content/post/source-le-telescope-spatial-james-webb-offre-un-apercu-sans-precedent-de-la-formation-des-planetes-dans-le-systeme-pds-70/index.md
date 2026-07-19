@@ -1,7 +1,6 @@
 ---
 title: "Le télescope spatial James Webb offre un aperçu sans précédent de la formation des planètes dans le système PDS 70"
 date: "2025-02-17"
-external_link: "https://www.craq-astro.ca/2025/02/17/le-telescope-spatial-james-webb-offre-un-apercu-sans-precedent-de-la-formation-des-planetes-dans-le-systeme-pds-70/"
 categories:
   - Nouvelles
 tags:

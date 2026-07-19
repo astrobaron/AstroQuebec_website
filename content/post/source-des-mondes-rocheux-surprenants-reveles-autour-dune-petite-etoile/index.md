@@ -1,7 +1,6 @@
 ---
 title: "Des mondes rocheux surprenants révélés autour d’une petite étoile"
 date: "2025-07-22"
-external_link: "https://www.craq-astro.ca/2025/07/22/des-mondes-rocheux-surprenants-reveles-autour-dune-petite-etoile/"
 categories:
   - Nouvelles
 tags:

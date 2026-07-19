@@ -1,7 +1,6 @@
 ---
 title: "La « police des trous noirs » découvre un trou noir dormant en dehors de notre galaxie"
 date: "2022-07-19"
-external_link: "https://www.craq-astro.ca/2022/07/19/la-police-des-trous-noirs-decouvre-un-trou-noir-dormant-en-dehors-de-notre-galaxie/"
 categories:
   - Nouvelles
 tags:

@@ -1,7 +1,6 @@
 ---
 title: "Simon Blouin reçoit le Prix Relève étoile Louis-Berlinguet du FRQNT"
 date: "2023-11-30"
-external_link: "https://www.craq-astro.ca/2023/11/30/simon-blouin-recoit-le-prix-releve-etoile-louis-berlinguet-du-frqnt/"
 categories:
   - Nouvelles
 tags:

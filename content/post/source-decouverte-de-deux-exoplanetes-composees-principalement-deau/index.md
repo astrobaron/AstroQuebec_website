@@ -1,7 +1,6 @@
 ---
 title: "Découverte de deux exoplanètes composées principalement d’eau"
 date: "2022-12-15"
-external_link: "https://www.craq-astro.ca/2022/12/15/decouverte-de-deux-exoplanetes-composees-principalement-deau/"
 categories:
   - Nouvelles
 tags:

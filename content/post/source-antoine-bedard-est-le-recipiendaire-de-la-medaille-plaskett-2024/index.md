@@ -1,7 +1,6 @@
 ---
 title: "Antoine Bédard est le récipiendaire de la médaille Plaskett 2024"
 date: "2024-04-26"
-external_link: "https://www.craq-astro.ca/2024/04/26/antoine-bedard-est-le-recipiendaire-de-la-medaille-plaskett-2024/"
 categories:
   - Nouvelles
 tags:

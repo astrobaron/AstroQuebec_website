@@ -1,7 +1,6 @@
 ---
 title: "Une équipe canadienne se joint à l’ESO dans un accord historique pour l’instrument ANDES sur l’ELT"
 date: "2024-07-17"
-external_link: "https://www.craq-astro.ca/2024/07/17/une-equipe-canadienne-se-joint-a-leso-dans-un-accord-historique-pour-linstrument-andes-sur-lelt/"
 categories:
   - Nouvelles
 tags:

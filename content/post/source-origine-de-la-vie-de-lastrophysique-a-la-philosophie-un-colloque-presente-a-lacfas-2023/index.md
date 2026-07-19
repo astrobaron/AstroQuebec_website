@@ -1,7 +1,6 @@
 ---
 title: "‘Origine de la vie : de l’astrophysique à la philosophie’, un colloque présenté à l’ACFAS 2023"
 date: "2023-06-08"
-external_link: "https://www.craq-astro.ca/2023/06/08/origine-de-la-vie-de-lastrophysique-a-la-philosophie-un-colloque-presente-a-lacfas-2023/"
 categories:
   - Nouvelles
 tags:

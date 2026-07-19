@@ -1,7 +1,6 @@
 ---
 title: "Le doctorant Alexandre Champagne-Ruel se voit attribuer une bourse postdoctorale de la NASA"
 date: "2025-09-04"
-external_link: "https://www.craq-astro.ca/2025/09/04/le-doctorant-alexandre-champagne-ruel-se-voit-attribuer-une-bourse-postdoctorale-de-la-nasa/"
 categories:
   - Nouvelles
 tags:

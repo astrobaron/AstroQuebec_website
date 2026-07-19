@@ -1,7 +1,6 @@
 ---
 title: "Un nouveau chasseur de planète s’éveille : l’instrument NIRPS voit sa première lumière"
 date: "2022-06-27"
-external_link: "https://www.craq-astro.ca/2022/06/27/un-nouveau-chasseur-de-planete-seveille-linstrument-nirps-voit-sa-premiere-lumiere/"
 categories:
   - Nouvelles
 tags:

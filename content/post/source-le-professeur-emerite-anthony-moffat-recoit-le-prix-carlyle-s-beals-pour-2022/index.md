@@ -1,7 +1,6 @@
 ---
 title: "Le professeur émérite Anthony Moffat reçoit le prix Carlyle S. Beals pour 2022"
 date: "2022-03-18"
-external_link: "https://www.craq-astro.ca/2022/03/18/le-professeur-emerite-anthony-moffat-recoit-le-prix-carlyle-s-beals-pour-2022/"
 categories:
   - Nouvelles
 tags:

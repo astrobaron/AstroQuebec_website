@@ -1,7 +1,6 @@
 ---
 title: "Les astronomes révèlent la première image du trou noir au cœur de notre galaxie"
 date: "2022-05-12"
-external_link: "https://www.craq-astro.ca/2022/05/12/les-astronomes-revelent-la-premiere-image-du-trou-noir-au-coeur-de-notre-galaxie/"
 categories:
   - Nouvelles
 tags:

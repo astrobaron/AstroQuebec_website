@@ -1,7 +1,6 @@
 ---
 title: "Découverte de vapeur d’eau dans l’atmosphère d’une petite exoplanète"
 date: "2024-01-26"
-external_link: "https://www.craq-astro.ca/2024/01/26/decouverte-de-vapeur-deau-dans-latmosphere-dune-petite-exoplanete/"
 categories:
   - Nouvelles
 tags:

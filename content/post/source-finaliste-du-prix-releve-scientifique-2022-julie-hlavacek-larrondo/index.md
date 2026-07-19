@@ -1,7 +1,6 @@
 ---
 title: "Finaliste du prix Relève scientifique 2022 : Julie Hlavacek-Larrondo"
 date: "2022-11-10"
-external_link: "https://www.craq-astro.ca/2022/11/10/finaliste-du-prix-releve-scientifique-2022-julie-hlavacek-larrondo/"
 categories:
   - Nouvelles
 tags:

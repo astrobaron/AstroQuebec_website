@@ -1,7 +1,6 @@
 ---
 title: "De nouvelles observations révèlent comment le trou noir de M87 influence les filaments de la galaxie"
 date: "2025-12-21"
-external_link: "https://www.craq-astro.ca/2025/12/21/de-nouvelles-observations-revelent-comment-le-trou-noir-de-m87-influence-les-filaments-de-la-galaxie/"
 categories:
   - Nouvelles
 tags:
@@ -39,12 +38,15 @@ Ces nouveaux résultats montrent que les filaments sont étroitement liés à l�
 Le Centre de recherche en astrophysique du Québec regroupe tous les astrophysiciens du Québec. Près de 150 personnes, dont une cinquantaine de chercheurs et leurs étudiants provenant de l’Université de Montréal, de McGill University, de l’Université Laval, de Bishop’s University, du Cégep de Sherbrooke, du Collège de Bois-de-Boulogne et de quelques autres établissements collaborateurs font partie du regroupement. Le CRAQ est sous la direction de David Lafrenière de l’Université de Montréal. Le CRAQ est un des regroupements stratégiques financés par Le Fonds de recherche du Québec – Nature et technologies (FRQNT).
 
 Source et renseignements:
+
 Frédérique Baron
+
 Responsable des relations avec les médias
 Centre de recherche en astrophysique du Québec
 frederique.baron@umontreal.ca
 
 Camille Poitras
+
 Auteure principale de l’étude
 Université Laval, Centre de recherche en astrophysique du Québec
 camille.poitras.2@ulaval.ca

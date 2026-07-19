@@ -1,7 +1,6 @@
 ---
 title: "Une étude de l’exoplanète TRAPPIST-1 b menée par l’UdeM dévoile de nouveaux détails sur son atmosphère et son étoile"
 date: "2023-09-25"
-external_link: "https://www.craq-astro.ca/2023/09/25/une-etude-de-lexoplanete-trappist-1-b-menee-par-ludem-devoile-de-nouveaux-details-sur-son-atmosphere-et-son-etoile/"
 categories:
   - Nouvelles
 tags:

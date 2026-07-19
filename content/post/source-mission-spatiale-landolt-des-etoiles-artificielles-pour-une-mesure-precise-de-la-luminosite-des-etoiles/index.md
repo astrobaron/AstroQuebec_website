@@ -1,7 +1,6 @@
 ---
 title: "Mission spatiale Landolt : des étoiles artificielles pour une mesure précise de la luminosité des étoiles"
 date: "2024-06-10"
-external_link: "https://www.craq-astro.ca/2024/06/10/mission-spatiale-landolt-des-etoiles-artificielles-pour-une-mesure-precise-de-la-luminosite-des-etoiles/"
 categories:
   - Nouvelles
 tags:

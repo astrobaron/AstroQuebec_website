@@ -10,14 +10,11 @@ sections:
       title: Directory
       user_groups:
           - Co-Investigator 
-          - Professional, Technical and Administrative Staff 
+          - Research, Technical and Administrative Staff 
           - Collaborators
-          - Master’s Students
-          - PhD Students
           - Postdoctoral Fellows
-          - Research Staff
-          - Collaborations
-          - Alumni
+          - PhD Students
+          - Master’s Students
       sort_by: Params.last_name
       sort_ascending: true
     design:

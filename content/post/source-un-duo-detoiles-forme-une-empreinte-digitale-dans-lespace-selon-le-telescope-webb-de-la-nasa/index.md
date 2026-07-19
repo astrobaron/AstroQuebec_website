@@ -1,7 +1,6 @@
 ---
 title: "Un duo d’étoiles forme une « empreinte digitale » dans l’espace, selon le telescope Webb de la NASA"
 date: "2022-10-12"
-external_link: "https://www.craq-astro.ca/2022/10/12/un-duo-detoiles-forme-une-empreinte-digitale-dans-lespace-selon-le-telescope-webb-de-la-nasa/"
 categories:
   - Nouvelles
 tags:

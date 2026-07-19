@@ -1,7 +1,6 @@
 ---
 title: "Nathalie Nguyen-Quoc Ouellette, une des leaders émergentes par le Réseau des femmes exécutives"
 date: "2023-11-16"
-external_link: "https://www.craq-astro.ca/2023/11/16/nathalie-nguyen-quoc-ouellette-une-des-leaders-emergentes-par-le-reseau-des-femmes-executives/"
 categories:
   - Nouvelles
 tags:

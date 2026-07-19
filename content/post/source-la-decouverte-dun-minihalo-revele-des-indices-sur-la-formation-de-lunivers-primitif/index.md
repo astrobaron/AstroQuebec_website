@@ -1,7 +1,6 @@
 ---
 title: "La découverte d’un «minihalo» révèle des indices sur la formation de l’Univers primitif"
 date: "2025-07-03"
-external_link: "https://www.craq-astro.ca/2025/07/03/la-decouverte-dun-minihalo-revele-des-indices-sur-la-formation-de-lunivers-primitif/"
 categories:
   - Nouvelles
 tags:

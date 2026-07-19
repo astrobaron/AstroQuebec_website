@@ -1,7 +1,6 @@
 ---
 title: "Exposition «Les chercheuses en BD»"
 date: "2023-12-21"
-external_link: "https://www.craq-astro.ca/2023/12/21/exposition-les-chercheuses-en-bd/"
 categories:
   - Nouvelles
 tags:

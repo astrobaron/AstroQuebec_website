@@ -1,7 +1,6 @@
 ---
 title: "Les astronomes du Centre de recherche en astrophysique du Québec dévoilent les secrets d’une Saturne chaude et de son étoile tachetée"
 date: "2024-01-09"
-external_link: "https://www.craq-astro.ca/2024/01/09/les-astronomes-du-centre-de-recherche-en-astrophysique-du-quebec-devoilent-les-secrets-dune-saturne-chaude-et-de-son-etoile-tachetee/"
 categories:
   - Nouvelles
 tags:

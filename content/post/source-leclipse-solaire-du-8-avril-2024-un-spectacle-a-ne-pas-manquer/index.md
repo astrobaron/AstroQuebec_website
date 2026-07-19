@@ -1,7 +1,6 @@
 ---
 title: "L’éclipse solaire du 8 avril 2024 : un spectacle à ne pas manquer!"
 date: "2024-03-28"
-external_link: "https://www.craq-astro.ca/2024/03/28/leclipse-solaire-du-8-avril-2024-un-spectacle-a-ne-pas-manquer/"
 categories:
   - Nouvelles
 tags:

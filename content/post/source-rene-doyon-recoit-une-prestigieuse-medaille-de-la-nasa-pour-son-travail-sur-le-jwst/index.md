@@ -1,7 +1,6 @@
 ---
 title: "René Doyon reçoit une prestigieuse médaille de la NASA pour son travail sur le JWST"
 date: "2023-06-01"
-external_link: "https://www.craq-astro.ca/2023/06/01/rene-doyon-recoit-une-prestigieuse-medaille-de-la-nasa-pour-son-travail-sur-le-jwst/"
 categories:
   - Nouvelles
 tags:

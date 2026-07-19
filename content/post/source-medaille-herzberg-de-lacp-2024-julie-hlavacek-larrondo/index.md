@@ -1,7 +1,6 @@
 ---
 title: "Médaille Herzberg de l’ACP 2024 : Julie Hlavacek-Larrondo"
 date: "2024-04-26"
-external_link: "https://www.craq-astro.ca/2024/04/26/medaille-herzberg-de-lacp-2024-julie-hlavacek-larrondo/"
 categories:
   - Nouvelles
 tags:

@@ -1,7 +1,6 @@
 ---
 title: "Une galaxie naine entièrement isolée affectée, de manière inattendue, par la pression du milieu intergalactique."
 date: "2022-04-27"
-external_link: "https://www.craq-astro.ca/2022/04/27/une-galaxie-naine-entierement-isolee-affectee-de-maniere-inattendue-par-la-pression-du-milieu-intergalactique/"
 categories:
   - Nouvelles
 tags:

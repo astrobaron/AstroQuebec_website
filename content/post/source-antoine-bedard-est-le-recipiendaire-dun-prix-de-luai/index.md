@@ -1,7 +1,6 @@
 ---
 title: "Antoine Bédard est le récipiendaire d’un prix de l’UAI"
 date: "2023-06-05"
-external_link: "https://www.craq-astro.ca/2023/06/05/antoine-bedard-est-le-recipiendaire-dun-prix-de-luai/"
 categories:
   - Nouvelles
 tags:

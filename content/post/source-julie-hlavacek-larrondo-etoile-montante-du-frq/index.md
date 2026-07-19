@@ -1,7 +1,6 @@
 ---
 title: "Julie Hlavacek-Larrondo : Étoile montante du FRQ"
 date: "2024-07-16"
-external_link: "https://www.craq-astro.ca/2024/07/16/julie-hlavacek-larrondo-etoile-montante-du-frq/"
 categories:
   - Nouvelles
 tags:

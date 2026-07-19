@@ -1,7 +1,6 @@
 ---
 title: "L’instrument NIRPS, un nouvel œil tourné vers le ciel au Chili"
 date: "2025-07-29"
-external_link: "https://www.craq-astro.ca/2025/07/29/linstrument-nirps-un-nouvel-oeil-tourne-vers-le-ciel-au-chili/"
 categories:
   - Nouvelles
 tags:

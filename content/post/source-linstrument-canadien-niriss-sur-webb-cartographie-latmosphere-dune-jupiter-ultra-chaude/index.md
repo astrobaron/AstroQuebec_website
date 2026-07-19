@@ -1,7 +1,6 @@
 ---
 title: "L’instrument canadien NIRISS sur Webb cartographie l’atmosphère d’une Jupiter ultra-chaude"
 date: "2023-05-31"
-external_link: "https://www.craq-astro.ca/2023/05/31/linstrument-canadien-niriss-sur-webb-cartographie-latmosphere-dune-jupiter-ultra-chaude/"
 categories:
   - Nouvelles
 tags:

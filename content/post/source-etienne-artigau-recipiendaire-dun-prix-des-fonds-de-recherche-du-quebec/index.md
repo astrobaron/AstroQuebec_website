@@ -1,7 +1,6 @@
 ---
 title: "Étienne Artigau, récipiendaire d’un prix des Fonds de recherche du Québec"
 date: "2023-06-08"
-external_link: "https://www.craq-astro.ca/2023/06/08/etienne-artigau-recipiendaire-dun-prix-des-fonds-de-recherche-du-quebec/"
 categories:
   - Nouvelles
 tags:

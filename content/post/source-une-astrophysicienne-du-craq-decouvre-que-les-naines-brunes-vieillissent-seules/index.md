@@ -1,7 +1,6 @@
 ---
 title: "Une astrophysicienne du CRAQ découvre que les naines brunes vieillissent seules"
 date: "2024-03-21"
-external_link: "https://www.craq-astro.ca/2024/03/21/une-astrophysicienne-du-craq-decouvre-que-les-naines-brunes-vieillissent-seules/"
 categories:
   - Nouvelles
 tags:

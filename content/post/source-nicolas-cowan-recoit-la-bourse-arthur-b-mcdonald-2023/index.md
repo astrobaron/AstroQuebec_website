@@ -1,7 +1,6 @@
 ---
 title: "Nicolas Cowan reçoit la bourse Arthur B. McDonald 2023"
 date: "2023-11-30"
-external_link: "https://www.craq-astro.ca/2023/11/30/nicolas-cowan-recoit-la-bourse-arthur-b-mcdonald-2023/"
 categories:
   - Nouvelles
 tags:

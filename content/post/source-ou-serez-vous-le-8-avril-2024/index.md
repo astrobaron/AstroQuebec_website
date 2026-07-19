@@ -1,7 +1,6 @@
 ---
 title: "OÙ SEREZ-VOUS LE 8 AVRIL 2024 ?"
 date: "2023-04-05"
-external_link: "https://www.craq-astro.ca/2023/04/05/ou-serez-vous-le-8-avril-2024/"
 categories:
   - Nouvelles
 tags:

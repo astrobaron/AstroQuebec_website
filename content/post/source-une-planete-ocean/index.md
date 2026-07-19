@@ -1,7 +1,6 @@
 ---
 title: "Une planète… océan?"
 date: "2022-08-24"
-external_link: "https://www.craq-astro.ca/2022/08/24/une-planete-ocean/"
 categories:
   - Nouvelles
 tags:

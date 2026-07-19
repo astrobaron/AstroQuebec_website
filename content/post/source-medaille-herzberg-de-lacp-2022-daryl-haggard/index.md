@@ -1,7 +1,6 @@
 ---
 title: "Médaille Herzberg de l’ACP 2022 : Daryl Haggard"
 date: "2023-01-16"
-external_link: "https://www.craq-astro.ca/2023/01/16/medaille-herzberg-de-lacp-2022%e2%80%af-daryl-haggard/"
 categories:
   - Nouvelles
 tags:

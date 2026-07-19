@@ -1,7 +1,6 @@
 ---
 title: "Nos collègues du CRAQ, membres de l’équipe CHIME, reçoivent le Prix Brockhouse du Canada 2022"
 date: "2022-10-29"
-external_link: "https://www.craq-astro.ca/2022/10/29/nos-collegues-du-craq-membres-de-lequipe-chime-recoivent-le-prix-prix-brockhouse-du-canada-2022/"
 categories:
   - Nouvelles
 tags:

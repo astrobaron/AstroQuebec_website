@@ -1,7 +1,6 @@
 ---
 title: "Un monde terrestre en dehors du système solaire probablement recouvert de volcans"
 date: "2023-05-17"
-external_link: "https://www.craq-astro.ca/2023/05/17/un-monde-terrestre-en-dehors-du-systeme-solaire-probablement-recouvert-de-volcans/"
 categories:
   - Nouvelles
 tags:

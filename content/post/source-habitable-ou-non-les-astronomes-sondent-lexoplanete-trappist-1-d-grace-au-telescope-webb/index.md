@@ -1,7 +1,6 @@
 ---
 title: "Habitable ou non? Les astronomes sondent l’exoplanète TRAPPIST-1 d grâce au télescope Webb"
 date: "2025-08-13"
-external_link: "https://www.craq-astro.ca/2025/08/13/habitable-ou-non-les-astronomes-sondent-lexoplanete-trappist-1-d-grace-au-telescope-webb/"
 categories:
   - Nouvelles
 tags:
