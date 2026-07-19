@@ -1,0 +1,30 @@
+---
+generated_by: scripts/import_students.py
+title: "Rachel Darlinger"
+first_name: "Rachel"
+last_name: "Darlinger"
+authors:
+  - "rachel-darlinger"
+superuser: false
+role: "Étudiante ou étudiant au doctorat"
+organizations:
+  - name: "McGill"
+    url: ""
+bio: "Généré à partir du fichier étudiant."
+interests: []
+education:
+  courses: []
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:rachel.darlinger@mail.mcgill.ca"
+email: "rachel.darlinger@mail.mcgill.ca"
+user_groups:
+  - "Étudiantes et étudiants au doctorat"
+---
+
+Rachel Darlinger est inscrit(e) comme membre étudiant d’AstroQuébec.
+
+- **Cycle d'études:** 3e cycle d'études
+- **Date de début:** ?
+- **Direction:** Jason Hessels

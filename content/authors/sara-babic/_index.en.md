@@ -1,0 +1,30 @@
+---
+generated_by: scripts/import_students.py
+title: "Sara Babic"
+first_name: "Sara"
+last_name: "Babic"
+authors:
+  - "sara-babic"
+superuser: false
+role: "Master's Student"
+organizations:
+  - name: "Bishop's"
+    url: ""
+bio: "Generated from the student spreadsheet."
+interests: []
+education:
+  courses: []
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:SBABIC25@UBishops.ca"
+email: "SBABIC25@UBishops.ca"
+user_groups:
+  - "Master’s Students"
+---
+
+Sara Babic is listed as a student member of AstroQuébec.
+
+- **Graduate studies program:** 2e cycle d'études
+- **Start date:** 2025-09-01
+- **Director:** John Ruan

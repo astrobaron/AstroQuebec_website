@@ -1,0 +1,31 @@
+---
+generated_by: scripts/import_students.py
+title: "Ehsan Rostamitapehesmail"
+first_name: "Ehsan"
+last_name: "Rostamitapehesmail"
+authors:
+  - "ehsan-rostamitapehesmail"
+superuser: false
+role: "Postdoctoral Fellow"
+organizations:
+  - name: "UL"
+    url: ""
+bio: "Generated from the student spreadsheet."
+interests: []
+education:
+  courses: []
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:ehsan.rostamitapehesmaeil.1@ulaval.ca"
+email: "ehsan.rostamitapehesmaeil.1@ulaval.ca"
+user_groups:
+  - "Postdoctoral Fellows"
+---
+
+Ehsan Rostamitapehesmail is listed as a student member of AstroQuébec.
+
+- **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
+- **Start date:** 2024-09-01
+- **Director:** Mighri Frej
+- **Co-director:** Simon Thibault

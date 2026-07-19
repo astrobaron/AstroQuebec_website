@@ -1,0 +1,30 @@
+---
+generated_by: scripts/import_students.py
+title: "Sean Donovan"
+first_name: "Sean"
+last_name: "Donovan"
+authors:
+  - "sean-donovan"
+superuser: false
+role: "Étudiante ou étudiant à la maîtrise"
+organizations:
+  - name: "Bishop's"
+    url: ""
+bio: "Généré à partir du fichier étudiant."
+interests: []
+education:
+  courses: []
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:sdonovan24@ubishops.ca"
+email: "sdonovan24@ubishops.ca"
+user_groups:
+  - "Étudiantes et étudiants à la maîtrise"
+---
+
+Sean Donovan est inscrit(e) comme membre étudiant d’AstroQuébec.
+
+- **Cycle d'études:** 2e cycle d'études
+- **Date de début:** 2024-09-01
+- **Direction:** Lorne Archie Nelson

@@ -9,18 +9,19 @@ sections:
       title: |
         AstroQuébec
       image:
-        filename: astroquebec-hero.png
+        filename: main_image.jpg
+        credit: "Image credit: AstroQuébec"
       text: |
         <br>
 
-        **Understanding the Universe** through research, training, and the visibility of Quebec astronomy.
+        The Center for Research in Astrophysics of Quebec (AstroQuébec) is an interdisciplinary organisation whose mission is to understand the Universe – its origin, evolution, structure, constituents, and our place within it. 
 
   - block: collection
     content:
       title: News
       subtitle:
       text:
-      count: 8
+      count: 5
       filters:
         author: ''
         category: ''
@@ -85,19 +86,6 @@ sections:
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
 
   - block: markdown
     content:

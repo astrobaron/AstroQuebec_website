@@ -9,8 +9,12 @@ sections:
     content:
       title: Directory
       user_groups:
-          - Researchers
-          - Students
+          - Co-Investigator 
+          - Professional, Technical and Administrative Staff 
+          - Collaborators
+          - Master’s Students
+          - PhD Students
+          - Postdoctoral Fellows
           - Research Staff
           - Collaborations
           - Alumni
