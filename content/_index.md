@@ -10,7 +10,7 @@ sections:
       title: |
         AstroQuébec
       image:
-        filename: main_image.jpg
+        filename: 2024_rencontre_annuelle.jpeg
         credit: "Crédit photo : AstroQuébec"
       text: |
         <br>

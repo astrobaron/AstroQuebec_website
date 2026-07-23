@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "francois-pierre.st-jacques@umontreal.ca"
 user_groups:
   - "Master’s Students"
 ---
-
-François-Pierre St-Jacques is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 2e cycle d'études
 - **Start date:** 09/2024

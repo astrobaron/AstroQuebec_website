@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "melissa.st-pierre.5@ulaval.ca"
 user_groups:
   - "Master’s Students"
 ---
-
-Mélissa St-Pierre is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 2e cycle d'études
 - **Start date:** 2025-05-01

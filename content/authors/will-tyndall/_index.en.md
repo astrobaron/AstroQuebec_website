@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "william.tyndall@mail.mcgill.ca"
 user_groups:
   - "Postdoctoral Fellows"
 ---
-
-Will Tyndall is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
 - **Start date:** 2024-10-01

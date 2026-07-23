@@ -12,15 +12,11 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social: []
 email: ""
 user_groups:
   - "Postdoctoral Fellows"
 ---
-
-Saniya Heeba is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
 - **Start date:** 2021-10-01

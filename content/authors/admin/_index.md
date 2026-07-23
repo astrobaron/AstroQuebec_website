@@ -26,12 +26,6 @@ interests:
   - Instrumentation astronomique
   - Analyse de données
 
-education:
-  courses:
-    - course: Profil de recherche
-      institution: AstroQuébec
-      year: 2026
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -54,8 +48,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Cochercheurs et cochercheuses
+user_groups: []
 ---
 
 Frederique Baron contribue aux travaux d’AstroQuébec en astronomie observationnelle, en instrumentation et en analyse de données astronomiques.

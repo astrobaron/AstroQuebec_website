@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "shi.lin.sun@umontreal.ca"
 user_groups:
   - "Master’s Students"
 ---
-
-Shi-Lin Sun is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 2e cycle d'études
 - **Start date:** 2024-09-01

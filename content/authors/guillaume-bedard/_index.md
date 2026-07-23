@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "guillaume.bedard.7@ulaval.ca"
 user_groups:
   - "Étudiantes et étudiants à la maîtrise"
 ---
-
-Guillaume Bédard est inscrit(e) comme membre étudiant d’AstroQuébec.
 
 - **Cycle d'études:** 2e cycle d'études
 - **Date de début:** 2024-06-03

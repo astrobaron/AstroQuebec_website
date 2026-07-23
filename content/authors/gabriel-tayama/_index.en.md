@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "gabriel.tayama.1@ulaval.ca"
 user_groups:
   - "Postdoctoral Fellows"
 ---
-
-Gabriel Tayama is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
 - **Start date:** 2023-11-01

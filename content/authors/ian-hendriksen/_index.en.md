@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "ian.hendricksen@mail.mcgill.ca"
 user_groups:
   - "PhD Students"
 ---
-
-Ian Hendriksen is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2023-09-01

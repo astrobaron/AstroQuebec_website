@@ -12,15 +12,11 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social: []
 email: ""
 user_groups:
   - "Master’s Students"
 ---
-
-Gabriel Savard is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 2e cycle d'études
 - **Start date:** 2019-05-01

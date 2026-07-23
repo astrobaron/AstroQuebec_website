@@ -224,12 +224,6 @@ def profile_text(record, slug, lang):
     generated_note = "Generated from the student spreadsheet." if lang == "en" else "Généré à partir du fichier étudiant."
     program_label = "Graduate studies program" if lang == "en" else "Cycle d'études"
     start_label = "Start date" if lang == "en" else "Date de début"
-    body_intro = (
-        f"{title} is listed as a student member of AstroQuébec."
-        if lang == "en"
-        else f"{title} est inscrit(e) comme membre étudiant d’AstroQuébec."
-    )
-
     social = ""
     if email:
         social = f"""social:
@@ -260,15 +254,11 @@ organizations:
     url: ""
 bio: {q(generated_note)}
 interests: []
-education:
-  courses: []
 {social}
 email: {q(email)}
 user_groups:
   - {q(group)}
 ---
-
-{body_intro}
 
 {body_details}
 """

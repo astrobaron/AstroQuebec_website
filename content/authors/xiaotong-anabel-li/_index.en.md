@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "anabel.xl@mila.quebec"
 user_groups:
   - "Postdoctoral Fellows"
 ---
-
-Xiaotong Anabel Li is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
 - **Start date:** 2025-09-25

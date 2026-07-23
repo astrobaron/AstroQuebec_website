@@ -12,15 +12,11 @@ organizations:
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-education:
-  courses: []
 social: []
 email: ""
 user_groups:
   - "Étudiantes et étudiants à la maîtrise"
 ---
-
-Nicolas Payot est inscrit(e) comme membre étudiant d’AstroQuébec.
 
 - **Cycle d'études:** 2e cycle d'études
 - **Date de début:** 2024-05-01

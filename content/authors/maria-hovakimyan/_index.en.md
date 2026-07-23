@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "maria.hovakimyan.1@ULAVAL.CA"
 user_groups:
   - "PhD Students"
 ---
-
-Maria Hovakimyan is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2023-01-01

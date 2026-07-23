@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "mahesh.herath@mail.mcgill.ca"
 user_groups:
   - "PhD Students"
 ---
-
-Mahesh Herath is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2021-09-01

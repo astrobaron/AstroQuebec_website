@@ -13,19 +13,13 @@ interests:
   - Exoplanets
   - Astronomical instrumentation
   - Data analysis
-education:
-  courses:
-    - course: Research profile
-      institution: AstroQuébec
-      year: 2026
 social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:contact@example.org'
 email: ''
 highlight_name: false
-user_groups:
-  - Researchers
+user_groups: []
 ---
 
 Frederique Baron contributes to AstroQuébec's work in observational astronomy, instrumentation, and astronomical data analysis.

@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "camille.poitras.2@ulaval.ca"
 user_groups:
   - "Étudiantes et étudiants au doctorat"
 ---
-
-Camille Poitras est inscrit(e) comme membre étudiant d’AstroQuébec.
 
 - **Cycle d'études:** 3e cycle d'études
 - **Date de début:** 2026-01-01

@@ -12,15 +12,11 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social: []
 email: ""
 user_groups:
   - "PhD Students"
 ---
-
-Kit Gerodias is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2023-05-01

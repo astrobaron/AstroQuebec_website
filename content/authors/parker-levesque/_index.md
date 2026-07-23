@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "parker.levesque@umontreal.ca"
 user_groups:
   - "Étudiantes et étudiants à la maîtrise"
 ---
-
-Parker Levesque est inscrit(e) comme membre étudiant d’AstroQuébec.
 
 - **Cycle d'études:** 2e cycle d'études
 - **Date de début:** 2023-09-01

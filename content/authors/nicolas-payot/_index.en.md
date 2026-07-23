@@ -12,15 +12,11 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social: []
 email: ""
 user_groups:
   - "Master’s Students"
 ---
-
-Nicolas Payot is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 2e cycle d'études
 - **Start date:** 2024-05-01

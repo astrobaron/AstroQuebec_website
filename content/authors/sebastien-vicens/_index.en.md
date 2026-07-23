@@ -12,8 +12,6 @@ organizations:
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-education:
-  courses: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,8 +20,6 @@ email: "sebastien.vicens.1@ulaval.ca"
 user_groups:
   - "PhD Students"
 ---
-
-Sébastien Vicens is listed as a student member of AstroQuébec.
 
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2019-01-01
