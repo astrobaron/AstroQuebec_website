@@ -10,7 +10,7 @@ sections:
       title: Calendrier
       subtitle: ''
       text: |
-        Retrouvez ici les activités, conférences, ateliers et rencontres à venir de la communauté AstroQuébec.
+        Description du calendrier ici.
     design:
       columns: '1'
 ---
