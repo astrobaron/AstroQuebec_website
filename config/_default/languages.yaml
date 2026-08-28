@@ -23,7 +23,7 @@ fr:
   menu:
     main:
       - name: Le Centre
-        url: '#presentation'
+        url: centre
         weight: 10
       - name: Nouvelles
         url: post
@@ -35,7 +35,7 @@ fr:
         url: calendrier
         weight: 40
       - name: Activités
-        url: event
+        url: activites
         weight: 50
       - name: Nous joindre
         url: contact
@@ -59,7 +59,7 @@ en:
   menu:
     main:
       - name: Centre
-        url: '#presentation'
+        url: centre
         weight: 10
       - name: News
         url: post
@@ -71,7 +71,7 @@ en:
         url: calendrier
         weight: 40
       - name: Activities
-        url: event
+        url: activites
         weight: 50
       - name: Contact
         url: contact

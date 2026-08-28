@@ -9,11 +9,12 @@ sections:
       title: Annual meeting
       subtitle: ''
       text: |
-        [Annual meeting](/event/rencontre-annuelle/)
-
         The annual meeting of AstroQuébec brings together the community to review scientific progress, research initiatives, training activities, and the centre’s collaborations.
 
         It is also an opportunity to present new projects, discuss the challenges of astrophysics research, and strengthen ties between researchers, students, and partners across Quebec.
+
+        {{% cta cta_link="/activites/rencontre-annuelle/" cta_text="More information" %}}
+
     design:
       columns: '1'
 

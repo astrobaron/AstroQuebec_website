@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
 
-        The Center for Research in Astrophysics of Quebec (AstroQuébec) is an interdisciplinary organisation whose mission is to understand the Universe – its origin, evolution, structure, constituents, and our place within it. 
+        The Center for Research in Astrophysics of Quebec (AstroQuébec) is an interdisciplinary organisation whose mission is to understand the Universe – its origin, evolution, structure, constituents, and our place within it.
 
   - block: collection
     content:
