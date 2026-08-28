@@ -11,6 +11,8 @@ sections:
       subtitle: ''
       text: |
         Find upcoming AstroQuebec community activities, conferences, workshops, and meetings here.
+
+        [View the 2027 calendar](/en/calendrier/2027/)
     design:
       columns: '1'
 ---
