@@ -3,6 +3,9 @@ title: Activities
 
 type: landing
 
+cascade:
+  profile: false
+
 sections:
   - block: markdown
     content:

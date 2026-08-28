@@ -5,44 +5,66 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: contact
+  - block: markdown
     content:
       title: Nous joindre
+      subtitle: ''
       text: |-
-        Pour joindre AstroQuébec, proposer une collaboration, annoncer une activité ou contacter une personne ressource, écrivez-nous en indiquant brièvement votre affiliation et l’objet de votre message.
-      email: contact@example.org
-      phone: ''
-      address:
-        street: ''
-        city: Quebec
-        region: QC
-        postcode: ''
-        country: Canada
-        country_code: CA
-      coordinates:
-        latitude: '46.8139'
-        longitude: '-71.2080'
-      directions: Rencontres sur rendez-vous.
-      office_hours:
-        - 'Sur rendez-vous'
-      appointment_url: ''
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
-      autolink: true
-    
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+        ## Direction
+
+        **David Lafrenière**  
+        Directeur du Centre de recherche en astrophysique du Québec  
+        Département de physique  
+        Université de Montréal  
+        Complexe des Sciences  
+        C.P. 6128, Succ. Centre-Ville  
+        Montréal, QC  
+        Canada  
+        H3C 3J7
+
+        Courriel : [David.Lafreniere@umontreal.ca](mailto:David.Lafreniere@umontreal.ca)  
+        Téléphone : [514-343-6128](tel:+15143436128)  
+        Télécopieur : 514-343-2071
+
+        **Frédérique Baron**  
+        Coordonnatrice du Centre de recherche en astrophysique du Québec  
+        Département de physique  
+        Université de Montréal  
+        Complexe des Sciences  
+        C.P. 6128, Succ. Centre-Ville  
+        Montréal, QC  
+        Canada  
+        H3C 3J7
+
+        Courriel : [frederique.baron@umontreal.ca](mailto:frederique.baron@umontreal.ca)  
+        Téléphone : [514-343-6111, poste 3798](tel:+15143436111)
+
+        ---
+
+        ## Adresse civique
+
+        Centre de recherche en astrophysique du Québec  
+        Département de physique  
+        Complexe des Sciences  
+        Université de Montréal  
+        C.P. 6128, Succ. Centre-Ville  
+        Montréal, QC  
+        Canada  
+        H3C 3J7
+
+        Téléphone : [514-343-6667](tel:+15143436667) (secrétariat)  
+        Télécopieur : 514-343-2071
+
+        ---
+
+        ## Adresse physique ou de livraison
+
+        Centre de recherche en astrophysique du Québec  
+        Département de physique  
+        Complexe des sciences – B-2043  
+        1375 Avenue Thérèse-Lavoie-Roux  
+        Montréal (Québec)  
+        H2V 0B3
     design:
       columns: '1'
 

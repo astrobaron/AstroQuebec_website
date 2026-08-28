@@ -23,8 +23,21 @@ fr:
   menu:
     main:
       - name: Le Centre
+        identifier: centre
         url: centre
         weight: 10
+      - name: Qui sommes-nous?
+        parent: centre
+        url: centre/qui-sommes-nous
+        weight: 11
+      - name: Nos programmes de bourses
+        parent: centre
+        url: centre/programmes-de-bourses
+        weight: 12
+      - name: Logos
+        parent: centre
+        url: centre/logos
+        weight: 13
       - name: Nouvelles
         url: post
         weight: 20
@@ -59,8 +72,21 @@ en:
   menu:
     main:
       - name: Centre
+        identifier: centre
         url: centre
         weight: 10
+      - name: Who we are
+        parent: centre
+        url: centre/who-we-are
+        weight: 11
+      - name: Our scholarship programs
+        parent: centre
+        url: centre/scholarship-programs
+        weight: 12
+      - name: Logos
+        parent: centre
+        url: centre/logos
+        weight: 13
       - name: News
         url: post
         weight: 20

@@ -3,6 +3,9 @@ title: Rencontre annuelle
 summary: La rencontre annuelle d’AstroQuébec réunit la communauté pour faire le point sur les avancées scientifiques et les initiatives du centre.
 
 date: 2026-09-15
+publishDate: 2026-08-28
+show_date: false
+share: false
 ---
 
 La rencontre annuelle d’AstroQuébec rassemble la communauté pour faire le point sur les avancées scientifiques, les initiatives de recherche, la formation et les collaborations du centre.
