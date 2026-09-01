@@ -1,13 +1,11 @@
 ---
 title: Lancement du site AstroQuébec
-date: 2026-06-16
-draft: true
+date: 2026-09-01
+draft: false
 ---
 
-Le nouveau site d’AstroQuébec est en ligne et rassemble les nouvelles, publications, activités et profils des membres.
+![Logo bleu d’AstroQuébec](astroquebec_blue.png)
 
-<!--more-->
+C'est avec plaisir que nous anoncons que le Centre de recherche en astrophysique du Québec a été financé lors du concours Regroupements stratégiques 2026-2027 FRQ - secteur NT.
 
-Cette première version propose une structure publique claire: un aperçu du centre, un répertoire, des publications, des activités et une page de contact.
-
-Le contenu est volontairement léger afin de pouvoir être remplacé rapidement par les affiliations, projets, financements et résultats confirmés.
+Avec ce nouveau financement vient une nouvelle image. Nous serons désormais connu sous le surnom de AstroQuébec et nous dévoilons aujourd'hui notre nouveau site web et notre nouveau logo. C'est ici que vous trouvez les nouvelles du regroupement, nos activités ainsi que le répertoire de nos membres.

@@ -1,6 +1,9 @@
 ---
 title: Nouvelles
 
+cascade:
+  profile: false
+
 # Listing view
 view: card
 

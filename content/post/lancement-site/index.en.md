@@ -1,13 +1,9 @@
 ---
-title: AstroQuébec Website Launch
-date: 2026-06-16
-draft: true
+title: Launch of the AstroQuébec Website
+date: 2026-09-01
+draft: false
 ---
 
-The new AstroQuébec website is online, bringing together news, publications, activities, and member profiles.
+We are pleased to announce that the Centre for Research in Astrophysics of Quebec has received funding through the 2026–2027 FRQ Strategic Clusters competition in the Natural Sciences and Technology sector.
 
-<!--more-->
-
-This first version offers a clear public structure: an overview of the centre, a directory, publications, activities, and a contact page.
-
-The content is intentionally lightweight so it can quickly be replaced with confirmed affiliations, projects, funding, and research results.
+With this new funding comes a new identity. From now on, we will be known as AstroQuébec, and today we are unveiling our new website and logo. Here, you will find news from the research cluster, information about our activities, and a directory of our members.

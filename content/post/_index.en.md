@@ -1,6 +1,9 @@
 ---
 title: News
 
+cascade:
+  profile: false
+
 view: card
 
 banner:
