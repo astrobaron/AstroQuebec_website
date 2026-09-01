@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:gabriel.savard.1@ulaval.ca"
+email: "gabriel.savard.1@ulaval.ca"
 user_groups:
   - "Master’s Students"
 ---

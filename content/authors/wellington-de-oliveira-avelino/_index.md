@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Stage postdoctoral"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
@@ -22,5 +22,5 @@ user_groups:
 ---
 
 - **Cycle d'études:** Stage postdoctoral (après un Ph.D.)
-- **Date de début:** 2022
+- **Date de début:** 2022-06-01
 - **Direction:** Dobbs

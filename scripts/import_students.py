@@ -281,24 +281,48 @@ def write_profiles(records, authors_dir, dry_run=False):
     return actions
 
 
+def prune_generated_profiles(active_slugs, authors_dir, dry_run=False):
+    removed = []
+    for author_dir in authors_dir.iterdir():
+        if not author_dir.is_dir() or author_dir.name in active_slugs or not is_generated_profile(author_dir):
+            continue
+        files = {path.name for path in author_dir.iterdir() if path.is_file()}
+        allowed_files = {"_index.md", "_index.en.md"}
+        if not files.issubset(allowed_files):
+            raise RuntimeError(f"Refusing to remove generated profile with extra files: {author_dir}")
+        removed.append(author_dir.name)
+        if not dry_run:
+            for filename in allowed_files:
+                profile = author_dir / filename
+                if profile.exists():
+                    profile.unlink()
+            author_dir.rmdir()
+    return removed
+
+
 def main():
     parser = argparse.ArgumentParser(description="Create or update Hugo author profiles from a student workbook.")
     parser.add_argument("workbook", nargs="?", default="student_data/students_hugo.xlsx")
     parser.add_argument("--authors-dir", default="content/authors")
     parser.add_argument("--all", action="store_true", help="Import all records, not just rows marked En cours / In progress.")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be created or updated without writing files.")
+    parser.add_argument("--prune", action="store_true", help="Remove generated profiles absent from the imported records.")
     args = parser.parse_args()
 
     records = read_student_records(Path(args.workbook), active_only=not args.all)
     actions = write_profiles(records, Path(args.authors_dir), dry_run=args.dry_run)
+    active_slugs = {slug for _, slug in actions}
+    removed = prune_generated_profiles(active_slugs, Path(args.authors_dir), dry_run=args.dry_run) if args.prune else []
     creates = sum(1 for action, _ in actions if action == "create")
     updates = sum(1 for action, _ in actions if action == "update")
     mode = "dry run" if args.dry_run else "written"
-    print(f"{mode}: {len(records)} records, {creates} creates, {updates} updates")
+    print(f"{mode}: {len(records)} records, {creates} creates, {updates} updates, {len(removed)} removals")
     for action, slug in actions[:20]:
         print(f"{action}: {slug}")
     if len(actions) > 20:
         print(f"... {len(actions) - 20} more")
+    for slug in removed:
+        print(f"remove: {slug}")
 
 
 if __name__ == "__main__":

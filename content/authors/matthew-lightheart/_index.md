@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant à la maîtrise"
 organizations:
-  - name: "Bishop's"
+  - name: "Bishop's University"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:MLIGHTHEART23@ubishops.ca"
-email: "MLIGHTHEART23@ubishops.ca"
+    link: "mailto:mlighthearth23@ubishops.ca"
+email: "mlighthearth23@ubishops.ca"
 user_groups:
   - "Étudiantes et étudiants à la maîtrise"
 ---

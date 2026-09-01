@@ -1,14 +1,14 @@
 ---
 generated_by: scripts/import_students.py
-title: "evan davies-velie"
-first_name: "evan"
-last_name: "davies-velie"
+title: "Evan Davies-Velie"
+first_name: "Evan"
+last_name: "Davies-Velie"
 authors:
   - "evan-davies-velie"
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []

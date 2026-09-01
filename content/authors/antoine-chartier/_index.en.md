@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []

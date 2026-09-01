@@ -1,14 +1,14 @@
 ---
 generated_by: scripts/import_students.py
-title: "kyle miller"
-first_name: "kyle"
-last_name: "miller"
+title: "Kyle Miller"
+first_name: "Kyle"
+last_name: "Miller"
 authors:
   - "kyle-miller"
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []

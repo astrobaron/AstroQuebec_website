@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Stage postdoctoral"
 organizations:
-  - name: "UdeM"
+  - name: "Université de Montréal"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []

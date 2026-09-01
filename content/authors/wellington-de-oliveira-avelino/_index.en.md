@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Postdoctoral Fellow"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
@@ -22,5 +22,5 @@ user_groups:
 ---
 
 - **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
-- **Start date:** 2022
+- **Start date:** 2022-06-01
 - **Director:** Dobbs

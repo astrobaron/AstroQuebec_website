@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "UdeM"
+  - name: "Université de Montréal"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:michael.matesic@umontreal.ca"
+email: "michael.matesic@umontreal.ca"
 user_groups:
   - "PhD Students"
 ---

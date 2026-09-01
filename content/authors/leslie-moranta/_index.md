@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant au doctorat"
 organizations:
-  - name: "UdeM"
+  - name: "Université de Montréal"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:leslie.moranta@umontreal.ca"
+email: "leslie.moranta@umontreal.ca"
 user_groups:
   - "Étudiantes et étudiants au doctorat"
 ---

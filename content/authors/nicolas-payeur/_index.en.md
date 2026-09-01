@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:nicolas.payeur.2@ULAVAL.CA"
-email: "nicolas.payeur.2@ULAVAL.CA"
+    link: "mailto:nicolas.payeur.2@ulaval.ca"
+email: "nicolas.payeur.2@ulaval.ca"
 user_groups:
   - "PhD Students"
 ---

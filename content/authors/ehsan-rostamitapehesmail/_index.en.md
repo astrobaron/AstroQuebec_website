@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "Postdoctoral Fellow"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:ehsan.rostamitapehesmaeil.1@ulaval.ca"
-email: "ehsan.rostamitapehesmaeil.1@ulaval.ca"
+    link: "mailto:ehsan.rostamitapehesmaeil.1@ulavall.ca"
+email: "ehsan.rostamitapehesmaeil.1@ulavall.ca"
 user_groups:
   - "Postdoctoral Fellows"
 ---
@@ -24,4 +24,4 @@ user_groups:
 - **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
 - **Start date:** 2024-09-01
 - **Director:** Mighri Frej
-- **Co-director:** Simon Thibault
+- **Co-director:** Simon ThibaUniversité Lavalt

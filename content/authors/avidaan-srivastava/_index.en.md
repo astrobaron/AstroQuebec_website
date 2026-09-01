@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "UdeM"
+  - name: "Université de Montréal"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []

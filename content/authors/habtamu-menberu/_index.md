@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "Stage postdoctoral"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:habtamu.menberu@mcgill.ca"
-email: "habtamu.menberu@mcgill.ca"
+    link: "mailto:habtamu.tedila@mcgill.ca"
+email: "habtamu.tedila@mcgill.ca"
 user_groups:
   - "Stagiaires postdoctoraux"
 ---

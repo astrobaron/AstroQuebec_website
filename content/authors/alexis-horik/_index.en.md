@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
@@ -24,4 +24,4 @@ user_groups:
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2025-07-01
 - **Director:** Simon Thibault
-- **Co-director:** Louis Archambault
+- **Co-director:** Louis ArchambaUniversité Lavalt

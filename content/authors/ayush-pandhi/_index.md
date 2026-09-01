@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Stage postdoctoral"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []

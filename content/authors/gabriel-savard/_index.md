@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant à la maîtrise"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:gabriel.savard.1@ulaval.ca"
+email: "gabriel.savard.1@ulaval.ca"
 user_groups:
   - "Étudiantes et étudiants à la maîtrise"
 ---

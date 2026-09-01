@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant au doctorat"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
@@ -24,4 +24,4 @@ user_groups:
 - **Cycle d'études:** 3e cycle d'études
 - **Date de début:** 2025-07-01
 - **Direction:** Simon Thibault
-- **Codirection:** Louis Archambault
+- **Codirection:** Louis ArchambaUniversité Lavalt

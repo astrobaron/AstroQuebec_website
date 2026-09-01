@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant au doctorat"
 organizations:
-  - name: "Ulaval"
+  - name: "Université Laval"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []

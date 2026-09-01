@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant au doctorat"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:felix.levesque-desrosiers.1@ulaval.ca"
+email: "felix.levesque-desrosiers.1@ulaval.ca"
 user_groups:
   - "Étudiantes et étudiants au doctorat"
 ---

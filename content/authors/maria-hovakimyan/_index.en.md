@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:maria.hovakimyan.1@ULAVAL.CA"
-email: "maria.hovakimyan.1@ULAVAL.CA"
+    link: "mailto:maria.hovakimyan.1@ulaval.ca"
+email: "maria.hovakimyan.1@ulaval.ca"
 user_groups:
   - "PhD Students"
 ---

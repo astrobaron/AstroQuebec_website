@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []

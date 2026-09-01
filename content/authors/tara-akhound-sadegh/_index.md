@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant au doctorat"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:tara.akhound-sadegh@umontreal.ca"
+email: "tara.akhound-sadegh@umontreal.ca"
 user_groups:
   - "Étudiantes et étudiants au doctorat"
 ---

@@ -9,6 +9,7 @@ sections:
     content:
       title: Directory
       user_groups:
+          - Leadership
           - Co-Investigator 
           - Research, Technical and Administrative Staff 
           - Collaborators
@@ -19,6 +20,7 @@ sections:
       sort_ascending: true
     design:
       show_interests: false
-      show_role: true
+      show_organizations: true
+      show_role: false
       show_social: true
 ---

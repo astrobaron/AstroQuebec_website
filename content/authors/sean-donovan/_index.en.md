@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "Bishop's"
+  - name: "Bishop's University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []

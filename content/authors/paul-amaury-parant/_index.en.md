@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "CERVO"
+  - name: "Centre de recherche CERVO"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []

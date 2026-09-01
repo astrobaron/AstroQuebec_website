@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "Bishop's"
+  - name: "Bishop's University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:DKORANTENG25@UBishops.ca"
-email: "DKORANTENG25@UBishops.ca"
+    link: "mailto:dkoranteng25@UBishops.ca"
+email: "dkoranteng25@UBishops.ca"
 user_groups:
   - "Master’s Students"
 ---

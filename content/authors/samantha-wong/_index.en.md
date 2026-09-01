@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:samantha.wong2@mail.mcgill.ca"
+email: "samantha.wong2@mail.mcgill.ca"
 user_groups:
   - "PhD Students"
 ---

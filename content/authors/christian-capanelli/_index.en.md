@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:christian.capanelli@mail.mcgill.ca"
+email: "christian.capanelli@mail.mcgill.ca"
 user_groups:
   - "PhD Students"
 ---

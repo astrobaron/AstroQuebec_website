@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:nicole.mulyk@mail.mcgill.a"
-email: "nicole.mulyk@mail.mcgill.a"
+    link: "mailto:nicole.mulyk@mail.mcgill.ca"
+email: "nicole.mulyk@mail.mcgill.ca"
 user_groups:
   - "PhD Students"
 ---

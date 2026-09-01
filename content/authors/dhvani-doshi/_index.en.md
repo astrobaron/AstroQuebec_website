@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
@@ -22,6 +22,6 @@ user_groups:
 ---
 
 - **Graduate studies program:** 3e cycle d'études
-- **Start date:** 2023-08-01
+- **Start date:** 2025-01-01
 - **Director:** Nicolas Cowan
-- **Co-director:** Yashar Hezeveh
+- **Co-director:** Yashar Hezaveh

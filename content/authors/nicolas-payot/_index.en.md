@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "UdeM"
+  - name: "Université de Montréal"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:nicolas.payot@umontreal.ca"
+email: "nicolas.payot@umontreal.ca"
 user_groups:
   - "Master’s Students"
 ---

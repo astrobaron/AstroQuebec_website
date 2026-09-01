@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant au doctorat"
 organizations:
-  - name: "CERVO"
+  - name: "Centre de recherche CERVO"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []

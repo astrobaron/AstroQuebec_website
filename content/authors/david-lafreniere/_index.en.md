@@ -7,6 +7,7 @@ authors:
   - "david-lafreniere"
 superuser: false
 role: "Co-Investigator"
+direction_role: "Director"
 organizations:
   - name: "Université de Montréal"
     url: ""
@@ -18,6 +19,5 @@ social:
     link: "mailto:david.lafreniere@umontreal.ca"
 email: "david.lafreniere@umontreal.ca"
 user_groups:
-  - "Co-Investigator"
+  - "Leadership"
 ---
-

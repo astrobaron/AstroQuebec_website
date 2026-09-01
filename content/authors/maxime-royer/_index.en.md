@@ -8,7 +8,7 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
@@ -24,4 +24,4 @@ user_groups:
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2019-09-01
 - **Director:** Gilles Joncas
-- **Co-director:** Simon Thibault
+- **Co-director:** Simon ThibaUniversité Lavalt

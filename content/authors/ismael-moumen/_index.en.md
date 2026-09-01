@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "UL"
+  - name: "Université Laval"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:ismael.moumen.1@ulaval.ca"
+email: "ismael.moumen.1@ulaval.ca"
 user_groups:
   - "PhD Students"
 ---

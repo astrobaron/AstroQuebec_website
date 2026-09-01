@@ -8,12 +8,15 @@ authors:
 superuser: false
 role: "Étudiante ou étudiant à la maîtrise"
 organizations:
-  - name: "UdeM"
+  - name: "Université de Montréal"
     url: ""
 bio: "Généré à partir du fichier étudiant."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:nicolas.payot@umontreal.ca"
+email: "nicolas.payot@umontreal.ca"
 user_groups:
   - "Étudiantes et étudiants à la maîtrise"
 ---

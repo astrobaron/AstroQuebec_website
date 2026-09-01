@@ -8,15 +8,15 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:naman.jain@mail.mcgill.c.a"
-email: "naman.jain@mail.mcgill.c.a"
+    link: "mailto:naman.jain@mail.mcgill.ca"
+email: "naman.jain@mail.mcgill.ca"
 user_groups:
   - "PhD Students"
 ---

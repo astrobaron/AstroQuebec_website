@@ -8,16 +8,19 @@ authors:
 superuser: false
 role: "PhD Student"
 organizations:
-  - name: "McGill"
+  - name: "McGill University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
-social: []
-email: ""
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:matias.castrotapia@mail.mcgill.ca"
+email: "matias.castrotapia@mail.mcgill.ca"
 user_groups:
   - "PhD Students"
 ---
 
 - **Graduate studies program:** 3e cycle d'études
-- **Start date:** 2022-09-01
+- **Start date:** 2025-09-01
 - **Director:** Andrew Cumming

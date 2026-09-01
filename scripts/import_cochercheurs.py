@@ -11,6 +11,11 @@ NS = {"a": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
 REL_NS = {"r": "http://schemas.openxmlformats.org/package/2006/relationships"}
 OFFICE_REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 MARKER = "# Generated from members_data/cochercheurs.xlsx"
+DIRECTION_SLUGS = {"david-lafreniere", "frederique-baron"}
+DIRECTION_ROLES = {
+    "david-lafreniere": {"fr": "Directeur", "en": "Director"},
+    "frederique-baron": {"fr": "Coordonnatrice", "en": "Coordinator"},
+}
 
 
 def yaml_string(value):
@@ -96,7 +101,12 @@ def profile(record, slug, language):
     english = language == "en"
     title = f"{record['first_name']} {record['last_name']}"
     role = "Co-Investigator" if english else "Cochercheur ou cochercheuse"
-    group = "Co-Investigator" if english else "Cochercheurs et cochercheuses"
+    if slug in DIRECTION_SLUGS:
+        group = "Leadership" if english else "Direction"
+    else:
+        group = "Co-Investigator" if english else "Cochercheurs et cochercheuses"
+    direction_role = DIRECTION_ROLES.get(slug, {}).get(language, "")
+    direction_role_line = f"direction_role: {yaml_string(direction_role)}\n" if direction_role else ""
     social = (
         "social:\n"
         "  - icon: envelope\n"
@@ -114,7 +124,7 @@ authors:
   - {yaml_string(slug)}
 superuser: false
 role: {yaml_string(role)}
-organizations:
+{direction_role_line}organizations:
   - name: {yaml_string(record["institution"])}
     url: ""
 bio: ""
