@@ -4,7 +4,7 @@ date: 2026-09-01
 draft: false
 ---
 
-![Logo bleu d’AstroQuébec](astroquebec_blue.png)
+![Logo d’AstroQuébec](astroquebec_blue.png)
 
 C'est avec plaisir que nous anoncons que le Centre de recherche en astrophysique du Québec a été financé lors du concours Regroupements stratégiques 2026-2027 FRQ - secteur NT.
 

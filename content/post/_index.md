@@ -3,6 +3,8 @@ title: Nouvelles
 
 cascade:
   profile: false
+  image:
+    preview_only: true
 
 # Listing view
 view: card
