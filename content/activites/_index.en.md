@@ -21,7 +21,7 @@ sections:
     design:
       columns: '1'
 
-  - block: collection
+  - block: events-nearest
     content:
       title: Recent events
       count: 10

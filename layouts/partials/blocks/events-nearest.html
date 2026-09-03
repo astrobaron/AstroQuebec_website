@@ -1,0 +1,28 @@
+{{/* Display upcoming and past events in separate chronological groups. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $items_count := $block.content.count | default 10 }}
+{{ $query := where site.RegularPages "Type" "event" }}
+{{ $upcoming := where $query "Date" ">=" now }}
+{{ $upcoming = first $items_count (sort $upcoming "Date" "asc") }}
+{{ $past := where $query "Date" "<" now }}
+{{ $past = first $items_count (sort $past "Date" "desc") }}
+{{ $columns := $block.design.columns | default "1" }}
+{{ $is_fr := eq site.Language.Lang "fr" }}
+
+<div class="col-12 {{ if eq $columns "2" }}col-lg-8{{ end }}">
+  {{ with $block.content.text }}{{ . | emojify | $page.RenderString }}{{ end }}
+  <h2 class="mb-3">{{ if $is_fr }}Évènements à venir{{ else }}Upcoming events{{ end }}</h2>
+  {{ range $index, $event := $upcoming }}
+    {{ partial "functions/render_view" (dict "page" $block "item" $event "view" ($block.design.view | default "compact") "index" $index) }}
+  {{ else }}
+    <p>{{ if $is_fr }}Aucun événement à venir.{{ else }}No upcoming events.{{ end }}</p>
+  {{ end }}
+
+  <h2 class="mt-5 mb-3">{{ if $is_fr }}Évènements passés{{ else }}Past events{{ end }}</h2>
+  {{ range $index, $event := $past }}
+    {{ partial "functions/render_view" (dict "page" $block "item" $event "view" ($block.design.view | default "compact") "index" $index) }}
+  {{ else }}
+    <p>{{ if $is_fr }}Aucun événement passé.{{ else }}No past events.{{ end }}</p>
+  {{ end }}
+</div>

@@ -20,9 +20,9 @@ sections:
     design:
       columns: '1'
 
-  - block: collection
+  - block: events-nearest
     content:
-      title: Événements récents
+      title: Évènements récents
       count: 10
       page_type: event
       filters:

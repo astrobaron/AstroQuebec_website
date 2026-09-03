@@ -2,7 +2,7 @@
 title: Annual meeting
 summary: AstroQuébec’s annual meeting brings together the community to review scientific progress and the centre’s initiatives.
 
-date: 2026-09-15
+date: 2027-05-17
 profile: false
 share: false
 ---
