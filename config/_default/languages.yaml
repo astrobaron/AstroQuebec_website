@@ -38,6 +38,10 @@ fr:
         parent: centre
         url: centre/logos
         weight: 13
+      - name: Comité étudiant
+        parent: centre
+        url: centre/comite-etudiant
+        weight: 14
       - name: Nouvelles
         url: post
         weight: 20
@@ -87,6 +91,10 @@ en:
         parent: centre
         url: centre/logos
         weight: 13
+      - name: Student Committee
+        parent: centre
+        url: centre/student-committee
+        weight: 14
       - name: News
         url: post
         weight: 20

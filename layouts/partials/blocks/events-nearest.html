@@ -1,4 +1,4 @@
-{{/* Display upcoming and past events in separate chronological groups. */}}
+{{/* Display upcoming and past events in separate chronological groups and let users filter by activity type. */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $items_count := $block.content.count | default 10 }}
@@ -9,20 +9,70 @@
 {{ $past = first $items_count (sort $past "Date" "desc") }}
 {{ $columns := $block.design.columns | default "1" }}
 {{ $is_fr := eq site.Language.Lang "fr" }}
+{{ $activity_types := slice }}
+{{ range $query }}
+  {{ $kind := .Params.event | default (cond $is_fr "Rencontre annuelle" "Annual meeting") }}
+  {{ $activity_types = $activity_types | append $kind }}
+{{ end }}
+{{ $activity_types = uniq $activity_types }}
 
 <div class="col-12 {{ if eq $columns "2" }}col-lg-8{{ end }}">
   {{ with $block.content.text }}{{ . | emojify | $page.RenderString }}{{ end }}
-  <h2 class="mb-3">{{ if $is_fr }}Évènements à venir{{ else }}Upcoming events{{ end }}</h2>
-  {{ range $index, $event := $upcoming }}
-    {{ partial "functions/render_view" (dict "page" $block "item" $event "view" ($block.design.view | default "compact") "index" $index) }}
-  {{ else }}
-    <p>{{ if $is_fr }}Aucun événement à venir.{{ else }}No upcoming events.{{ end }}</p>
-  {{ end }}
 
-  <h2 class="mt-5 mb-3">{{ if $is_fr }}Évènements passés{{ else }}Past events{{ end }}</h2>
-  {{ range $index, $event := $past }}
-    {{ partial "functions/render_view" (dict "page" $block "item" $event "view" ($block.design.view | default "compact") "index" $index) }}
-  {{ else }}
-    <p>{{ if $is_fr }}Aucun événement passé.{{ else }}No past events.{{ end }}</p>
-  {{ end }}
+  <div class="d-flex justify-content-end align-items-center mb-3 gap-2">
+    <label for="events-type-filter-{{ $page.File.UniqueID }}" class="form-label mb-0">
+      {{ if $is_fr }}Type d’activité :{{ else }}Activity type:{{ end }}
+    </label>
+    <select id="events-type-filter-{{ $page.File.UniqueID }}" class="form-select form-select-sm w-auto" aria-label="{{ if $is_fr }}Filtrer par type d’activité{{ else }}Filter by activity type{{ end }}">
+      <option value="all">{{ if $is_fr }}Toutes les activités{{ else }}All activities{{ end }}</option>
+      {{ range $kind := $activity_types }}
+        <option value="{{ $kind | urlize }}">{{ $kind }}</option>
+      {{ end }}
+    </select>
+  </div>
+
+  <div class="event-sort-group" data-event-group="upcoming">
+    <h2 class="mb-3">{{ if $is_fr }}Évènements à venir{{ else }}Upcoming events{{ end }}</h2>
+    {{ range $index, $event := $upcoming }}
+      {{ $kind := $event.Params.event | default (cond $is_fr "Rencontre annuelle" "Annual meeting") }}
+      <div class="event-sort-item" data-event-kind="{{ $kind | urlize }}" data-event-date="{{ $event.Date.Format "2006-01-02T15:04:05" }}" data-event-group="upcoming">
+        {{ partial "functions/render_view" (dict "page" $block "item" $event "view" ($block.design.view | default "compact") "index" $index) }}
+      </div>
+    {{ else }}
+      <p>{{ if $is_fr }}Aucun événement à venir.{{ else }}No upcoming events.{{ end }}</p>
+    {{ end }}
+  </div>
+
+  <div class="event-sort-group mt-5" data-event-group="past">
+    <h2 class="mb-3">{{ if $is_fr }}Évènements passés{{ else }}Past events{{ end }}</h2>
+    {{ range $index, $event := $past }}
+      {{ $kind := $event.Params.event | default (cond $is_fr "Rencontre annuelle" "Annual meeting") }}
+      <div class="event-sort-item" data-event-kind="{{ $kind | urlize }}" data-event-date="{{ $event.Date.Format "2006-01-02T15:04:05" }}" data-event-group="past">
+        {{ partial "functions/render_view" (dict "page" $block "item" $event "view" ($block.design.view | default "compact") "index" $index) }}
+      </div>
+    {{ else }}
+      <p>{{ if $is_fr }}Aucun événement passé.{{ else }}No past events.{{ end }}</p>
+    {{ end }}
+  </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filter = document.getElementById('events-type-filter-{{ $page.File.UniqueID }}');
+    if (!filter) return;
+
+    const items = document.querySelectorAll('.event-sort-item');
+    const applyFilter = (selectedValue) => {
+      items.forEach((item) => {
+        const matches = selectedValue === 'all' || item.dataset.eventKind === selectedValue;
+        item.style.display = matches ? '' : 'none';
+      });
+    };
+
+    filter.addEventListener('change', function (event) {
+      applyFilter(event.target.value);
+    });
+
+    applyFilter(filter.value);
+  });
+</script>
