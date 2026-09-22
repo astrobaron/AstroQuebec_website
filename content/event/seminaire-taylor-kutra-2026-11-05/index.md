@@ -1,12 +1,12 @@
 ---
 generated_by: scripts/import_seminars.py
-title: "Séminaire — Phil Van Lane"
+title: "Séminaire — Taylor Kutra"
 event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
-  ceci est un test
-date: "2026-10-01T13:00:00-04:00"
-date_end: "2026-10-01T15:00:00-04:00"
+  Résumé à confirmer.
+date: "2026-11-05T13:00:00-05:00"
+date_end: "2026-11-05T15:00:00-05:00"
 all_day: false
 location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
 authors: []
@@ -18,11 +18,11 @@ featured: false
 
 ## Détails
 
-- **Date:** 01 October 2026
+- **Date:** 05 November 2026
 - **Heure:** 13 h à 15 h
 - **Lieu:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
-- **Personne présentatrice:** Phil Van Lane
-- **Institution:** U Toronto
+- **Personne présentatrice:** Taylor Kutra
+- **Institution:** Rochester
 
 ## Titre
 
@@ -30,4 +30,4 @@ Titre à confirmer
 
 ## Résumé
 
-ceci est un test
+Résumé à confirmer.

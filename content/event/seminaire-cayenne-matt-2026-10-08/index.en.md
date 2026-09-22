@@ -1,12 +1,12 @@
 ---
 generated_by: scripts/import_seminars.py
-title: "Seminar — Carter Rhea"
+title: "Seminar — Cayenne Matt"
 event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
-date: "2026-11-19T13:00:00-05:00"
-date_end: "2026-11-19T15:00:00-05:00"
+date: "2026-10-08T13:00:00-04:00"
+date_end: "2026-10-08T15:00:00-04:00"
 all_day: false
 location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
 authors: []
@@ -18,11 +18,11 @@ featured: false
 
 ## Details
 
-- **Date:** November 19, 2026
+- **Date:** October 08, 2026
 - **Time:** 01:00 p.m. à 03:00 p.m.
 - **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
-- **Presenter:** Carter Rhea
-- **Institution:** University / Institution
+- **Presenter:** Cayenne Matt
+- **Institution:** U Michigan
 
 ## Title
 

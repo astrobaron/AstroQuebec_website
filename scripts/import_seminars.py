@@ -114,7 +114,7 @@ def parse_row(row):
     host = normalize_space(row.get("Host") or row.get("host") or row.get("Hote") or row.get("hote") or "")
     zoom = normalize_space(row.get("Zoom Link") or row.get("zoom_link") or row.get("Zoom") or row.get("Zoom ") or "")
 
-    if is_placeholder_event(speaker) or is_placeholder_event(raw_date) or is_placeholder_event(title):
+    if is_placeholder_event(speaker) or is_placeholder_event(raw_date):
         return None
     if not raw_date or not speaker:
         return None

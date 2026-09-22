@@ -1,12 +1,14 @@
 ---
+generated_by: scripts/import_seminars.py
 title: "Seminar — Sam Beiler"
 event: "Colloquia and Seminars"
-summary: "Presentation title to be confirmed"
-abstract: "Abstract to be confirmed."
+summary: "Titre à confirmer"
+abstract: >-
+  Résumé à confirmer.
 date: "2026-11-26T13:00:00-05:00"
 date_end: "2026-11-26T15:00:00-05:00"
 all_day: false
-location: "Room A-2553"
+location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
 authors: []
 draft: false
 profile: false
@@ -17,15 +19,15 @@ featured: false
 ## Details
 
 - **Date:** November 26, 2026
-- **Time:** 1:00–3:00 p.m.
-- **Room:** A-2553
+- **Time:** 01:00 p.m. à 03:00 p.m.
+- **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Presenter:** Sam Beiler
 - **Institution:** Trinity College Dublin
 
 ## Title
 
-To be confirmed.
+Titre à confirmer
 
 ## Abstract
 
-To be confirmed.
+Résumé à confirmer.
