@@ -4,6 +4,10 @@ env:
   WC_HUGO_VERSION: '0.135.0'
 
 on:
+  # GitHub does not start a push workflow for commits made with GITHUB_TOKEN.
+  workflow_run:
+    workflows: ["Update seminar list"]
+    types: [completed]
   # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
@@ -23,7 +27,7 @@ concurrency:
 jobs:
   # Build website
   build:
-    if: github.repository_owner != 'HugoBlox'
+    if: github.repository_owner != 'HugoBlox' && (github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main'))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
