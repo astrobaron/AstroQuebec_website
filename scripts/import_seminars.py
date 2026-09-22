@@ -113,6 +113,7 @@ def parse_row(row):
     affiliation = normalize_space(row.get("Affiliation") or row.get("affiliation") or row.get("Institution") or row.get("institution") or "")
     host = normalize_space(row.get("Host") or row.get("host") or row.get("Hote") or row.get("hote") or "")
     zoom = normalize_space(row.get("Zoom Link") or row.get("zoom_link") or row.get("Zoom") or row.get("Zoom ") or "")
+    location = normalize_space(row.get("Local") or row.get("local") or row.get("Location") or row.get("location") or "")
 
     if is_placeholder_event(speaker) or is_placeholder_event(raw_date):
         return None
@@ -141,6 +142,7 @@ def parse_row(row):
         "affiliation": affiliation,
         "host": host,
         "zoom": zoom,
+        "location": location or DEFAULT_LOCATION,
         "start_dt": start_dt,
         "end_dt": end_dt,
         "slug": slugify(f"{speaker} {parsed_date.strftime('%Y-%m-%d')}"),
@@ -160,7 +162,7 @@ def markdown_details(record, language='fr'):
     lines = [
         f"- **{label_date}:** {record['date'].strftime('%d %B %Y' if language == 'fr' else '%B %d, %Y') }",
         f"- **{label_time}:** {record['start_dt'].strftime('%H h') if language == 'fr' else record['start_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') } à {record['end_dt'].strftime('%H h') if language == 'fr' else record['end_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') }",
-        f"- **{label_room}:** {DEFAULT_LOCATION}",
+        f"- **{label_room}:** {record['location']}",
         f"- **{label_presenter}:** {record['speaker']}",
         f"- **{label_affiliation}:** {record['affiliation'] or ('University / Institution' if language == 'en' else 'Université / institution')}",
     ]
@@ -193,7 +195,7 @@ def event_frontmatter(record, language='fr'):
         f"date: \"{record['start_dt'].isoformat()}\"\n"
         f"date_end: \"{record['end_dt'].isoformat()}\"\n"
         "all_day: false\n"
-        f"location: {yaml_quote(DEFAULT_LOCATION)}\n"
+        f"location: {yaml_quote(record['location'])}\n"
         "authors: []\n"
         "draft: false\n"
         "profile: false\n"
