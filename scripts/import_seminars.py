@@ -3,6 +3,7 @@ import argparse
 import csv
 import io
 import re
+import shutil
 import sys
 import unicodedata
 from datetime import datetime, timedelta
@@ -326,6 +327,7 @@ def main():
     sources = args.urls or DEFAULT_SOURCE_URLS
     imported = 0
     seen = set()
+    active_slugs = set()
 
     for url in sources:
         for row in fetch_rows(url):
@@ -337,9 +339,17 @@ def main():
             if key in seen:
                 continue
             seen.add(key)
+            active_slugs.add(record["slug"])
 
             write_event(content_dir, record)
             imported += 1
+
+    for event_dir in content_dir.iterdir():
+        if not event_dir.is_dir() or event_dir.name in active_slugs:
+            continue
+        marker_files = list(event_dir.glob("index*.md"))
+        if marker_files and all(GENERATED_MARKER in path.read_text(encoding="utf-8") for path in marker_files):
+            shutil.rmtree(event_dir)
 
     print(f"Imported {imported} seminar pages")
 
