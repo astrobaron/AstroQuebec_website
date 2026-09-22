@@ -2,9 +2,9 @@
 generated_by: scripts/import_seminars.py
 title: "Séminaire — Cayenne Matt"
 event: "Colloques et séminaires"
-summary: "Titre à confirmer"
+summary: "À venir"
 abstract: >-
-  Résumé à confirmer.
+  À venir
 date: "2026-10-08T13:00:00-04:00"
 date_end: "2026-10-08T15:00:00-04:00"
 all_day: false
@@ -26,8 +26,8 @@ featured: false
 
 ## Titre
 
-Titre à confirmer
+À venir
 
 ## Résumé
 
-Résumé à confirmer.
+À venir
