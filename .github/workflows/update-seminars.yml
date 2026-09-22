@@ -41,6 +41,6 @@ jobs:
             echo "No seminar updates to commit."
             exit 0
           fi
-          git pull --rebase origin "${GITHUB_REF#refs/heads/}"
           git commit -m "Update seminar pages from Google Sheet"
+          git pull --rebase origin "${GITHUB_REF#refs/heads/}"
           git push origin "HEAD:${GITHUB_REF#refs/heads/}"
