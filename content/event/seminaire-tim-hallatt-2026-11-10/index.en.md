@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Seminar — Tim Hallatt"
 event: "Colloquia and Seminars"
-summary: ""
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2026-11-10T13:00:00-05:00"
@@ -20,12 +20,13 @@ featured: false
 
 - **Date:** November 10, 2026
 - **Time:** 01:00 p.m. à 03:00 p.m.
+- **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Presenter:** Tim Hallatt
 - **Institution:** MIT
 
 ## Title
 
-
+Titre à confirmer
 
 ## Abstract
 

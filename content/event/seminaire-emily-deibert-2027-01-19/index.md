@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Séminaire — Emily Deibert"
 event: "Colloques et séminaires"
-summary: ""
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2027-01-19T13:00:00-05:00"
@@ -20,12 +20,13 @@ featured: false
 
 - **Date:** 19 January 2027
 - **Heure:** 13 h à 15 h
+- **Lieu:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Personne présentatrice:** Emily Deibert
 - **Institution:** University of Waterloo
 
 ## Titre
 
-
+Titre à confirmer
 
 ## Résumé
 

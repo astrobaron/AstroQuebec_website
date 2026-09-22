@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Séminaire — Chris Carr"
 event: "Colloques et séminaires"
-summary: ""
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2026-10-27T13:00:00-04:00"
@@ -20,12 +20,13 @@ featured: false
 
 - **Date:** 27 October 2026
 - **Heure:** 13 h à 15 h
+- **Lieu:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Personne présentatrice:** Chris Carr
 - **Institution:** Princeton University
 
 ## Titre
 
-
+Titre à confirmer
 
 ## Résumé
 

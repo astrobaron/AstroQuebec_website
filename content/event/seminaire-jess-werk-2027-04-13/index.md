@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Séminaire — Jess Werk"
 event: "Colloques et séminaires"
-summary: ""
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2027-04-13T13:00:00-04:00"
@@ -20,12 +20,13 @@ featured: false
 
 - **Date:** 13 April 2027
 - **Heure:** 13 h à 15 h
+- **Lieu:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Personne présentatrice:** Jess Werk
 - **Institution:** University of Washington
 
 ## Titre
 
-
+Titre à confirmer
 
 ## Résumé
 

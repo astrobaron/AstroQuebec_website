@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Seminar — Sarah Symons"
 event: "Colloquia and Seminars"
-summary: "test"
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2026-10-06T13:00:00-04:00"
@@ -26,7 +26,7 @@ featured: false
 
 ## Title
 
-test
+Titre à confirmer
 
 ## Abstract
 

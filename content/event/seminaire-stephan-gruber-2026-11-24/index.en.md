@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Seminar — Stephan Gruber"
 event: "Colloquia and Seminars"
-summary: ""
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2026-11-24T13:00:00-05:00"
@@ -20,12 +20,13 @@ featured: false
 
 - **Date:** November 24, 2026
 - **Time:** 01:00 p.m. à 03:00 p.m.
+- **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Presenter:** Stephan Gruber
 - **Institution:** Carleton
 
 ## Title
 
-
+Titre à confirmer
 
 ## Abstract
 

@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Séminaire — Taylor Kutra"
 event: "Colloques et séminaires"
-summary: ""
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2026-11-03T13:00:00-05:00"
@@ -20,12 +20,13 @@ featured: false
 
 - **Date:** 03 November 2026
 - **Heure:** 13 h à 15 h
+- **Lieu:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Personne présentatrice:** Taylor Kutra
 - **Institution:** University of Rochester
 
 ## Titre
 
-
+Titre à confirmer
 
 ## Résumé
 

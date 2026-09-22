@@ -2,13 +2,13 @@
 generated_by: scripts/import_seminars.py
 title: "Seminar — Phil Van Lane"
 event: "Colloquia and Seminars"
-summary: "Titre à confirmer"
+summary: "À venir"
 abstract: >-
-  ceci est un test
+  À venir
 date: "2026-10-01T13:00:00-04:00"
 date_end: "2026-10-01T15:00:00-04:00"
 all_day: false
-location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
+location: "A-2553, Campus MIL de l'Université de Montréal"
 authors: []
 draft: false
 profile: false
@@ -20,14 +20,14 @@ featured: false
 
 - **Date:** October 01, 2026
 - **Time:** 01:00 p.m. à 03:00 p.m.
-- **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
+- **Location:** A-2553, Campus MIL de l'Université de Montréal
 - **Presenter:** Phil Van Lane
 - **Institution:** U Toronto
 
 ## Title
 
-Titre à confirmer
+À venir
 
 ## Abstract
 
-ceci est un test
+À venir

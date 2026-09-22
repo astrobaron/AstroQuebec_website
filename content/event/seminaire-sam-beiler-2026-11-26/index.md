@@ -8,7 +8,7 @@ abstract: >-
 date: "2026-11-26T13:00:00-05:00"
 date_end: "2026-11-26T15:00:00-05:00"
 all_day: false
-location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
+location: "A-2553, Campus MIL de l'Université de Montréal"
 authors: []
 draft: false
 profile: false
@@ -20,7 +20,7 @@ featured: false
 
 - **Date:** 26 November 2026
 - **Heure:** 13 h à 15 h
-- **Lieu:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
+- **Lieu:** A-2553, Campus MIL de l'Université de Montréal
 - **Personne présentatrice:** Sam Beiler
 - **Institution:** Trinity College Dublin
 

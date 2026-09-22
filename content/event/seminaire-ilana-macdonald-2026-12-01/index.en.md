@@ -1,12 +1,12 @@
 ---
 generated_by: scripts/import_seminars.py
-title: "Seminar — Laurie Rousseau-Nepton"
+title: "Seminar — Ilana MacDonald"
 event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
-date: "2027-03-23T13:00:00-04:00"
-date_end: "2027-03-23T15:00:00-04:00"
+date: "2026-12-01T13:00:00-05:00"
+date_end: "2026-12-01T15:00:00-05:00"
 all_day: false
 location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
 authors: []
@@ -18,11 +18,11 @@ featured: false
 
 ## Details
 
-- **Date:** March 23, 2027
+- **Date:** December 01, 2026
 - **Time:** 01:00 p.m. à 03:00 p.m.
 - **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
-- **Presenter:** Laurie Rousseau-Nepton
-- **Institution:** toronto
+- **Presenter:** Ilana MacDonald
+- **Institution:** Dunlap Institute, University of Toronto
 
 ## Title
 

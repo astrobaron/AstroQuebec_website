@@ -2,7 +2,7 @@
 generated_by: scripts/import_seminars.py
 title: "Seminar — Melinda Soares-Furtado"
 event: "Colloquia and Seminars"
-summary: ""
+summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
 date: "2027-02-23T13:00:00-05:00"
@@ -20,12 +20,13 @@ featured: false
 
 - **Date:** February 23, 2027
 - **Time:** 01:00 p.m. à 03:00 p.m.
+- **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
 - **Presenter:** Melinda Soares-Furtado
 - **Institution:** UW-Madison
 
 ## Title
 
-
+Titre à confirmer
 
 ## Abstract
 
