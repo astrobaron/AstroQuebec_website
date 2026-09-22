@@ -2,9 +2,9 @@
 generated_by: scripts/import_seminars.py
 title: "Seminar — Phil Van Lane"
 event: "Colloquia and Seminars"
-summary: "À venir"
+summary: "titre"
 abstract: >-
-  À venir
+  résumé
 date: "2026-10-01T13:00:00-04:00"
 date_end: "2026-10-01T15:00:00-04:00"
 all_day: false
@@ -26,8 +26,8 @@ featured: false
 
 ## Title
 
-À venir
+titre
 
 ## Abstract
 
-À venir
+résumé
