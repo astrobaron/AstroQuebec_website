@@ -2,9 +2,9 @@
 generated_by: scripts/import_seminars.py
 title: "Seminar — Carter Rhea"
 event: "Colloquia and Seminars"
-summary: "Titre à confirmer"
+summary: "À venir"
 abstract: >-
-  Résumé à confirmer.
+  À venir
 date: "2026-11-19T13:00:00-05:00"
 date_end: "2026-11-19T15:00:00-05:00"
 all_day: false
@@ -26,8 +26,8 @@ featured: false
 
 ## Title
 
-Titre à confirmer
+À venir
 
 ## Abstract
 
-Résumé à confirmer.
+À venir
