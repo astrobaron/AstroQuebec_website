@@ -8,7 +8,7 @@ abstract: >-
 presenter: "Mayura Balakrishnan"
 presenter_institution: "McGill"
 date: "2026-09-17T13:30:00-04:00"
-date_end: "2026-09-17T14:31:00-04:00"
+date_end: "2026-09-17T14:30:00-04:00"
 all_day: false
 location: "A-2553, Campus MIL de l'Université de Montréal"
 authors: []
