@@ -59,34 +59,13 @@ sections:
       columns: '1'
 
   - block: markdown
-    id: presentation
-    content:
-      title: Présentation
-      subtitle: ''
-      text: |
-        AstroQuébec regroupe des chercheuses, chercheurs, étudiantes, étudiants et partenaires qui travaillent sur les grandes questions de l’astrophysique moderne. Ses projets couvrent les exoplanètes, la formation stellaire, les galaxies, les trous noirs, l’Univers lointain et les instruments qui rendent ces découvertes possibles.
-    design:
-      columns: '1'
-
-  - block: markdown
     content:
       title:
-      subtitle: ''
-      text:
+      subtitle:
+      text: |
+        {{% cta cta_link="./people/" cta_text="Consulter le répertoire" %}}
     design:
       columns: '1'
-      background:
-        image: 
-          filename: astroquebec-research.png
-          filters:
-            brightness: 0.75
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: markdown
     content:
