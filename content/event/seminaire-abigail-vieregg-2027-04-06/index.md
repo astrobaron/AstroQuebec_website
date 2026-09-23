@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Abigail Vieregg"
+presenter_institution: "UChicago"
 date: "2027-04-06T15:30:00-04:00"
 date_end: "2027-04-06T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Abigail Vieregg
-- **Institution:** UChicago
 
 ## Titre
 

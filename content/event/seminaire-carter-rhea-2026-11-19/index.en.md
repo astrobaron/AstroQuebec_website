@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "À venir"
 abstract: >-
   À venir
+presenter: "Carter Rhea"
+presenter_institution: "University / Institution"
 date: "2026-11-19T13:30:00-05:00"
 date_end: "2026-11-19T14:40:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 01:30 p.m. à 02:40 p.m.
-- **Presenter:** Carter Rhea
-- **Institution:** University / Institution
 
 ## Title
 

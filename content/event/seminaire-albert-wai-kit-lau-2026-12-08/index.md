@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Albert Wai Kit Lau"
+presenter_institution: "University of Toronto"
 date: "2026-12-08T15:30:00-05:00"
 date_end: "2026-12-08T16:30:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Albert Wai Kit Lau
-- **Institution:** University of Toronto
 
 ## Titre
 

@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "À venir"
 abstract: >-
   À venir
+presenter: "Phil Van Lane"
+presenter_institution: "U Toronto"
 date: "2026-10-01T13:30:00-04:00"
 date_end: "2026-10-01T14:33:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 13 h à 14 h
-- **Personne présentatrice:** Phil Van Lane
-- **Institution:** U Toronto
 
 ## Titre
 

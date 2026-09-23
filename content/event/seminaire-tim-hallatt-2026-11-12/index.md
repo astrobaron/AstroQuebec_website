@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "À venir"
 abstract: >-
   À venir
+presenter: "Tim Hallatt"
+presenter_institution: "MIT"
 date: "2026-11-12T13:30:00-05:00"
 date_end: "2026-11-12T14:39:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 13 h à 14 h
-- **Personne présentatrice:** Tim Hallatt
-- **Institution:** MIT
 
 ## Titre
 

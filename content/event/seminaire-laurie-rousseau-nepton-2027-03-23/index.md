@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Laurie Rousseau-Nepton"
+presenter_institution: "toronto"
 date: "2027-03-23T15:30:00-04:00"
 date_end: "2027-03-23T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Laurie Rousseau-Nepton
-- **Institution:** toronto
 
 ## Titre
 

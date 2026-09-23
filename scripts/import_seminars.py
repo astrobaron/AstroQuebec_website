@@ -174,12 +174,8 @@ def yaml_quote(value):
 
 def markdown_details(record, language='fr'):
     label_time = "Time" if language == 'en' else "Heure"
-    label_presenter = "Presenter" if language == 'en' else "Personne présentatrice"
-    label_affiliation = "Institution" if language == 'en' else "Institution"
     lines = [
         f"- **{label_time}:** {record['start_dt'].strftime('%H h') if language == 'fr' else record['start_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') } à {record['end_dt'].strftime('%H h') if language == 'fr' else record['end_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') }",
-        f"- **{label_presenter}:** {record['speaker']}",
-        f"- **{label_affiliation}:** {record['affiliation'] or ('University / Institution' if language == 'en' else 'Université / institution')}",
     ]
     return "\n".join(lines)
 
@@ -207,6 +203,8 @@ def event_frontmatter(record, language='fr'):
         f"event: {yaml_quote(event_type)}\n"
         f"summary: {yaml_quote(summary)}\n"
         f"abstract: >-\n  {record['abstract']}\n"
+        f"presenter: {yaml_quote(record['speaker'])}\n"
+        f"presenter_institution: {yaml_quote(record['affiliation'] or ('University / Institution' if language == 'en' else 'Université / institution'))}\n"
         f"date: \"{record['start_dt'].isoformat()}\"\n"
         f"date_end: \"{record['end_dt'].isoformat()}\"\n"
         "all_day: false\n"

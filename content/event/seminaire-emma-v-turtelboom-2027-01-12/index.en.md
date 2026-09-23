@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Emma V. Turtelboom"
+presenter_institution: "McMaster University"
 date: "2027-01-12T15:30:00-05:00"
 date_end: "2027-01-12T16:30:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 03:30 p.m. à 04:30 p.m.
-- **Presenter:** Emma V. Turtelboom
-- **Institution:** McMaster University
 
 ## Title
 

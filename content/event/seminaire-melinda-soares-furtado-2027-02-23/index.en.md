@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Melinda Soares-Furtado"
+presenter_institution: "UW-Madison"
 date: "2027-02-23T15:30:00-05:00"
 date_end: "2027-02-23T16:30:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 03:30 p.m. à 04:30 p.m.
-- **Presenter:** Melinda Soares-Furtado
-- **Institution:** UW-Madison
 
 ## Title
 

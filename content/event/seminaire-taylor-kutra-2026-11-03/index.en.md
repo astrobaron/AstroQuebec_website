@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Taylor Kutra"
+presenter_institution: "University of Rochester"
 date: "2026-11-03T15:30:00-05:00"
 date_end: "2026-11-03T16:30:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 03:30 p.m. à 04:30 p.m.
-- **Presenter:** Taylor Kutra
-- **Institution:** University of Rochester
 
 ## Title
 

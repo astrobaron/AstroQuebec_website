@@ -1,0 +1,38 @@
+{{- define "main" -}}
+<div class="pub">
+  {{ partial "page_header.html" . }}
+  <div class="article-container">
+    {{ if .Params.abstract }}
+      <h3>{{ i18n "abstract" }}</h3>
+      <p class="pub-abstract">{{ .Params.abstract | markdownify | emojify }}</p>
+    {{ end }}
+    <div class="row">
+      <div class="col-md-1"></div><div class="col-md-10">
+        <div class="row"><div class="col-12 col-md-3 pub-row-heading">{{ i18n "date" }}</div><div class="col-12 col-md-9">{{ partial "functions/get_event_dates" . }}</div></div>
+      </div><div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ if .Params.event }}
+      <div class="row"><div class="col-md-1"></div><div class="col-md-10">
+        <div class="row"><div class="col-12 col-md-3 pub-row-heading">{{ i18n "event" }}</div><div class="col-12 col-md-9">{{ .Params.event | markdownify }}</div></div>
+      </div><div class="col-md-1"></div></div>
+      <div class="d-md-none space-below"></div>
+    {{ end }}
+    {{ if .Params.location }}
+      <div class="row"><div class="col-md-1"></div><div class="col-md-10">
+        <div class="row"><div class="col-12 col-md-3 pub-row-heading">{{ i18n "location" }}</div><div class="col-12 col-md-9">{{ .Params.location | markdownify }}</div></div>
+      </div><div class="col-md-1"></div></div>
+      <div class="d-md-none space-below"></div>
+    {{ end }}
+    {{ if .Params.presenter }}
+      <div class="row"><div class="col-md-1"></div><div class="col-md-10">
+        <div class="row"><div class="col-12 col-md-3 pub-row-heading">{{ if eq site.Language.Lang "fr" }}Personne présentatrice{{ else }}Presenter{{ end }}</div><div class="col-12 col-md-9">{{ .Params.presenter }}, {{ .Params.presenter_institution }}</div></div>
+      </div><div class="col-md-1"></div></div>
+      <div class="d-md-none space-below"></div>
+    {{ end }}
+    <div class="space-below"></div>
+    <div class="article-style">{{ .Content }}</div>
+    {{ partial "page_footer" . }}
+  </div>
+</div>
+{{- end -}}

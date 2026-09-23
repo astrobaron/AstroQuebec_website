@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Dang Pham"
+presenter_institution: "CU Boulder"
 date: "2026-11-17T15:30:00-05:00"
 date_end: "2026-11-17T16:30:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Dang Pham
-- **Institution:** CU Boulder
 
 ## Titre
 

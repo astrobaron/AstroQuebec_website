@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Chris Carr"
+presenter_institution: "Princeton University"
 date: "2026-10-27T15:30:00-04:00"
 date_end: "2026-10-27T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Chris Carr
-- **Institution:** Princeton University
 
 ## Titre
 

@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Emily Deibert"
+presenter_institution: "University of Waterloo"
 date: "2027-01-19T15:30:00-05:00"
 date_end: "2027-01-19T16:30:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Emily Deibert
-- **Institution:** University of Waterloo
 
 ## Titre
 

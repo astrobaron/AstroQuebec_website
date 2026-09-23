@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Jess Werk"
+presenter_institution: "University of Washington"
 date: "2027-04-13T15:30:00-04:00"
 date_end: "2027-04-13T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Jess Werk
-- **Institution:** University of Washington
 
 ## Titre
 

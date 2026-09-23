@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "À venir"
 abstract: >-
   À venir
+presenter: "Chris Carr"
+presenter_institution: "Princeton"
 date: "2026-10-29T13:30:00-04:00"
 date_end: "2026-10-29T14:37:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 01:30 p.m. à 02:37 p.m.
-- **Presenter:** Chris Carr
-- **Institution:** Princeton
 
 ## Title
 

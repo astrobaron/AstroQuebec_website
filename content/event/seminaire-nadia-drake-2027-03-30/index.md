@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Nadia Drake"
+presenter_institution: "Freelance Science Journalist (based in Charlottesville, VA)"
 date: "2027-03-30T15:30:00-04:00"
 date_end: "2027-03-30T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Nadia Drake
-- **Institution:** Freelance Science Journalist (based in Charlottesville, VA)
 
 ## Titre
 

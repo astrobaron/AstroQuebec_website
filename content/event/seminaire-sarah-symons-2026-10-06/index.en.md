@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Sarah Symons"
+presenter_institution: "McMaster University"
 date: "2026-10-06T15:30:00-04:00"
 date_end: "2026-10-06T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 03:30 p.m. à 04:30 p.m.
-- **Presenter:** Sarah Symons
-- **Institution:** McMaster University
 
 ## Title
 

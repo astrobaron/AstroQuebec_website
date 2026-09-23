@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Mike McDonald"
+presenter_institution: "MIT"
 date: "2027-03-16T15:30:00-04:00"
 date_end: "2027-03-16T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 03:30 p.m. à 04:30 p.m.
-- **Presenter:** Mike McDonald
-- **Institution:** MIT
 
 ## Title
 

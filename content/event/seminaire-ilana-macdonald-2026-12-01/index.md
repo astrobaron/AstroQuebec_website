@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Ilana MacDonald"
+presenter_institution: "Dunlap Institute, University of Toronto"
 date: "2026-12-01T15:30:00-05:00"
 date_end: "2026-12-01T16:30:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 15 h à 16 h
-- **Personne présentatrice:** Ilana MacDonald
-- **Institution:** Dunlap Institute, University of Toronto
 
 ## Titre
 

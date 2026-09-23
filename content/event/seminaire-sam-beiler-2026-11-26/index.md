@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "À venir"
 abstract: >-
   À venir
+presenter: "Sam Beiler"
+presenter_institution: "Trinity College Dublin"
 date: "2026-11-26T13:30:00-05:00"
 date_end: "2026-11-26T14:41:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 13 h à 14 h
-- **Personne présentatrice:** Sam Beiler
-- **Institution:** Trinity College Dublin
 
 ## Titre
 

@@ -5,6 +5,8 @@ event: "Colloques et séminaires"
 summary: "À venir"
 abstract: >-
   À venir
+presenter: "Carter Rhea"
+presenter_institution: "Université / institution"
 date: "2026-11-19T13:30:00-05:00"
 date_end: "2026-11-19T14:40:00-05:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Détails
 
 - **Heure:** 13 h à 14 h
-- **Personne présentatrice:** Carter Rhea
-- **Institution:** Université / institution
 
 ## Titre
 

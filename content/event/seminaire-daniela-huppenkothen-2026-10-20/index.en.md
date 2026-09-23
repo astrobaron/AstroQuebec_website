@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
+presenter: "Daniela Huppenkothen"
+presenter_institution: "University of Amsterdam"
 date: "2026-10-20T15:30:00-04:00"
 date_end: "2026-10-20T16:30:00-04:00"
 all_day: false
@@ -19,8 +21,6 @@ featured: false
 ## Details
 
 - **Time:** 03:30 p.m. à 04:30 p.m.
-- **Presenter:** Daniela Huppenkothen
-- **Institution:** University of Amsterdam
 
 ## Title
 
