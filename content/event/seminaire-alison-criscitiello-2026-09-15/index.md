@@ -5,8 +5,8 @@ event: "Colloques et séminaires"
 summary: "Perspectives from new Canadian high Arctic and Mountain Ice Cores"
 abstract: >-
   In this lecture, I will share the drilling success and first results from the 2022 Mount Logan ice core (327m), and the 2025 Axel Heiberg Island ice core (613m). These two ice cores represent significant advances in Canadian-led ice core science, with surprising results emerging from both climate records.
-date: "2026-09-15T13:00:00-04:00"
-date_end: "2026-09-15T15:00:00-04:00"
+date: "2026-09-15T15:30:00-04:00"
+date_end: "2026-09-15T16:30:00-04:00"
 all_day: false
 location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
 authors: []
@@ -18,9 +18,7 @@ featured: false
 
 ## Détails
 
-- **Date:** 15 September 2026
-- **Heure:** 13 h à 15 h
-- **Lieu:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
+- **Heure:** 15 h à 16 h
 - **Personne présentatrice:** Alison Criscitiello
 - **Institution:** University of Alberta
 

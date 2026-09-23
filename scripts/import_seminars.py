@@ -173,15 +173,11 @@ def yaml_quote(value):
 
 
 def markdown_details(record, language='fr'):
-    label_date = "Date" if language == 'en' else "Date"
     label_time = "Time" if language == 'en' else "Heure"
-    label_room = "Location" if language == 'en' else "Lieu"
     label_presenter = "Presenter" if language == 'en' else "Personne présentatrice"
     label_affiliation = "Institution" if language == 'en' else "Institution"
     lines = [
-        f"- **{label_date}:** {record['date'].strftime('%d %B %Y' if language == 'fr' else '%B %d, %Y') }",
         f"- **{label_time}:** {record['start_dt'].strftime('%H h') if language == 'fr' else record['start_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') } à {record['end_dt'].strftime('%H h') if language == 'fr' else record['end_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') }",
-        f"- **{label_room}:** {record['location']}",
         f"- **{label_presenter}:** {record['speaker']}",
         f"- **{label_affiliation}:** {record['affiliation'] or ('University / Institution' if language == 'en' else 'Université / institution')}",
     ]

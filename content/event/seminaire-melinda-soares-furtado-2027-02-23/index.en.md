@@ -5,8 +5,8 @@ event: "Colloquia and Seminars"
 summary: "Titre à confirmer"
 abstract: >-
   Résumé à confirmer.
-date: "2027-02-23T13:00:00-05:00"
-date_end: "2027-02-23T15:00:00-05:00"
+date: "2027-02-23T15:30:00-05:00"
+date_end: "2027-02-23T16:30:00-05:00"
 all_day: false
 location: "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
 authors: []
@@ -18,9 +18,7 @@ featured: false
 
 ## Details
 
-- **Date:** February 23, 2027
-- **Time:** 01:00 p.m. à 03:00 p.m.
-- **Location:** Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University
+- **Time:** 03:30 p.m. à 04:30 p.m.
 - **Presenter:** Melinda Soares-Furtado
 - **Institution:** UW-Madison
 
