@@ -15,6 +15,10 @@ DEFAULT_GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1ZFOU0qNz010e
 DEFAULT_SHAREPOINT_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTQuijtqP317H2sYk84mriq9OTQhW624Jwn0RH5nv1OHdKsKTYggxKFnax9GAjG2dkT8OxH7825VrSW/pub?output=csv"
 DEFAULT_SOURCE_URLS = [DEFAULT_GOOGLE_SHEET_URL, DEFAULT_SHAREPOINT_URL]
 DEFAULT_LOCATION = "Bell Room (Room 103) in the Rutherford building (3600 University) of McGill University"
+DEFAULT_START_HOUR = 15
+DEFAULT_START_MINUTE = 30
+DEFAULT_END_HOUR = 16
+DEFAULT_END_MINUTE = 30
 
 
 def normalize_space(value):
@@ -77,6 +81,17 @@ def parse_date(value, default_year=None):
     return None
 
 
+def parse_time_range(value):
+    value = normalize_space(value).lower()
+    matches = re.findall(r"\b(\d{1,2})(?:\s*[h:]\s*(\d{2}))?", value)
+    if len(matches) < 2:
+        return DEFAULT_START_HOUR, DEFAULT_START_MINUTE, DEFAULT_END_HOUR, DEFAULT_END_MINUTE
+
+    start_hour, start_minute = int(matches[0][0]), int(matches[0][1] or 0)
+    end_hour, end_minute = int(matches[1][0]), int(matches[1][1] or 0)
+    return start_hour, start_minute, end_hour, end_minute
+
+
 def is_placeholder_event(value):
     text = normalize_space(value or "").lower()
     if not text:
@@ -114,6 +129,7 @@ def parse_row(row):
     host = normalize_space(row.get("Host") or row.get("host") or row.get("Hote") or row.get("hote") or "")
     zoom = normalize_space(row.get("Zoom Link") or row.get("zoom_link") or row.get("Zoom") or row.get("Zoom ") or "")
     location = normalize_space(row.get("Local") or row.get("local") or row.get("Location") or row.get("location") or "")
+    raw_time = normalize_space(row.get("Heure") or row.get("heure") or row.get("Time") or row.get("time") or "")
 
     if is_placeholder_event(speaker) or is_placeholder_event(raw_date):
         return None
@@ -131,8 +147,11 @@ def parse_row(row):
         return None
 
     local_tz = ZoneInfo("America/Montreal")
-    start_dt = parsed_date.replace(hour=13, minute=0, second=0, tzinfo=local_tz)
-    end_dt = start_dt + timedelta(hours=2)
+    start_hour, start_minute, end_hour, end_minute = parse_time_range(raw_time)
+    start_dt = parsed_date.replace(hour=start_hour, minute=start_minute, second=0, tzinfo=local_tz)
+    end_dt = parsed_date.replace(hour=end_hour, minute=end_minute, second=0, tzinfo=local_tz)
+    if end_dt <= start_dt:
+        end_dt += timedelta(hours=12)
 
     return {
         "speaker": speaker,
