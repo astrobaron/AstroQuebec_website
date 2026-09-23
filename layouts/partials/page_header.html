@@ -79,6 +79,13 @@
   {{ if $page.IsNode }}{{ $ctnr = "universal-wrapper" }}{{ end }}
   <div class="{{ $ctnr }} pt-3">
     <h1>{{ $title }}</h1>
+    {{ if and .File (strings.Contains .File.Path "calendrier/2027/") (not .IsNode) }}
+      {{ $month := path.Base (strings.TrimSuffix .File.Dir "/") }}
+      <figure class="calendar-qr">
+        <img src="{{ (printf "media/qrcodes/calendrier-2027-%s-%s.svg" .Site.Language.Lang $month) | relURL }}" alt="{{ if eq .Site.Language.Lang "fr" }}Code QR de cette page du calendrier 2027{{ else }}QR code for this 2027 calendar page{{ end }}" width="180" height="180">
+        <figcaption>{{ if eq .Site.Language.Lang "fr" }}Scannez pour ouvrir cette page{{ else }}Scan to open this page{{ end }}</figcaption>
+      </figure>
+    {{ end }}
     {{ with $page.Params.subtitle }}
       <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
     {{ end }}
