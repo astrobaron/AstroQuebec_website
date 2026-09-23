@@ -23,7 +23,7 @@ sections:
   - block: events-nearest
     content:
       title: Évènements récents
-      count: 10
+      count: 50
       page_type: event
       filters:
         exclude_featured: false
