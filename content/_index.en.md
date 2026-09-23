@@ -50,12 +50,10 @@ sections:
   - block: markdown
     id: activites
     content:
-      title: Activities
+      title: "[Activities](/en/activites/)"
       subtitle: ''
       text: |
         AstroQuébec members organize and participate in seminars, colloquia, summer schools, training workshops, public activities, and scientific meetings. These activities support collaboration, research communication, and the sharing of research tools.
-
-        [See all activities](/en/activites/)
     design:
       columns: '1'
 
