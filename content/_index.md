@@ -55,6 +55,8 @@ sections:
       subtitle: ''
       text: |
         Les membres d’AstroQuébec organisent et participent à des séminaires, colloques, écoles d’été, ateliers de formation, activités publiques et rencontres scientifiques. Ces activités favorisent la collaboration, la diffusion des résultats et le partage des outils de recherche.
+
+        [Voir toutes les activités](/activites/)
     design:
       columns: '1'
 
