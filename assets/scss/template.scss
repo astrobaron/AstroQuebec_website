@@ -191,7 +191,8 @@ html[lang="en-us"] .navbar-brand::after {
 }
 
 .article-style {
-  color: var(--astroq-muted);
+  color: var(--astroq-ink);
+  font-family: inherit;
 }
 
 .btn-primary {
