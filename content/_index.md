@@ -66,13 +66,4 @@ sections:
         {{% cta cta_link="./people/" cta_text="Consulter le répertoire" %}}
     design:
       columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Consulter le répertoire" %}}
-    design:
-      columns: '1'
 ---

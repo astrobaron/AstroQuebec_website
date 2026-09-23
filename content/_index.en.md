@@ -65,13 +65,4 @@ sections:
         {{% cta cta_link="./people/" cta_text="Browse the directory" %}}
     design:
       columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Browse the directory" %}}
-    design:
-      columns: '1'
 ---
