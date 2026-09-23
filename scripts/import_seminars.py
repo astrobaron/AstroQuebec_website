@@ -173,11 +173,7 @@ def yaml_quote(value):
 
 
 def markdown_details(record, language='fr'):
-    label_time = "Time" if language == 'en' else "Heure"
-    lines = [
-        f"- **{label_time}:** {record['start_dt'].strftime('%H h') if language == 'fr' else record['start_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') } à {record['end_dt'].strftime('%H h') if language == 'fr' else record['end_dt'].strftime('%I:%M %p').replace('AM', 'a.m.').replace('PM', 'p.m.') }",
-    ]
-    return "\n".join(lines)
+    return ""
 
 
 def event_frontmatter(record, language='fr'):
@@ -185,14 +181,12 @@ def event_frontmatter(record, language='fr'):
         title = f"Séminaire — {record['speaker']}"
         event_type = "Colloques et séminaires"
         summary = record['title']
-        author_section = "## Détails\n\n"
         title_section = "## Titre\n\n"
         abstract_title = "## Résumé\n\n"
     else:
         title = f"Seminar — {record['speaker']}"
         event_type = "Colloquia and Seminars"
         summary = record['title']
-        author_section = "## Details\n\n"
         title_section = "## Title\n\n"
         abstract_title = "## Abstract\n\n"
 
@@ -215,7 +209,6 @@ def event_frontmatter(record, language='fr'):
         "share: false\n"
         "featured: false\n"
         "---\n\n"
-        f"{author_section}{markdown_details(record, language=language)}\n\n"
         f"{title_section}{record['title']}\n\n"
         f"{abstract_title}{record['abstract']}\n"
     )

@@ -18,10 +18,6 @@ share: false
 featured: false
 ---
 
-## Détails
-
-- **Heure:** 15 h à 16 h
-
 ## Titre
 
 Titre à confirmer

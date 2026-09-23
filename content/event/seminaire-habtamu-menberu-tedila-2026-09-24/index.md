@@ -8,7 +8,7 @@ abstract: >-
 presenter: "Habtamu Menberu Tedila"
 presenter_institution: "McGill"
 date: "2026-09-24T13:30:00-04:00"
-date_end: "2026-09-24T14:32:00-04:00"
+date_end: "2026-09-24T14:30:00-04:00"
 all_day: false
 location: "A-2553, Campus MIL de l'Université de Montréal"
 authors: []
@@ -17,10 +17,6 @@ profile: false
 share: false
 featured: false
 ---
-
-## Détails
-
-- **Heure:** 13 h à 14 h
 
 ## Titre
 

@@ -18,10 +18,6 @@ share: false
 featured: false
 ---
 
-## Détails
-
-- **Heure:** 15 h à 16 h
-
 ## Titre
 
 The Radio Sky in Sync: Coherence, Maser Flares, and Superradiant Bursts

@@ -18,10 +18,6 @@ share: false
 featured: false
 ---
 
-## Details
-
-- **Time:** 03:30 p.m. à 04:30 p.m.
-
 ## Title
 
 Perspectives from new Canadian high Arctic and Mountain Ice Cores

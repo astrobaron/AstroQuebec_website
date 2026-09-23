@@ -18,10 +18,6 @@ share: false
 featured: false
 ---
 
-## Details
-
-- **Time:** 03:30 p.m. à 04:30 p.m.
-
 ## Title
 
 Monitoring coastal hazards at daily to 100 year timescales from storms and sea level rise
