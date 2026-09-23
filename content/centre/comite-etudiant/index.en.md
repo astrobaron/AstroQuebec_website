@@ -1,5 +1,5 @@
 ---
-title: Student Committee
+title: Student and Postdoctoral Committee
 date: 2026-09-16
 show_date: false
 profile: false

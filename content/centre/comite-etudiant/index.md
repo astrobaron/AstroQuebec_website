@@ -1,5 +1,5 @@
 ---
-title: Comité étudiant
+title: Comité Étudiant et Postdoctoral
 date: 2026-09-16
 show_date: false
 profile: false
