@@ -18,10 +18,6 @@ share: false
 featured: false
 ---
 
-## Details
-
-- **Time:** 01:30 p.m. à 02:30 p.m.
-
 ## Title
 
 Dissecting the High Energy Environment of Sgr A* in X-rays and IR

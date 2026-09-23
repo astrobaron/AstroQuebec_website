@@ -18,10 +18,6 @@ share: false
 featured: false
 ---
 
-## Details
-
-- **Time:** 01:30 p.m. à 02:30 p.m.
-
 ## Title
 
 À venir

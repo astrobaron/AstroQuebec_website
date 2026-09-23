@@ -18,10 +18,6 @@ share: false
 featured: false
 ---
 
-## Details
-
-- **Time:** 01:30 p.m. à 02:30 p.m.
-
 ## Title
 
 What Changing Pulses Reveal: Probing Pulsar Emission and the Interstellar Medium

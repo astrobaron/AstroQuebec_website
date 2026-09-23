@@ -5,6 +5,8 @@ event: "Colloquia and Seminars"
 summary: ""
 abstract: >-
   Résumé à confirmer.
+presenter: "Ilana MacDonald"
+presenter_institution: "Dunlap Institute, University of Toronto"
 date: "2027-03-16T13:00:00-04:00"
 date_end: "2027-03-16T15:00:00-04:00"
 all_day: false
@@ -15,13 +17,6 @@ profile: false
 share: false
 featured: false
 ---
-
-## Details
-
-- **Date:** March 16, 2027
-- **Time:** 01:00 p.m. à 03:00 p.m.
-- **Presenter:** Ilana MacDonald
-- **Institution:** Dunlap Institute, University of Toronto
 
 ## Title
 
