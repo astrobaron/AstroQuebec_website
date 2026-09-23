@@ -41,9 +41,9 @@ sections:
       title: Our Mission
       subtitle: ''
       text: |
-        AstroQuébec supports leading research in astronomy and astrophysics, trains the next generation of specialists, and helps Quebec astronomy shine nationally and internationally.
+        Where did the Universe come from? What is it made of? How did galaxies and stars emerge within it? How did the Solar System form? Is there life beyond Earth? These major questions are at the heart of the work of researchers at the Centre for Research in Astrophysics of Quebec (AstroQuébec), united under the theme Understanding the Universe.
 
-        The centre brings together expertise in observations, instrumentation, modeling, and data analysis to better understand planets, stars, galaxies, and the evolution of the Universe.
+        AstroQuébec's mission is to ensure leading scientific research in astronomy and astrophysics in Quebec, and to promote Quebec astronomy on the world stage. To achieve this, the centre brings together its members' expertise in observations, instrumentation, modeling, and data analysis to better understand planets, stars, galaxies, and the evolution of the Universe.
     design:
       columns: '1'
 

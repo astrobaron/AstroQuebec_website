@@ -14,7 +14,7 @@ sections:
         credit: "Crédit photo : AstroQuébec"
       text: |
         <br>
-        
+
         Le Centre de recherche en astrophysique du Québec (AstroQuébec) est un regroupement interdisciplinaire dont la mission est de Comprendre l’Univers, soit son origine, son évolution, sa structure, ses constituants, et notre place en son sein. 
 
   - block: collection
@@ -42,9 +42,9 @@ sections:
       title: Notre mission
       subtitle: ''
       text: |
-        La mission d’AstroQuébec est de soutenir une recherche scientifique de pointe en astronomie et en astrophysique, de former la prochaine génération de spécialistes et de faire rayonner l’astronomie québécoise sur la scène nationale et internationale.
+        D’où vient l’univers? De quoi est-il fait? Comment les galaxies et les étoiles y sont-elles apparues? Comment s’est formé le système solaire? Y a-t-il de la vie ailleurs que sur Terre? Ces grandes questions sont au coeur des travaux des chercheurs du Centre de recherche en astrophysique du Québec (AstroQuébec), réunis sous la thématique, Comprendre l’Univers.
 
-        Le centre met en commun l’expertise en observations, instrumentation, modélisation et analyse de données afin de mieux comprendre les planètes, les étoiles, les galaxies et l’évolution de l’Univers.
+        La mission d'AstroQuébec est d’assurer une recherche scientifique de pointe dans le domaine de l’astronomie et de l’astrophysique au Québec, et de faire rayonner l’astronomie québécoise sur la scène mondiale. Pour ce faire, le centre met en commun l’expertise en observations, instrumentation, modélisation et analyse de données de ses membres afin de mieux comprendre les planètes, les étoiles, les galaxies et l’évolution de l’Univers.
     design:
       columns: '1'
 
