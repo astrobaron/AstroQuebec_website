@@ -1,38 +1,70 @@
 ---
-title: Contact
+title: Contact us
 date: 2022-10-24
 
 type: landing
 
 sections:
-  - block: contact
+  - block: markdown
     content:
-      title: Contact
+      title: Contact us
+      subtitle: ''
       text: |-
-        To contact AstroQuébec, propose a collaboration, announce an activity, or reach a resource person, write to us with a brief note about your affiliation and the purpose of your message.
-      email: contact@example.org
-      phone: ''
-      address:
-        street: ''
-        city: Quebec
-        region: QC
-        postcode: ''
-        country: Canada
-        country_code: CA
-      coordinates:
-        latitude: '46.8139'
-        longitude: '-71.2080'
-      directions: Meetings by appointment.
-      office_hours:
-        - 'By appointment'
-      appointment_url: ''
-      autolink: true
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          captcha: false
+        ## Leadership
+
+        **David Lafrenière**  
+        Director, Centre de recherche en astrophysique du Québec  
+        Department of Physics  
+        Université de Montréal  
+        Complexe des Sciences  
+        P.O. Box 6128, Downtown Station  
+        Montréal, QC  
+        Canada  
+        H3C 3J7
+
+        Email: [David.Lafreniere@umontreal.ca](mailto:David.Lafreniere@umontreal.ca)  
+        Phone: [514-343-6128](tel:+15143436128)  
+        Fax: 514-343-2071
+
+        **Frédérique Baron**  
+        Coordinator, Centre de recherche en astrophysique du Québec  
+        Department of Physics  
+        Université de Montréal  
+        Complexe des Sciences  
+        P.O. Box 6128, Downtown Station  
+        Montréal, QC  
+        Canada  
+        H3C 3J7
+
+        Email: [frederique.baron@umontreal.ca](mailto:frederique.baron@umontreal.ca)  
+        Phone: [514-343-6111, ext. 3798](tel:+15143436111)
+
+        ---
+
+        ## Mailing address
+
+        Centre de recherche en astrophysique du Québec  
+        Department of Physics  
+        Complexe des Sciences  
+        Université de Montréal  
+        P.O. Box 6128, Downtown Station  
+        Montréal, QC  
+        Canada  
+        H3C 3J7
+
+        Phone: [514-343-6667](tel:+15143436667) (office)  
+        Fax: 514-343-2071
+
+        ---
+
+        ## Physical or shipping address
+
+        Centre de recherche en astrophysique du Québec  
+        Department of Physics  
+        Complexe des sciences – B-2043  
+        1375 Avenue Thérèse-Lavoie-Roux  
+        Montréal, Québec  
+        H2V 0B3
     design:
       columns: '1'
 
