@@ -67,7 +67,7 @@ body {
   white-space: normal;
 }
 
-html[lang="en-us"] .navbar-brand::after {
+html:lang(en) .navbar-brand::after {
   content: "Center for Research in Astrophysics of Quebec";
 }
 
