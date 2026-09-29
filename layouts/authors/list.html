@@ -1,0 +1,57 @@
+{{- define "main" -}}
+
+{{/* Author profile page. */}}
+
+{{ if not .File }}
+  <div class="universal-wrapper pt-3">
+    <h1>{{ .Title }}</h1>
+  </div>
+{{ end }}
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    {{ if .File }}
+      {{ $widget := "blocks/v1/about.html" }}
+      {{ $username := path.Base .File.Dir }}
+      {{ $params := dict "wcPage" $ "wcBlock" . "author" $username }}
+      {{ partial $widget $params }}
+    {{ end }}
+
+    {{ $is_co_investigator := or (in .Params.user_groups "Direction") (in .Params.user_groups "Leadership") (in .Params.user_groups "Cochercheurs et cochercheuses") (in .Params.user_groups "Co-Investigator") }}
+    {{ if $is_co_investigator }}
+      {{ $supervised_students := slice }}
+      {{ $supervisor := .Title }}
+      {{ range where site.Pages "Section" "authors" }}
+        {{ $is_student := or (in .Params.user_groups "Étudiantes et étudiants à la maîtrise") (in .Params.user_groups "Étudiantes et étudiants au doctorat") (in .Params.user_groups "Master’s Students") (in .Params.user_groups "PhD Students") }}
+        {{ $is_supervised := or (in .RawContent (printf "**Direction:** %s" $supervisor)) (in .RawContent (printf "**Codirection:** %s" $supervisor)) (in .RawContent (printf "**Director:** %s" $supervisor)) (in .RawContent (printf "**Co-director:** %s" $supervisor)) }}
+        {{ if and $is_student $is_supervised }}
+          {{ $supervised_students = $supervised_students | append . }}
+        {{ end }}
+      {{ end }}
+      {{ if $supervised_students }}
+        <div class="article-widget content-widget-hr">
+          <h3>{{ if eq site.Language.Lang "fr" }}Étudiantes et étudiants supervisés{{ else }}Supervised students{{ end }}</h3>
+          <ul>
+            {{ range sort $supervised_students "Params.last_name" "asc" }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    {{ end }}
+
+    {{ $query := where .Pages ".IsNode" false }}
+    {{ if $query }}
+      <div class="article-widget content-widget-hr">
+        <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+        <ul>
+          {{ range $query }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+{{- end -}}
