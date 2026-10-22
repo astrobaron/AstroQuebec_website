@@ -8,7 +8,7 @@ image:
 
 **The rotation of stars has long served as a cosmic clock.** By measuring the rotation speed of a star similar to the Sun, astronomers could estimate its age with remarkable accuracy. But over the past decade or so, this method, known as *gyrochronology*, has shown signs of failing when applied to stars slightly older than the Sun. Why are they still spinning too fast, when they should have slowed down? 
 
-Michaël Lévesque is investigating this intriguing question. He is a PhD student, supervised by Paul Charbonneau at the University of Montreal, and a member of the Center for Research in Astrophysics of Quebec. He is also the lead author of the study *Breaking gyrochronology through the collapse of coronal winds*, conducted in collaboration with Paul Charbonneau.
+Michaël Lévesque is investigating this intriguing question. He is a PhD student, supervised by Paul Charbonneau at the University of Montreal, and a member of the Centre for Research in Astrophysics of Quebec. He is also the lead author of the study *Breaking gyrochronology through the collapse of coronal winds*, conducted in collaboration with Paul Charbonneau.
 
 ![Michaël Lévesque](michael_levesque.png "Michaël Lévesque")
 
@@ -53,7 +53,7 @@ That’s a good question, and the answer depends on our future findings. If our 
 
 **About the Centre for Research in Astrophysics of Quebec**
 
-The Centre for Research in Astrophysics of Quebec brings together all the astrophysicists in Quebec. Nearly 150 people, including some fifty researchers and their students from Université de Montréal, McGill University, Université Laval, Bishop’s University, Cégep de Sherbrooke, Collège de Bois-de-Boulogne and a number of other collaborating institutions are part of the cluster. The Center is under the direction of David Lafrenière of the Université de Montréal and is one of the strategic clusters funded by the Fonds de recherche du Québec – Nature and Technologies (FRQNT).
+The Centre for Research in Astrophysics of Quebec brings together all the astrophysicists in Quebec. Nearly 150 people, including some fifty researchers and their students from Université de Montréal, McGill University, Université Laval, Bishop’s University, Cégep de Sherbrooke, Collège de Bois-de-Boulogne and a number of other collaborating institutions are part of the cluster. The Centre is under the direction of David Lafrenière of the Université de Montréal and is one of the strategic clusters funded by the Fonds de recherche du Québec – Nature and Technologies (FRQNT).
 
 **Source and information**
 

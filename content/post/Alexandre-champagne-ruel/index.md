@@ -23,7 +23,7 @@ Titulaire de deux baccalauréats, en physique et en philosophie, ainsi que d’u
 
 **À propos du Centre de recherche en astrophysique du Québec**
 
-Le Centre de recherche en astrophysique du Québec regroupe tous les astrophysiciens du Québec. Près de 150 personnes, dont une cinquantaine de chercheurs et leurs étudiants provenant de l’Université de Montréal, de McGill University, de l’Université Laval, de Bishop’s University, du Cégep de Sherbrooke, du Collège de Bois-de-Boulogne et de quelques autres établissements collaborateurs font partie du regroupement. Le Center est sous la direction de David Lafrenière de l’Université de Montréal. Le Centre est un des regroupements stratégiques financés par Le Fonds de recherche du Québec – Nature et technologies (FRQNT).
+Le Centre de recherche en astrophysique du Québec regroupe tous les astrophysiciens du Québec. Près de 150 personnes, dont une cinquantaine de chercheurs et leurs étudiants provenant de l’Université de Montréal, de McGill University, de l’Université Laval, de Bishop’s University, du Cégep de Sherbrooke, du Collège de Bois-de-Boulogne et de quelques autres établissements collaborateurs font partie du regroupement. Le Centre est sous la direction de David Lafrenière de l’Université de Montréal. Le Centre est un des regroupements stratégiques financés par Le Fonds de recherche du Québec – Nature et technologies (FRQNT).
 
 **Source et renseignements**
 

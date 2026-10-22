@@ -22,7 +22,7 @@ Holder of two bachelor’s degrees, in Physics and in Philosophy, as well as a m
 
 **About the Centre for Research in Astrophysics of Quebec**
 
-The Centre for Research in Astrophysics of Quebec brings together all the astrophysicists in Quebec. Nearly 150 people, including some fifty researchers and their students from Université de Montréal, McGill University, Université Laval, Bishop’s University, Cégep de Sherbrooke, Collège de Bois-de-Boulogne and a number of other collaborating institutions are part of the cluster. The Center is under the direction of David Lafrenière of the Université de Montréal. The Center is one of the strategic clusters funded by the Fonds de recherche du Québec – Nature and Technologies (FRQNT).
+The Centre for Research in Astrophysics of Quebec brings together all the astrophysicists in Quebec. Nearly 150 people, including some fifty researchers and their students from Université de Montréal, McGill University, Université Laval, Bishop’s University, Cégep de Sherbrooke, Collège de Bois-de-Boulogne and a number of other collaborating institutions are part of the cluster. The Centre is under the direction of David Lafrenière of the Université de Montréal. The Centre is one of the strategic clusters funded by the Fonds de recherche du Québec – Nature and Technologies (FRQNT).
 
 **Source and information**
 

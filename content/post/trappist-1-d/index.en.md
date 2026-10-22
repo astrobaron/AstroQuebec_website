@@ -8,7 +8,7 @@ image:
   alt_text: Trappist 1d
 ---
 
-Could Earth-sized exoplanets be habitable? A new study led by Caroline Piaulet-Ghorayeb, a previous member of the Center of Research in Astrophysics of Quebec, suggests it’s still too soon to say—at least when it comes to TRAPPIST-1 d. 
+Could Earth-sized exoplanets be habitable? A new study led by Caroline Piaulet-Ghorayeb, a previous member of the Centre of Research in Astrophysics of Quebec, suggests it’s still too soon to say—at least when it comes to TRAPPIST-1 d.
 
 <!--more-->
 
@@ -23,7 +23,7 @@ Thanks to observations carried out with the James Webb Space Telescope, scientis
 
 “The Webb telescope is finally allowing us to ask that question for Earth-sized planets. And already, we can cross TRAPPIST-1 d off the list of worlds that might resemble our own.” 
 
-This research, published today in The Astrophysical Journal, began during Piaulet-Ghorayeb’s PhD in astrophysics at Université de Montréal, as part of the Trottier Institute for Research on Exoplanets (IREx) and the Center of Research in Astrophysics of Quebec. 
+This research, published today in The Astrophysical Journal, began during Piaulet-Ghorayeb’s PhD in astrophysics at Université de Montréal, as part of the Trottier Institute for Research on Exoplanets (IREx) and the Centre of Research in Astrophysics of Quebec.
 
 **40 light-years away** 
 
@@ -47,7 +47,7 @@ It’s not easy being a planet orbiting a red dwarf star like TRAPPIST-1. This s
 
 Despite these challenges, scientists continue to search for signs of atmospheres around the TRAPPIST-1 planets. Red dwarfs are the most common type of star in our galaxy, and if some planets can retain their atmospheres despite the harsh radiation from their host stars, it could open the door to the possibility of habitable environments elsewhere, especially in more favourable conditions. 
 
-“The Webb telescope’s sensitive infrared instruments are allowing us, for the first time, to examine the atmospheres of these small, cooler planets,” says Björn Benneke, member of the Center for Researcg in Astrophysics of Quebec and co-author of the study. “We’re just beginning to explore their atmospheres using Webb’s advanced tools, trying to understand which planets can hold on to their atmospheres, and which ones can’t.” 
+“The Webb telescope’s sensitive infrared instruments are allowing us, for the first time, to examine the atmospheres of these small, cooler planets,” says Björn Benneke, member of the Centre for Researcg in Astrophysics of Quebec and co-author of the study. “We’re just beginning to explore their atmospheres using Webb’s advanced tools, trying to understand which planets can hold on to their atmospheres, and which ones can’t.”
 
 **More planets to explore** 
 
@@ -59,7 +59,7 @@ Observations with the Webb telescope are ongoing for TRAPPIST-1’s outer planet
 
 **About this study**
 
-“Strict limits on potential secondary atmospheres on the temperate rocky exo-Earth TRAPPIST-1 d,” by  Caroline Piaulet-Ghorayeb et al., was published on August 11th, 2025 in The Astrophysical Journal (open-source version here). In addition to Caroline Piaulet-Ghorayeb and Björn Benneke, the research team includes Keavin Moore, Pierre-Alexis Roy, Olivia Lim, René Doyon, Loïc Albert, Michael Radica (now at University of Chicago), Louis-Philippe Coulombe, David Lafrenière, Nicolas B. Cowan, Alexandrine L’Heureux, Romain Allart, Lisa Dang, Stefan Pelletier (now at Université de Genève), and Jason F. Rowe from the Center for Research in Astrophysics of Quebec; three students mentored by Caroline Piaulet-Ghorayeb through the InitiaSciences program; and six other co-authors based in Canada, the United States, the United Kingdom, Switzerland, and France. 
+“Strict limits on potential secondary atmospheres on the temperate rocky exo-Earth TRAPPIST-1 d,” by  Caroline Piaulet-Ghorayeb et al., was published on August 11th, 2025 in The Astrophysical Journal (open-source version here). In addition to Caroline Piaulet-Ghorayeb and Björn Benneke, the research team includes Keavin Moore, Pierre-Alexis Roy, Olivia Lim, René Doyon, Loïc Albert, Michael Radica (now at University of Chicago), Louis-Philippe Coulombe, David Lafrenière, Nicolas B. Cowan, Alexandrine L’Heureux, Romain Allart, Lisa Dang, Stefan Pelletier (now at Université de Genève), and Jason F. Rowe from the Centre for Research in Astrophysics of Quebec; three students mentored by Caroline Piaulet-Ghorayeb through the InitiaSciences program; and six other co-authors based in Canada, the United States, the United Kingdom, Switzerland, and France.
 
 The James Webb Space Telescope is the world’s premier space science observatory, led by NASA with its partners ESA (the European Space Agency) and CSA (the Canadian Space Agency). 
 
@@ -67,7 +67,7 @@ The James Webb Space Telescope is the world’s premier space science observator
 
 **Media contacts** 
 
-Frédérique Baron, Center for Research in Astrophysics of Quebec frederique.baron@umontreal.ca 
+Frédérique Baron, Centre for Research in Astrophysics of Quebec frederique.baron@umontreal.ca
 
 **Scientific contact** 
 
