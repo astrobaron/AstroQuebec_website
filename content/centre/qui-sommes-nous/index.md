@@ -12,4 +12,14 @@ Notre recherche s'articule autour de 2 axes. L’axe 1 – Comprendre l’Univer
 
 La gouvernance d’AstroQuébec repose sur trois instances : le Conseil de gouvernance, le Conseil scientifique (CS) et le comité étudiant et postdoctoral (CÉP). Le CS regroupe le directeur, une personne cochercheuse par université, un membre du CÉP et la coordonnatrice. Il élabore la programmation scientifique, supervise les activités et veille au développement du Centre. Sa composition reflète la diversité du regroupement et ses mandats limités assurent une rotation régulière. Les membres actuels du CS sont : David Lafrenière (directeur), Paul Charbonneau (Université de Montréal), Nicolas Cowan (Université McGill), Marie-Lou Gendron-Marsolais (Université Laval), Lorne Nelson (Université Bishop’s), Avidaan Srivastava (représentant étudiant) et Frédérique Baron (coordonnatrice).
 
-Le CÉP contribue à orienter la formation de la relève et organise des activités favorisant leur intégration et leur développement. Les membres actuels du CÉP sont Avidaan Srivastava (président), Laurie Amen (Université McGill), Mélissa St-Pierre (Université Laval), Anabel Tan (Université de Montréal), Florent Thibault (Université Bishop’s), Samantha Wong (Université McGill) et Luna Zagorac (Université McGill).
+Le Comité Étudiant et Postdoctoral (CEP) du Centre de recherche en astrophysique du Québec a le mandat d’élaborer, de coordonner et de réaliser des activités visant à améliorer la formation et l’intégration des membres étudiants et postdoctoraux du Centre.
+
+Le CEP est formé de personnes étudiantes (MSc et PhD) et stagiaires postdoctorales de nos quatre universités (Montréal, Laval, McGill et Bishop’s).
+
+Pour l’année 2026-2027, les membres du CEP sont :
+
+- Avidaan Srivastava, Président, Université de Montréal,
+- Laurie Amen, McGill University
+- Mélissa St-Pierre, Université Laval
+- Sam Wong, McGill University
+- Luna Zagorac, McGill University
