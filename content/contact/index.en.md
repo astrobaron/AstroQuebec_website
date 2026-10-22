@@ -23,8 +23,7 @@ sections:
         H3C 3J7
 
         Email: [David.Lafreniere@umontreal.ca](mailto:David.Lafreniere@umontreal.ca)  
-        Phone: [514-343-6128](tel:+15143436128)  
-        Fax: 514-343-2071
+        Phone: [514-343-6128](tel:+15143436128)
 
         **Frédérique Baron**  
         Coordinator, Centre de recherche en astrophysique du Québec  
@@ -52,8 +51,7 @@ sections:
         Canada  
         H3C 3J7
 
-        Phone: [514-343-6667](tel:+15143436667) (office)  
-        Fax: 514-343-2071
+        Phone: [514-343-6667](tel:+15143436667) (office)
 
         ---
 
