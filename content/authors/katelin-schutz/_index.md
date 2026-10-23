@@ -19,6 +19,7 @@ social:
 email: "katelin.schutz@mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://katelinschutz.com/"
 ---
 
 <!-- imported-expertise:start -->

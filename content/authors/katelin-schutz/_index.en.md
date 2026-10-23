@@ -19,6 +19,7 @@ social:
 email: "katelin.schutz@mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://katelinschutz.com/"
 ---
 
 <!-- imported-expertise:start -->

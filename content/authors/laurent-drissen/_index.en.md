@@ -19,6 +19,7 @@ social:
 email: "ldrissen@phy.ulaval.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://laurent-drissen.fsg.ulaval.ca/"
 ---
 
 <!-- imported-expertise:start -->

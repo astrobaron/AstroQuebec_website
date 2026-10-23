@@ -19,6 +19,7 @@ social:
 email: "Matt.Dobbs@McGill.ca"
 user_groups:
   - "Co-Investigator"
+website: "http://mcgillcosmology.ca/"
 ---
 
 <!-- imported-expertise:start -->

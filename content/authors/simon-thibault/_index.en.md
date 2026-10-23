@@ -19,6 +19,7 @@ social:
 email: "simon.thibault@phy.ulaval.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://lrio.copl.ulaval.ca/"
 ---
 
 <!-- imported-expertise:start -->

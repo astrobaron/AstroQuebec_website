@@ -19,6 +19,7 @@ social:
 email: "thomas.brunner@mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://neutrino.physics.mcgill.ca/"
 ---
 
 <!-- imported-expertise:start -->

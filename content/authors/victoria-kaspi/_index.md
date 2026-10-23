@@ -19,6 +19,7 @@ social:
 email: "vkaspi@physics.mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "http://www.physics.mcgill.ca/~vkaspi/"
 ---
 
 <!-- imported-expertise:start -->

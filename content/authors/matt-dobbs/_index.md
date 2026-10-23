@@ -19,6 +19,7 @@ social:
 email: "Matt.Dobbs@McGill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "http://mcgillcosmology.ca/"
 ---
 
 <!-- imported-expertise:start -->

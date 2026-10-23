@@ -19,6 +19,7 @@ social:
 email: "joncas@phy.ulaval.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: ""
 ---
 
 <!-- imported-expertise:start -->

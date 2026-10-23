@@ -19,6 +19,7 @@ social:
 email: "natalya.gomez@mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://www.natalyagomez.com/"
 ---
 
 <!-- imported-expertise:start -->

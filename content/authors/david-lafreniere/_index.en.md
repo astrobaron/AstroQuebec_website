@@ -20,6 +20,7 @@ social:
 email: "david.lafreniere@umontreal.ca"
 user_groups:
   - "Leadership"
+website: ""
 ---
 
 <!-- imported-expertise:start -->

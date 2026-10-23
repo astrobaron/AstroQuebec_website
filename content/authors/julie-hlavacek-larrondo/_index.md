@@ -19,6 +19,7 @@ social:
 email: "juliehl@astro.umontreal.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://www.astro.umontreal.ca/x-tra/"
 ---
 
 <!-- imported-expertise:start -->

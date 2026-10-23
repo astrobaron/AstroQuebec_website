@@ -19,6 +19,7 @@ social:
 email: "lnelson@ubishops.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "http://physics.ubishops.ca/lnelson"
 ---
 
 <!-- imported-expertise:start -->

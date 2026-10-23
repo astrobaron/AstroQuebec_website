@@ -19,6 +19,7 @@ social:
 email: "ragan@physics.mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "http://www.physics.mcgill.ca/~ragan/"
 ---
 
 <!-- imported-expertise:start -->

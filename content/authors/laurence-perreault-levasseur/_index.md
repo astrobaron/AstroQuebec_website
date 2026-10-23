@@ -19,6 +19,7 @@ social:
 email: "llevasseur@astro.umontreal.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://ciela.science/team/laurence-perreault-levasseur/"
 ---
 
 <!-- imported-expertise:start -->

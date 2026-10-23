@@ -19,6 +19,7 @@ social:
 email: "hezaveh@astro.umontreal.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://yasharhezaveh.me/"
 ---
 
 <!-- imported-expertise:start -->

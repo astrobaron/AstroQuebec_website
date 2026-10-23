@@ -19,6 +19,7 @@ social:
 email: "thomas.brunner@mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://neutrino.physics.mcgill.ca/"
 ---
 
 <!-- imported-expertise:start -->

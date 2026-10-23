@@ -2,7 +2,7 @@
 
 Usage: python3 scripts/import_expertise.py [workbook.xlsx] [--check]
 Uses Python's standard library only. Re-running replaces only the managed
-research section and interests. Missing profiles or translations abort all writes.
+research section, interests, and website. Missing profiles or translations abort all writes.
 """
 
 import argparse
@@ -10,6 +10,7 @@ import json
 import re
 from pathlib import Path
 import zipfile
+from urllib.parse import urlsplit
 
 from import_cochercheurs import slugify
 from inspect_xlsx import load_shared_strings, rows_from_sheet, sheet_paths
@@ -25,6 +26,7 @@ def prepare(workbook, authors):
                                load_shared_strings(archive), limit=100000)
     header = next(i for i, row in enumerate(rows) if 'Keywords' in row)
     columns = rows[header]
+    website_col = columns.index('Lien vers un site web de votre choix')
     fields = {
         'fr': (columns.index('Champs de recherche (mots clés)'),
                columns.index('Description du projet de recherche')),
@@ -40,6 +42,9 @@ def prepare(workbook, authors):
         if not row[0] or not row[1] or slug in seen:
             raise ValueError(f'Missing or duplicate name: {row[:2]}')
         seen.add(slug)
+        website = row[website_col].strip()
+        if website and (urlsplit(website).scheme not in ('http', 'https') or not urlsplit(website).netloc):
+            raise ValueError(f'Invalid website for {slug}: {website}')
         for language, (keyword_col, description_col) in fields.items():
             keywords = row[keyword_col].strip()
             description = row[description_col].strip()
@@ -61,6 +66,11 @@ def prepare(workbook, authors):
                                   front, count=1, flags=re.M)
             if count != 1:
                 raise ValueError(f'Missing interests field: {path}')
+            website_line = 'website: ' + json.dumps(website, ensure_ascii=False)
+            if re.search(r'^website:', front, flags=re.M):
+                front = re.sub(r'^website:.*$', lambda _: website_line, front, flags=re.M)
+            else:
+                front += website_line + '\n'
             if body.count(START) != body.count(END) or body.count(START) > 1:
                 raise ValueError(f'Invalid managed section: {path}')
             heading = 'Research project' if language == 'en' else 'Projet de recherche'

@@ -19,6 +19,7 @@ social:
 email: "marie-lou.gendron-marsolais@phy.ulaval.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://marielougendronmarsolais.wordpress.com"
 ---
 
 <!-- imported-expertise:start -->

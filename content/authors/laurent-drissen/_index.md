@@ -19,6 +19,7 @@ social:
 email: "ldrissen@phy.ulaval.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://laurent-drissen.fsg.ulaval.ca/"
 ---
 
 <!-- imported-expertise:start -->

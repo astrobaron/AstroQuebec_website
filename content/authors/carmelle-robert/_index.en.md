@@ -19,6 +19,7 @@ social:
 email: "carobert@phy.ulaval.ca"
 user_groups:
   - "Co-Investigator"
+website: "http://www.astro.phy.ulaval.ca/otherpages/carmelle.html"
 ---
 
 <!-- imported-expertise:start -->

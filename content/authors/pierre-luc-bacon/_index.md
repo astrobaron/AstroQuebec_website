@@ -19,6 +19,7 @@ social:
 email: "pierre-luc.bacon@mila.quebec"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in31636/sg/Pierre-Luc%20Bacon/"
 ---
 
 <!-- imported-expertise:start -->

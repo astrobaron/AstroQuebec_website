@@ -19,6 +19,7 @@ social:
 email: "jason.hessels@mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://tsi.mcgill.ca/index.php?mact=LISEcompanydirectory,cntnt01,detail,0&cntnt01item=prof&cntnt01category=faculty&cntnt01returnid=66"
 ---
 
 <!-- imported-expertise:start -->

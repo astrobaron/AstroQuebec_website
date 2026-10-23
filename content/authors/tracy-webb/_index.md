@@ -19,6 +19,7 @@ social:
 email: "webb@physics.mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "http://www.physics.mcgill.ca/~webb/"
 ---
 
 <!-- imported-expertise:start -->

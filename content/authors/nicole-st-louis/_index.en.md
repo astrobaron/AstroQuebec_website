@@ -19,6 +19,7 @@ social:
 email: "stlouis@astro.umontreal.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://stlou31.wixsite.com/nicolest-louis"
 ---
 
 <!-- imported-expertise:start -->

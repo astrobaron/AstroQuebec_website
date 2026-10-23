@@ -19,6 +19,7 @@ social:
 email: "daryl.haggard@mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "http://www.physics.mcgill.ca/~dhaggard/"
 ---
 
 <!-- imported-expertise:start -->

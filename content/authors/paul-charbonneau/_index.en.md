@@ -19,6 +19,7 @@ social:
 email: "paulchar@astro.umontreal.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://www.astro.umontreal.ca/~paulchar/grps"
 ---
 
 <!-- imported-expertise:start -->

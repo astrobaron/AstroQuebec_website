@@ -19,6 +19,7 @@ social:
 email: "vkaspi@physics.mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "http://www.physics.mcgill.ca/~vkaspi/"
 ---
 
 <!-- imported-expertise:start -->

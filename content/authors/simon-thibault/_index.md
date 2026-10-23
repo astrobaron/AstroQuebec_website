@@ -19,6 +19,7 @@ social:
 email: "simon.thibault@phy.ulaval.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://lrio.copl.ulaval.ca/"
 ---
 
 <!-- imported-expertise:start -->

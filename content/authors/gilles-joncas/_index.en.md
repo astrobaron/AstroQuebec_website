@@ -19,6 +19,7 @@ social:
 email: "joncas@phy.ulaval.ca"
 user_groups:
   - "Co-Investigator"
+website: ""
 ---
 
 <!-- imported-expertise:start -->

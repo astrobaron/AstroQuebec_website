@@ -19,6 +19,7 @@ social:
 email: "hmartel@phy.ulaval.ca"
 user_groups:
   - "Co-Investigator"
+website: "http://www.astro.phy.ulaval.ca/staff/hugo"
 ---
 
 <!-- imported-expertise:start -->

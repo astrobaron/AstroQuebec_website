@@ -19,6 +19,7 @@ social:
 email: "cowan@physics.mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://hep.physics.mcgill.ca/~cowan/"
 ---
 
 <!-- imported-expertise:start -->

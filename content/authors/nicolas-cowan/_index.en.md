@@ -19,6 +19,7 @@ social:
 email: "cowan@physics.mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://hep.physics.mcgill.ca/~cowan/"
 ---
 
 <!-- imported-expertise:start -->

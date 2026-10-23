@@ -60,6 +60,7 @@
           <h2>{{ with $link }}<a href="{{ . }}">{{ end }}{{ .Title }}{{ if $link }}</a>{{ end }}</h2>
           {{ with .Params.direction_role }}<h3>{{ . }}</h3>{{ end }}
           {{ with .Params.organizations }}{{ range . }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
+          {{ with .Params.website }}<p class="profile-website"><a href="{{ . }}" target="_blank" rel="noopener">{{ if eq site.Language.Lang "fr" }}Site web{{ else }}Website{{ end }}</a></p>{{ end }}
           {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
           {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
         </div>

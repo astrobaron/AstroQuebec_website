@@ -19,6 +19,7 @@ social:
 email: "daryl.haggard@mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "http://www.physics.mcgill.ca/~dhaggard/"
 ---
 
 <!-- imported-expertise:start -->
