@@ -11,7 +11,7 @@ organizations:
   - name: "Université Laval"
     url: ""
 bio: ""
-interests: []
+interests: ["Groupes et amas de galaxies", "galaxies actives"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Cochercheurs et cochercheuses"
 ---
 
+<!-- imported-expertise:start -->
+
+## Projet de recherche
+
+Les recherches de Marie-Lou Gendron Marsolais se spécialisent sur les groupes et les amas de galaxies - en particulier sur l'étude des relations complexes entre les puissants trous noirs supermassifs au centre des galaxies et leur environnement dense, en utilisant des observations multi-longueurs d'ondes
+
+<!-- imported-expertise:end -->

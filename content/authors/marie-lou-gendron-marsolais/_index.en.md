@@ -11,7 +11,7 @@ organizations:
   - name: "Université Laval"
     url: ""
 bio: ""
-interests: []
+interests: ["Galaxy groups and clusters", "active galaxies"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Co-Investigator"
 ---
 
+<!-- imported-expertise:start -->
+
+## Research project
+
+Marie-Lou Gendron Marsolais’s research focuses on galaxy groups and clusters – in particular, the study of the complex relationships between the powerful supermassive black holes at the centres of galaxies and their dense surroundings, using multi-wavelength observations
+
+<!-- imported-expertise:end -->

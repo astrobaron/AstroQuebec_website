@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: []
+interests: ["Apprentissage par renforcement", "Contrôle optimal"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Cochercheurs et cochercheuses"
 ---
 
+<!-- imported-expertise:start -->
+
+## Projet de recherche
+
+Spécialisé dans l’apprentissage par renforcement, Pierre-Luc Bacon s’intéresse plus particulièrement au problème d’apprentissage de représentations pour la prise de décisions séquentielles ayant des conséquences à long terme ainsi qu'à ses ramifications en optimisation hiérarchique.
+
+<!-- imported-expertise:end -->

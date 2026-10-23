@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: []
+interests: ["Astrophysique des particules", "cosmologie"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Cochercheurs et cochercheuses"
 ---
 
+<!-- imported-expertise:start -->
+
+## Projet de recherche
+
+Les intérêts de recherche de Katelin Schutz se situent à l'intersection de l'astrophysique, de la physique des particules et de la cosmologie. Son objectif principal est d'extraire autant d'informations que possible sur la composition de notre Univers en considérant comment les systèmes astrophysiques seraient affectés par l'ajout de nouvelles particules et d'interactions non-connues. L'un des principaux axes de ses recherches est de comprendre la composition et le comportement de la matière noire, mais elle s'intéresse également à d'autres extensions du modèle standard. Bien que principalement théoricienne, elle aime parfois mettre la main à la pâte et obtenir des données.
+
+<!-- imported-expertise:end -->

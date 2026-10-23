@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: []
+interests: ["Physique subatomique"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Cochercheurs et cochercheuses"
 ---
 
+<!-- imported-expertise:start -->
+
+## Projet de recherche
+
+Les recherches de Thomas Brunner visent principalement à déterminer la nature des neutrinos en étudiant les désintégrations nucléaires radioactives, ainsi qu’à comprendre la physique nucléaire qui sous-tend ces phénomènes.
+
+<!-- imported-expertise:end -->

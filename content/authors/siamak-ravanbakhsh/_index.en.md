@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: []
+interests: ["Intelligience artificielle"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Co-Investigator"
 ---
 
+<!-- imported-expertise:start -->
+
+## Research project
+
+Siamak Ravanbakhsh is interested in issues relating to representation learning and inference in artificial intelligence. His current research focuses on the role of symmetry and invariance in deep learning representations.
+
+<!-- imported-expertise:end -->

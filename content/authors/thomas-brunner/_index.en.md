@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: []
+interests: ["Subatomic physics"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Co-Investigator"
 ---
 
+<!-- imported-expertise:start -->
+
+## Research project
+
+Thomas Brunner's research interests focus on determining the nature of the neutrinos by studying radioactive nuclear decays, and on understanding the underlying nuclear physics.
+
+<!-- imported-expertise:end -->

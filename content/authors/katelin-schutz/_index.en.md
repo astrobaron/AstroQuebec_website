@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: []
+interests: ["Particle astrophysics", "cosmology"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -21,3 +21,10 @@ user_groups:
   - "Co-Investigator"
 ---
 
+<!-- imported-expertise:start -->
+
+## Research project
+
+Katelin Schutz’s research interests lie at the intersection of astrophysics, particle physics and cosmology. Her main aim is to extract as much information as possible about the composition of our Universe by considering how astrophysical systems would be affected by the addition of new particles and as yet unknown interactions. One of the main focuses of her research is understanding the composition and behaviour of dark matter, but she is also interested in other extensions of the Standard Model. Although she is primarily a theorist, she sometimes enjoys getting involved in the practical side of things and collecting data.
+
+<!-- imported-expertise:end -->
