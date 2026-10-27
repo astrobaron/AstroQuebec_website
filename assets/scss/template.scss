@@ -111,9 +111,34 @@ html:lang(en) .navbar-brand::after {
   font-weight: 650;
 }
 
+.navbar-nav .dropdown-menu {
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+}
+
+.navbar-nav .dropdown-item {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
   color: var(--astroq-gold) !important;
+}
+
+.navbar-nav .i18n-dropdown > .nav-link {
+  color: #226444 !important;
+}
+
+.navbar-nav .i18n-dropdown > .nav-link:hover,
+.navbar-nav .i18n-dropdown > .nav-link:focus,
+.navbar-nav .i18n-dropdown.show > .nav-link {
+  color: var(--astroq-blue-dark) !important;
+}
+
+.navbar-nav .i18n-dropdown > .nav-link:focus-visible {
+  outline: 3px solid var(--astroq-blue);
+  outline-offset: 3px;
 }
 
 .home-section {
