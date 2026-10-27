@@ -4,19 +4,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: |
-        AstroQuébec
-      image:
-        filename: 2024_rencontre_annuelle.jpeg
-        credit: "Image credit: AstroQuébec"
-      text: |
-        <br>
-
-        The Centre for Research in Astrophysics of Quebec (AstroQuébec) is an interdisciplinary organisation whose mission is to understand the Universe – its origin, evolution, structure, constituents, and our place within it.
-
-  - block: collection
+  - block: news-carousel
     content:
       title: News
       subtitle:
@@ -34,6 +22,18 @@ sections:
     design:
       view: card
       columns: '2'
+
+  - block: hero
+    content:
+      title: |
+        AstroQuébec
+      image:
+        filename: 2024_rencontre_annuelle.jpeg
+        credit: "Image credit: AstroQuébec"
+      text: |
+        <br>
+
+        The Centre for Research in Astrophysics of Quebec (AstroQuébec) is an interdisciplinary organisation whose mission is to understand the Universe – its origin, evolution, structure, constituents, and our place within it.
 
   - block: markdown
     id: mission

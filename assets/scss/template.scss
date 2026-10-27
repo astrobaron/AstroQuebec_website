@@ -181,6 +181,7 @@ html:lang(en) .navbar-brand::after {
 }
 
 .wg-collection:nth-of-type(2),
+.wg-news-carousel,
 #mission,
 #presentation {
   background: var(--astroq-soft);
@@ -230,4 +231,82 @@ html:lang(en) .navbar-brand::after {
 
 .page-footer {
   background: var(--astroq-blue-dark);
+}
+
+.news-carousel-slide[hidden],
+.news-carousel-controls[hidden] {
+  display: none;
+}
+
+.wg-news-carousel {
+  padding: 24px 0;
+}
+
+.news-carousel {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.news-carousel .card-simple {
+  margin-top: 0;
+  padding: 14px;
+}
+
+.news-carousel .article-banner {
+  width: 100%;
+  height: clamp(120px, 27vh, 230px);
+  object-fit: contain;
+  background: var(--astroq-soft);
+}
+
+.news-carousel .article-title {
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.news-carousel .article-style p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.news-carousel .btn {
+  padding: 0.3rem 0.65rem;
+  font-size: 0.8rem;
+}
+
+.news-carousel-controls,
+.news-carousel-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.news-carousel-controls {
+  margin-top: 0.6rem;
+}
+
+.news-carousel-dot {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--astroq-blue);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--astroq-blue);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.news-carousel-dot[aria-current="true"] {
+  background: var(--astroq-blue);
+  color: white;
+}
+
+.news-carousel button:focus-visible {
+  outline: 3px solid var(--astroq-gold);
+  outline-offset: 3px;
 }

@@ -1,0 +1,95 @@
+{{ $block := .wcBlock }}
+{{ $is_fr := eq site.Language.Lang "fr" }}
+{{ $items := first 5 ((where site.RegularPages "Type" "post").ByDate.Reverse) }}
+
+<div class="col-12 col-lg-8">
+  <div class="news-carousel" role="region" aria-roledescription="{{ if $is_fr }}carrousel{{ else }}carousel{{ end }}" aria-label="{{ if $is_fr }}Dernières nouvelles{{ else }}Latest news{{ end }}">
+    <div class="news-carousel-slides" aria-live="polite" aria-atomic="true">
+      {{ range $index, $item := $items }}
+        <div class="news-carousel-slide" role="group" aria-roledescription="{{ if $is_fr }}diapositive{{ else }}slide{{ end }}" aria-label="{{ add $index 1 }} / {{ len $items }}">
+          {{ partial "functions/render_view" (dict "page" $block "item" $item "view" "card" "index" $index) }}
+        </div>
+      {{ end }}
+    </div>
+    {{ if gt (len $items) 1 }}
+      <div class="news-carousel-controls" hidden>
+        <button type="button" class="btn btn-primary" data-direction="-1" aria-label="{{ if $is_fr }}Nouvelle précédente{{ else }}Previous news item{{ end }}">&#8592;</button>
+        <div class="news-carousel-dots">
+          {{ range $index, $item := $items }}
+            <button type="button" class="news-carousel-dot" data-slide="{{ $index }}" aria-label="{{ if $is_fr }}Afficher la nouvelle{{ else }}Show news item{{ end }} {{ add $index 1 }} : {{ $item.Title }}" aria-current="{{ if eq $index 0 }}true{{ else }}false{{ end }}">{{ add $index 1 }}</button>
+          {{ end }}
+        </div>
+        <button type="button" class="btn btn-primary" data-direction="1" aria-label="{{ if $is_fr }}Nouvelle suivante{{ else }}Next news item{{ end }}">&#8594;</button>
+      </div>
+      <div class="news-carousel-playback text-center mt-2" hidden>
+        <button type="button" class="btn btn-primary" data-playback data-pause-label="{{ if $is_fr }}Mettre en pause{{ else }}Pause slideshow{{ end }}" data-play-label="{{ if $is_fr }}Reprendre le défilement{{ else }}Play slideshow{{ end }}">{{ if $is_fr }}Mettre en pause{{ else }}Pause slideshow{{ end }}</button>
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.news-carousel').forEach(function (carousel) {
+      if (carousel.dataset.ready) return;
+      carousel.dataset.ready = 'true';
+      const slides = Array.from(carousel.querySelectorAll('.news-carousel-slide'));
+      const dots = Array.from(carousel.querySelectorAll('[data-slide]'));
+      const controls = carousel.querySelector('.news-carousel-controls');
+      if (!controls) return;
+      const playback = carousel.querySelector('[data-playback]');
+      const slideRegion = carousel.querySelector('.news-carousel-slides');
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      let paused = reducedMotion.matches;
+      let focused = carousel.contains(document.activeElement) && document.activeElement.matches(':focus-visible');
+      let timer;
+      let current = 0;
+      function updatePlayback() {
+        window.clearInterval(timer);
+        const playing = !paused && !focused && !document.hidden;
+        slideRegion.setAttribute('aria-live', playing ? 'off' : 'polite');
+        playback.textContent = paused ? playback.dataset.playLabel : playback.dataset.pauseLabel;
+        if (playing) timer = window.setInterval(() => show(current + 1), 5000);
+      }
+      function show(index) {
+        current = (index + slides.length) % slides.length;
+        slides.forEach((slide, i) => { slide.hidden = i !== current; });
+        dots.forEach((dot, i) => { dot.setAttribute('aria-current', String(i === current)); });
+      }
+      carousel.querySelectorAll('[data-direction]').forEach(button => {
+        button.addEventListener('click', () => show(current + Number(button.dataset.direction)));
+      });
+      dots.forEach(button => {
+        button.addEventListener('click', () => show(Number(button.dataset.slide)));
+      });
+      controls.addEventListener('keydown', event => {
+        if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+        event.preventDefault();
+        show(current + (event.key === 'ArrowRight' ? 1 : -1));
+        dots[current].focus();
+      });
+      playback.addEventListener('click', () => {
+        paused = !paused;
+        focused = false;
+        updatePlayback();
+      });
+      carousel.addEventListener('focusin', event => {
+        focused = event.target.matches(':focus-visible');
+        updatePlayback();
+      });
+      carousel.addEventListener('focusout', event => {
+        focused = carousel.contains(event.relatedTarget) && event.relatedTarget.matches(':focus-visible');
+        updatePlayback();
+      });
+      document.addEventListener('visibilitychange', updatePlayback);
+      reducedMotion.addEventListener('change', event => {
+        if (event.matches) paused = true;
+        updatePlayback();
+      });
+      show(0);
+      controls.hidden = false;
+      carousel.querySelector('.news-carousel-playback').hidden = false;
+      updatePlayback();
+    });
+  });
+</script>
