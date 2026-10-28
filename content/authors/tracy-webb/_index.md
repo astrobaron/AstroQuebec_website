@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Structure à grande échelle dans l'univers", "galaxies"]
+interests: ["Structure à grande échelle dans l'univers", "Galaxies"]
 social:
   - icon: envelope
     icon_pack: fas

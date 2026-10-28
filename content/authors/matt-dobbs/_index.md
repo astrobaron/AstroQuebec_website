@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Cosmologie d'observation", "transitoires radio", "instrumentation", "rayonnement fossile cosmologique"]
+interests: ["Cosmologie d'observation", "Transitoires radio", "Instrumentation", "Rayonnement fossile cosmologique"]
 social:
   - icon: envelope
     icon_pack: fas

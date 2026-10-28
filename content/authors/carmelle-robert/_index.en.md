@@ -11,7 +11,7 @@ organizations:
   - name: "Université Laval"
     url: ""
 bio: ""
-interests: ["Stellar populations", "starburst galaxies", "spectral synthesis", "massive stars", "stellar winds", "galaxy evolution", "UV spectroscopy"]
+interests: ["Stellar populations", "Starburst galaxies", "Spectral synthesis", "Massive stars", "Stellar winds", "Galaxy evolution", "UV spectroscopy"]
 social:
   - icon: envelope
     icon_pack: fas

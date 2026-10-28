@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Infrared instrumentation", "exoplanets and brown dwarfs"]
+interests: ["Infrared instrumentation", "Exoplanets and brown dwarfs"]
 social:
   - icon: envelope
     icon_pack: fas

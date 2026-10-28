@@ -12,7 +12,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Exoplanètes", "naines brunes", "spectroscopie de transit", "vélocimétrie", "imagerie à haut contraste", "instrumentation"]
+interests: ["Exoplanètes", "Naines brunes", "Spectroscopie de transit", "Vélocimétrie", "Imagerie à haut contraste", "Instrumentation"]
 social:
   - icon: envelope
     icon_pack: fas

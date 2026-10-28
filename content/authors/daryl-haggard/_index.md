@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Trous noirs et étoiles à neutrons", "galaxies", "galaxies actives", "ondes gravitationnelles", "sondages étendus dans le temps et le spectre électromagnétique"]
+interests: ["Trous noirs et étoiles à neutrons", "Galaxies", "Galaxies actives", "Ondes gravitationnelles", "Sondages étendus dans le temps et le spectre électromagnétique"]
 social:
   - icon: envelope
     icon_pack: fas

@@ -11,7 +11,7 @@ organizations:
   - name: "Cégep Garneau"
     url: ""
 bio: ""
-interests: ["Instrumentation", "interférométrie optique", "restes de supernova", "nébuleuse planétaires", "galaxies", "jeunes"]
+interests: ["Instrumentation", "Interférométrie optique", "Restes de supernova", "Nébuleuse planétaires", "Galaxies", "Jeunes"]
 social:
   - icon: envelope
     icon_pack: fas

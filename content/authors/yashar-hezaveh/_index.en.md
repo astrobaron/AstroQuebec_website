@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Dark matter", "galaxy formation", "strong gravitational lensing", "machine learning"]
+interests: ["Dark matter", "Galaxy formation", "Strong gravitational lensing", "Machine learning"]
 social:
   - icon: envelope
     icon_pack: fas

@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Fast radio bust", "neutron stars", "black holes"]
+interests: ["Fast radio bust", "Neutron stars", "Black holes"]
 social:
   - icon: envelope
     icon_pack: fas

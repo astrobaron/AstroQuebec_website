@@ -12,7 +12,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Exoplanets", "brown dwarfs", "transit spectroscopy", "velocity measurements", "high-contrast imaging", "instrumentation"]
+interests: ["Exoplanets", "Brown dwarfs", "Transit spectroscopy", "Velocity measurements", "High-contrast imaging", "Instrumentation"]
 social:
   - icon: envelope
     icon_pack: fas

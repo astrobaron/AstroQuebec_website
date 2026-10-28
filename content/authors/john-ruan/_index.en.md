@@ -11,7 +11,7 @@ organizations:
   - name: "Université Bishop's"
     url: ""
 bio: ""
-interests: ["Black holes and neutron stars", "galaxies", "active galaxies", "gravitational waves"]
+interests: ["Black holes and neutron stars", "Galaxies", "Active galaxies", "Gravitational waves"]
 social:
   - icon: envelope
     icon_pack: fas

@@ -11,7 +11,7 @@ organizations:
   - name: "Université Laval"
     url: ""
 bio: ""
-interests: ["Étoiles massives", "imagerie hyperspectrale"]
+interests: ["Étoiles massives", "Imagerie hyperspectrale"]
 social:
   - icon: envelope
     icon_pack: fas

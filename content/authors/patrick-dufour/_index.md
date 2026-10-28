@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Étoiles naine blanche", "modèles d'atmosphère", "astérosismologie"]
+interests: ["Étoiles naine blanche", "Modèles d'atmosphère", "Astérosismologie"]
 social:
   - icon: envelope
     icon_pack: fas

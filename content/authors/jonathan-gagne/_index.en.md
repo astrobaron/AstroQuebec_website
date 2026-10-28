@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Low-mass members of kinematic associations", "low-mass stars", "brown dwarfs", "exoplanets"]
+interests: ["Low-mass members of kinematic associations", "Low-mass stars", "Brown dwarfs", "Exoplanets"]
 social:
   - icon: envelope
     icon_pack: fas

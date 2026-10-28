@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Instrumentation infrarouge", "exoplanètes et naines brunes"]
+interests: ["Instrumentation infrarouge", "Exoplanètes et naines brunes"]
 social:
   - icon: envelope
     icon_pack: fas

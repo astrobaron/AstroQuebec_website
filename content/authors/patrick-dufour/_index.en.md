@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["White dwarf stars", "atmospheric models", "asteroseismology"]
+interests: ["White dwarf stars", "Atmospheric models", "Asteroseismology"]
 social:
   - icon: envelope
     icon_pack: fas

@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Cosmologie", "matière sombre", "énergie sombre", "lentilles gravitationelles", "apprentissage automatique"]
+interests: ["Cosmologie", "Matière sombre", "Énergie sombre", "Lentilles gravitationelles", "Apprentissage automatique"]
 social:
   - icon: envelope
     icon_pack: fas

@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Sursauts radio rapides", "étoiles à neutrons", "trous noirs"]
+interests: ["Sursauts radio rapides", "Étoiles à neutrons", "Trous noirs"]
 social:
   - icon: envelope
     icon_pack: fas

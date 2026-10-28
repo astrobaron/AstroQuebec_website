@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Cosmology", "dark matter", "dark energy", "strong lensing", "machine learning"]
+interests: ["Cosmology", "Dark matter", "Dark energy", "Strong lensing", "Machine learning"]
 social:
   - icon: envelope
     icon_pack: fas

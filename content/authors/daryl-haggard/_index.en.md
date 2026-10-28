@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Black holes and neutron stars", "galaxies", "active galaxies", "gravitational waves", "surveys spanning time and the electromagnetic spectrum"]
+interests: ["Black holes and neutron stars", "Galaxies", "Active galaxies", "Gravitational waves", "Surveys spanning time and the electromagnetic spectrum"]
 social:
   - icon: envelope
     icon_pack: fas

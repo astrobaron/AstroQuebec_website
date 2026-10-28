@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Physique des hautes énergies", "astronomie rayons-gamma"]
+interests: ["Physique des hautes énergies", "Astronomie rayons-gamma"]
 social:
   - icon: envelope
     icon_pack: fas

@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Géomicrobiologie", "biogéochimie microbienne", "cycle du carbone", "bioremédiation"]
+interests: ["Géomicrobiologie", "Biogéochimie microbienne", "Cycle du carbone", "Bioremédiation"]
 social:
   - icon: envelope
     icon_pack: fas

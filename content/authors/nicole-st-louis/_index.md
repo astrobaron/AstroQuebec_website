@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Structure des vents des étoiles massives", "interaction avec le milieu interstellaire", "spectroscopie"]
+interests: ["Structure des vents des étoiles massives", "Interaction avec le milieu interstellaire", "Spectroscopie"]
 social:
   - icon: envelope
     icon_pack: fas

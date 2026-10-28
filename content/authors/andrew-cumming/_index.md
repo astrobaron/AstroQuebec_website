@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Objets compacts", "astrophysique des hautes énergies", "planètes extrasolaires"]
+interests: ["Objets compacts", "Astrophysique des hautes énergies", "Planètes extrasolaires"]
 social:
   - icon: envelope
     icon_pack: fas

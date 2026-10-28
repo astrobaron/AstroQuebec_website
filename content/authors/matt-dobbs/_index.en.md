@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Observational cosmology", "radio transients", "instrumentation", "cosmological microwave background"]
+interests: ["Observational cosmology", "Radio transients", "Instrumentation", "Cosmological microwave background"]
 social:
   - icon: envelope
     icon_pack: fas

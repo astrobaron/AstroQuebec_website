@@ -11,7 +11,7 @@ organizations:
   - name: "Université Bishop's"
     url: ""
 bio: ""
-interests: ["Interacting binary star systems", "white dwarfs", "black holes"]
+interests: ["Interacting binary star systems", "White dwarfs", "Black holes"]
 social:
   - icon: envelope
     icon_pack: fas

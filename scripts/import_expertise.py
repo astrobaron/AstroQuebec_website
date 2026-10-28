@@ -20,6 +20,11 @@ START = '<!-- imported-expertise:start -->'
 END = '<!-- imported-expertise:end -->'
 
 
+def capitalize_interest(value):
+    # Preserve acronyms and scientific notation after the initial letter.
+    return value[:1].upper() + value[1:]
+
+
 def prepare(workbook, authors):
     with zipfile.ZipFile(workbook) as archive:
         rows = rows_from_sheet(archive, sheet_paths(archive)[0][1],
@@ -60,7 +65,8 @@ def prepare(workbook, authors):
             keywords = re.sub(r'\bcenter\b', 'centre', keywords)
             description = re.sub(r'\bCenter\b', 'Centre', description)
             description = re.sub(r'\bcenter\b', 'centre', description)
-            interests = [part.strip().rstrip('.') for part in re.split(r'[,;\n]+', keywords) if part.strip()]
+            interests = [capitalize_interest(part.strip().rstrip('.'))
+                         for part in re.split(r'[,;\n]+', keywords) if part.strip()]
             front, count = re.subn(r'^interests:.*(?:\n[ \t]+-.*)*',
                                   lambda _: 'interests: ' + json.dumps(interests, ensure_ascii=False),
                                   front, count=1, flags=re.M)

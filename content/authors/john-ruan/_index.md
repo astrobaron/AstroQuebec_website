@@ -11,7 +11,7 @@ organizations:
   - name: "Université Bishop's"
     url: ""
 bio: ""
-interests: ["Trous noirs et étoiles à neutrons", "galaxies", "galaxies actives", "ondes gravitationnelles"]
+interests: ["Trous noirs et étoiles à neutrons", "Galaxies", "Galaxies actives", "Ondes gravitationnelles"]
 social:
   - icon: envelope
     icon_pack: fas

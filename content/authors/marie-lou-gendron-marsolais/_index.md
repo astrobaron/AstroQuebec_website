@@ -11,7 +11,7 @@ organizations:
   - name: "Université Laval"
     url: ""
 bio: ""
-interests: ["Groupes et amas de galaxies", "galaxies actives"]
+interests: ["Groupes et amas de galaxies", "Galaxies actives"]
 social:
   - icon: envelope
     icon_pack: fas

@@ -11,7 +11,7 @@ organizations:
   - name: "Université Bishop's"
     url: ""
 bio: ""
-interests: ["Systèmes binaires d'étoiles en interaction", "naines blanches", "trous noirs"]
+interests: ["Systèmes binaires d'étoiles en interaction", "Naines blanches", "Trous noirs"]
 social:
   - icon: envelope
     icon_pack: fas

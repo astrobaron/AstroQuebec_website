@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Membres de faible masse des associations cinématiques", "étoiles de faible masse", "naines brunes", "exoplanètes"]
+interests: ["Membres de faible masse des associations cinématiques", "Étoiles de faible masse", "Naines brunes", "Exoplanètes"]
 social:
   - icon: envelope
     icon_pack: fas

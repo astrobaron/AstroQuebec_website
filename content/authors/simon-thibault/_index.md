@@ -11,7 +11,7 @@ organizations:
   - name: "Université Laval"
     url: ""
 bio: ""
-interests: ["Ingénierie optique", "instrumentation"]
+interests: ["Ingénierie optique", "Instrumentation"]
 social:
   - icon: envelope
     icon_pack: fas

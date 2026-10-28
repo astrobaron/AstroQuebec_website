@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Exoplanets", "planetary climate"]
+interests: ["Exoplanets", "Planetary climate"]
 social:
   - icon: envelope
     icon_pack: fas

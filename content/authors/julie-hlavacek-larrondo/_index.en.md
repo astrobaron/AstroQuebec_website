@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Trous noirs", "amas de galaxies", "galaxies"]
+interests: ["Trous noirs", "Amas de galaxies", "Galaxies"]
 social:
   - icon: envelope
     icon_pack: fas

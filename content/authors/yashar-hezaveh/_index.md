@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Matière noire", "formation des galaxies", "lentille gravitationnelle forte", "apprentissage automatique"]
+interests: ["Matière noire", "Formation des galaxies", "Lentille gravitationnelle forte", "Apprentissage automatique"]
 social:
   - icon: envelope
     icon_pack: fas

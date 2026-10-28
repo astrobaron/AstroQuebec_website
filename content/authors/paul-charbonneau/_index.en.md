@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: ["Solar physics", "magnetohydrodynamics", "complex systems"]
+interests: ["Solar physics", "Magnetohydrodynamics", "Complex systems"]
 social:
   - icon: envelope
     icon_pack: fas

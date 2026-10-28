@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Astrophysique des particules", "cosmologie"]
+interests: ["Astrophysique des particules", "Cosmologie"]
 social:
   - icon: envelope
     icon_pack: fas
