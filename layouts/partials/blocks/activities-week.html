@@ -1,11 +1,13 @@
 {{ $is_fr := eq site.Language.Lang "fr" }}
+{{/* Use time.Time.In for compatibility with the deployed Hugo 0.135. */}}
+{{ $timezone := (time.AsTime "2000-01-01" "America/Toronto").Location }}
 <div class="col-12 weekly-activities" data-locale="{{ if $is_fr }}fr-CA{{ else }}en-CA{{ end }}">
   <p class="weekly-activities-range text-center text-muted" aria-live="polite"></p>
   <div class="weekly-activities-grid">
     {{ range (where site.RegularPages "Type" "event").ByDate }}
-      {{ $start := time.In "America/Toronto" .Date }}
+      {{ $start := .Date.In $timezone }}
       {{ $end := $start }}
-      {{ with .Params.date_end }}{{ $end = time.In "America/Toronto" (time.AsTime .) }}{{ end }}
+      {{ with .Params.date_end }}{{ $end = (time.AsTime .).In $timezone }}{{ end }}
       <article class="weekly-activity" data-start="{{ $start.Format "2006-01-02" }}" data-end="{{ $end.Format "2006-01-02" }}" hidden>
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         {{ with .Params.summary }}<p class="weekly-activity-summary">{{ . | markdownify }}</p>{{ end }}
