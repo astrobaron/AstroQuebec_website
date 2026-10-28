@@ -385,6 +385,67 @@ html:lang(en) .navbar-brand::after {
   border: 1px solid rgba(18, 58, 99, 0.12);
 }
 
+.news-navigation {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin: 32px 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(18, 58, 99, 0.16);
+}
+
+.news-navigation .btn {
+  white-space: normal;
+}
+
+.news-navigation-next {
+  text-align: right;
+}
+
+.news-navigation-title {
+  margin: 8px 0 0;
+  color: var(--astroq-muted);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 1200px) {
+  .news-navigation {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .news-navigation-previous,
+  .news-navigation-next {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    z-index: 5;
+    text-align: center;
+  }
+
+  .news-navigation-previous {
+    right: calc(50% + 400px);
+  }
+
+  .news-navigation-next {
+    left: calc(50% + 400px);
+  }
+
+  .news-navigation .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+
+  .news-navigation-title {
+    display: none;
+  }
+}
+
 @media (max-width: 575.98px) {
   .google-calendar iframe {
     height: 520px;

@@ -1,0 +1,27 @@
+{{ $page := . }}
+{{ $is_fr := eq site.Language.Lang "fr" }}
+{{ $items := (where site.RegularPages "Section" "post").ByDate }}
+{{ $previous := false }}
+{{ $next := false }}
+{{ range $index, $item := $items }}
+  {{ if eq $item.RelPermalink $page.RelPermalink }}
+    {{ if gt $index 0 }}{{ $previous = index $items (sub $index 1) }}{{ end }}
+    {{ if lt $index (sub (len $items) 1) }}{{ $next = index $items (add $index 1) }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if or $previous $next }}
+  <nav class="news-navigation" aria-label="{{ if $is_fr }}Navigation entre les nouvelles{{ else }}News navigation{{ end }}">
+    <div class="news-navigation-previous">
+      {{ with $previous }}
+        <a class="btn btn-primary" href="{{ .RelPermalink }}" rel="prev" title="{{ .Title }}"><span aria-hidden="true">←</span> {{ if $is_fr }}Nouvelle précédente{{ else }}Previous news item{{ end }}</a>
+        <p class="news-navigation-title">{{ .Title }}</p>
+      {{ end }}
+    </div>
+    <div class="news-navigation-next">
+      {{ with $next }}
+        <a class="btn btn-primary" href="{{ .RelPermalink }}" rel="next" title="{{ .Title }}">{{ if $is_fr }}Nouvelle suivante{{ else }}Next news item{{ end }} <span aria-hidden="true">→</span></a>
+        <p class="news-navigation-title">{{ .Title }}</p>
+      {{ end }}
+    </div>
+  </nav>
+{{ end }}
