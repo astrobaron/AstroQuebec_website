@@ -1,0 +1,54 @@
+{{ $is_fr := eq site.Language.Lang "fr" }}
+<div class="col-12 weekly-activities" data-locale="{{ if $is_fr }}fr-CA{{ else }}en-CA{{ end }}">
+  <p class="weekly-activities-range text-center text-muted" aria-live="polite"></p>
+  <div class="weekly-activities-grid">
+    {{ range (where site.RegularPages "Type" "event").ByDate }}
+      {{ $start := time.In "America/Toronto" .Date }}
+      {{ $end := $start }}
+      {{ with .Params.date_end }}{{ $end = time.In "America/Toronto" (time.AsTime .) }}{{ end }}
+      <article class="weekly-activity" data-start="{{ $start.Format "2006-01-02" }}" data-end="{{ $end.Format "2006-01-02" }}" hidden>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ with .Params.summary }}<p class="weekly-activity-summary">{{ . | markdownify }}</p>{{ end }}
+        <p class="weekly-activity-location">
+          <time datetime="{{ $start.Format "2006-01-02T15:04:05Z07:00" }}">{{ time.Format "Monday 2 January" $start }}{{ if not .Params.all_day }} · {{ $start.Format "15:04" }}{{ end }}</time>{{ with .Params.location }} · <i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ . }}{{ end }}
+        </p>
+      </article>
+    {{ end }}
+  </div>
+  <p class="weekly-activities-empty text-center" hidden>{{ if $is_fr }}Aucune activité n’est prévue cette semaine. Consultez le calendrier pour découvrir les prochains rendez-vous.{{ else }}No activities are scheduled this week. Check the calendar for upcoming events.{{ end }}</p>
+  <noscript><p class="text-center">{{ if $is_fr }}Consultez le calendrier pour découvrir les activités de la semaine.{{ else }}Check the calendar to discover this week’s activities.{{ end }}</p></noscript>
+  <p class="text-center mt-3 mb-0"><a class="btn btn-primary" href="{{ "calendrier/" | relLangURL }}">{{ if $is_fr }}Voir le calendrier complet{{ else }}View the full calendar{{ end }} <span aria-hidden="true">→</span></a></p>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.weekly-activities').forEach(function (section) {
+      const cards = Array.from(section.querySelectorAll('.weekly-activity'));
+      const dateFormat = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Toronto', year: 'numeric', month: '2-digit', day: '2-digit'
+      });
+      const labelFormat = new Intl.DateTimeFormat(section.dataset.locale, {
+        timeZone: 'UTC', day: 'numeric', month: 'long'
+      });
+      function updateWeek() {
+        const parts = Object.fromEntries(dateFormat.formatToParts(new Date()).map(part => [part.type, part.value]));
+        const monday = new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day)));
+        monday.setUTCDate(monday.getUTCDate() - (monday.getUTCDay() + 6) % 7);
+        const sunday = new Date(monday);
+        sunday.setUTCDate(sunday.getUTCDate() + 6);
+        const start = monday.toISOString().slice(0, 10);
+        const end = sunday.toISOString().slice(0, 10);
+        let count = 0;
+        cards.forEach(card => {
+          const matches = card.dataset.start <= end && card.dataset.end >= start;
+          card.hidden = !matches;
+          if (matches) count++;
+        });
+        section.querySelector('.weekly-activities-range').textContent = labelFormat.format(monday) + ' – ' + labelFormat.format(sunday);
+        section.querySelector('.weekly-activities-empty').hidden = count > 0;
+      }
+      updateWeek();
+      window.setInterval(updateWeek, 60000);
+      document.addEventListener('visibilitychange', () => { if (!document.hidden) updateWeek(); });
+    });
+  });
+</script>

@@ -23,6 +23,12 @@ sections:
       view: card
       columns: '2'
 
+  - block: activities-week
+    content:
+      title: This week’s activities
+    design:
+      columns: '1'
+
   - block: hero
     content:
       title: |

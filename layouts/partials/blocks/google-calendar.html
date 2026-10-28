@@ -1,0 +1,8 @@
+{{ $is_fr := eq site.Language.Lang "fr" }}
+{{ with .wcBlock.content.embed_url }}
+  <div class="google-calendar">
+    <h1 class="text-center mb-4">{{ if $is_fr }}Calendrier des activités{{ else }}Activities calendar{{ end }}</h1>
+    <iframe src="{{ . | safeURL }}" title="{{ if $is_fr }}Calendrier Google des activités d’AstroQuébec{{ else }}AstroQuébec activities Google Calendar{{ end }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <p class="text-center mt-3 mb-0"><a href="{{ . | safeURL }}" target="_blank" rel="noopener">{{ if $is_fr }}Ouvrir le calendrier dans une nouvelle fenêtre{{ else }}Open the calendar in a new window{{ end }}</a></p>
+  </div>
+{{ end }}

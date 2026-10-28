@@ -335,3 +335,58 @@ html:lang(en) .navbar-brand::after {
   outline: 3px solid var(--astroq-gold);
   outline-offset: 3px;
 }
+
+.wg-activities-week {
+  padding: 32px 0;
+}
+
+.weekly-activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(#{"min(100%, 300px)"}, 1fr));
+  gap: 20px;
+}
+
+.weekly-activity[hidden],
+.weekly-activities-empty[hidden] {
+  display: none;
+}
+
+.weekly-activity {
+  padding: 22px;
+  background: var(--astroq-soft);
+  border: 1px solid rgba(18, 58, 99, 0.12);
+  border-top: 4px solid var(--astroq-gold);
+}
+
+.weekly-activity h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.weekly-activity h2 a {
+  color: var(--astroq-blue-dark);
+}
+
+.weekly-activity-summary,
+.weekly-activity-location {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.weekly-activity-location {
+  color: var(--astroq-muted);
+  margin-bottom: 0;
+}
+
+.google-calendar iframe {
+  display: block;
+  width: 100%;
+  height: 650px;
+  border: 1px solid rgba(18, 58, 99, 0.12);
+}
+
+@media (max-width: 575.98px) {
+  .google-calendar iframe {
+    height: 520px;
+  }
+}

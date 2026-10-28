@@ -7,6 +7,10 @@ cascade:
   profile: false
 
 sections:
+  - block: google-calendar
+    content:
+      embed_url: "https://calendar.google.com/calendar/embed?src=8c93e58e81334542ce90c2bd39b7b800b716aa5aa01419c321a525c43078933a%40group.calendar.google.com&ctz=America%2FToronto&hl=fr&wkst=2&mode=MONTH&showPrint=0"
+
   - block: markdown
     content:
       title: Rencontre annuelle
