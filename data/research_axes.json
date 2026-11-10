@@ -1,0 +1,196 @@
+{
+  "axes": {
+    "axe1_1": {
+      "fr": "Origine et structure à grande échelle de l’Univers",
+      "en": "Origin and large-scale structure of the Universe"
+    },
+    "axe1_2": {
+      "fr": "Formation et évolution des galaxies",
+      "en": "Galaxy formation and evolution"
+    },
+    "axe1_3": {
+      "fr": "Cycle de vie des étoiles",
+      "en": "Stellar life cycles"
+    },
+    "axe1_4": {
+      "fr": "Systèmes planétaires et origine de la vie",
+      "en": "Planetary systems and the origin of life"
+    },
+    "axe2": {
+      "fr": "Développement d’instrumentation",
+      "en": "Instrumentation development"
+    },
+    "axe3": {
+      "fr": "Apprentissage automatique et outils numériques",
+      "en": "Machine learning and numerical tools"
+    }
+  },
+  "members": {
+    "pierre-luc-bacon": [
+      "axe3"
+    ],
+    "thomas-brunner": [
+      "axe1_1",
+      "axe2",
+      "axe3"
+    ],
+    "paul-charbonneau": [
+      "axe1_3",
+      "axe1_4",
+      "axe3"
+    ],
+    "cynthia-chiang": [
+      "axe1_1",
+      "axe2",
+      "axe3"
+    ],
+    "nicolas-cowan": [
+      "axe1_4",
+      "axe2",
+      "axe3"
+    ],
+    "andrew-cumming": [
+      "axe1_3",
+      "axe1_4"
+    ],
+    "matt-dobbs": [
+      "axe1_1",
+      "axe2",
+      "axe3"
+    ],
+    "rene-doyon": [
+      "axe1_3",
+      "axe1_4",
+      "axe2",
+      "axe3"
+    ],
+    "laurent-drissen": [
+      "axe1_2",
+      "axe1_3",
+      "axe2",
+      "axe3"
+    ],
+    "patrick-dufour": [
+      "axe1_3",
+      "axe3"
+    ],
+    "jonathan-gagne": [
+      "axe1_3",
+      "axe1_4",
+      "axe3"
+    ],
+    "marie-lou-gendron-marsolais": [
+      "axe1_2",
+      "axe2",
+      "axe3"
+    ],
+    "natalya-gomez": [
+      "axe1_4",
+      "axe3"
+    ],
+    "daryl-haggard": [
+      "axe1_2",
+      "axe3"
+    ],
+    "jason-hessels": [
+      "axe1_2",
+      "axe1_3",
+      "axe2",
+      "axe3"
+    ],
+    "yashar-hezaveh": [
+      "axe1_1",
+      "axe1_2",
+      "axe3"
+    ],
+    "julie-hlavacek-larrondo": [
+      "axe1_2",
+      "axe3"
+    ],
+    "gilles-joncas": [
+      "axe1_2",
+      "axe3"
+    ],
+    "victoria-kaspi": [
+      "axe1_2",
+      "axe2",
+      "axe3"
+    ],
+    "david-lafreniere": [
+      "axe1_3",
+      "axe1_4",
+      "axe2",
+      "axe3"
+    ],
+    "alexandre-lemerle": [
+      "axe1_3",
+      "axe3"
+    ],
+    "adrian-liu": [
+      "axe1_1",
+      "axe3"
+    ],
+    "nagissa-mahmoudi": [
+      "axe1_4"
+    ],
+    "hugo-martel": [
+      "axe1_2",
+      "axe3"
+    ],
+    "thomas-martin": [
+      "axe1_2",
+      "axe1_3",
+      "axe2",
+      "axe3"
+    ],
+    "lorne-nelson": [
+      "axe1_3",
+      "axe3"
+    ],
+    "laurence-perreault-levasseur": [
+      "axe1_1",
+      "axe1_2",
+      "axe3"
+    ],
+    "ken-ragan": [
+      "axe1_2",
+      "axe2",
+      "axe3"
+    ],
+    "siamak-ravanbakhsh": [
+      "axe3"
+    ],
+    "carmelle-robert": [
+      "axe1_2",
+      "axe1_3",
+      "axe3"
+    ],
+    "jason-rowe": [
+      "axe1_3",
+      "axe1_4",
+      "axe2",
+      "axe3"
+    ],
+    "john-ruan": [
+      "axe1_1",
+      "axe1_2",
+      "axe3"
+    ],
+    "katelin-schutz": [
+      "axe1_1",
+      "axe3"
+    ],
+    "nicole-st-louis": [
+      "axe1_2",
+      "axe1_3",
+      "axe3"
+    ],
+    "simon-thibault": [
+      "axe2"
+    ],
+    "tracy-webb": [
+      "axe1_2",
+      "axe3"
+    ]
+  }
+}

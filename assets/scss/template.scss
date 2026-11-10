@@ -1,4 +1,25 @@
 // Make page header alignment consistent with widget page header alignment
+.people-widget .research-axis-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+  margin: 8px 0 12px;
+  list-style: none;
+
+  li {
+    display: flex;
+  }
+
+  img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+}
+
 .universal-wrapper h1 {
   text-align: center;
 }
