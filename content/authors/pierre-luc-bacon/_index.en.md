@@ -11,7 +11,7 @@ organizations:
   - name: "Université de Montréal"
     url: ""
 bio: ""
-interests: []
+interests: ["Reinforcement learning", "Optimal control"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -19,4 +19,13 @@ social:
 email: "pierre-luc.bacon@mila.quebec"
 user_groups:
   - "Co-Investigator"
+website: "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in31636/sg/Pierre-Luc%20Bacon/"
 ---
+
+<!-- imported-expertise:start -->
+
+## Research project
+
+Specialising in reinforcement learning, Pierre-Luc Bacon is particularly interested in the problem of learning representations for sequential decision-making with long-term consequences, as well as its implications for hierarchical optimisation.
+
+<!-- imported-expertise:end -->

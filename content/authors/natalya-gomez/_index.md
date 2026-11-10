@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: []
+interests: ["Planetary science", "Ice sheet", "Climate change"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -19,4 +19,13 @@ social:
 email: "natalya.gomez@mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
+website: "https://www.natalyagomez.com/"
 ---
+
+<!-- imported-expertise:start -->
+
+## Projet de recherche
+
+Le groupe de recherche de Natalia Gomez étudie les interactions entre les calottes glaciaires, le niveau de la mer et la Terre solide, ainsi que leur réaction face aux changements climatiques, et se penche sur l'évolution et la viabilité des littoraux et des collectivités côtières face à l'élévation du niveau de la mer.
+
+<!-- imported-expertise:end -->

@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: []
+interests: ["Fast radio bust", "Neutron stars", "Black holes"]
 social:
   - icon: envelope
     icon_pack: fas
@@ -19,4 +19,13 @@ social:
 email: "jason.hessels@mcgill.ca"
 user_groups:
   - "Co-Investigator"
+website: "https://tsi.mcgill.ca/index.php?mact=LISEcompanydirectory,cntnt01,detail,0&cntnt01item=prof&cntnt01category=faculty&cntnt01returnid=66"
 ---
+
+<!-- imported-expertise:start -->
+
+## Research project
+
+Jason Hessels explores the extreme astrophysics related to neutron stars and black holes using large radio telescopes to observe fast radio transients. He is the co-PI of the international AstroFlash research team. He is a member of the CHIME and CHORD fast radio burst (FRB) teams and is also affiliated via the European Research Council (ERC) EuroFlash project with ASTRON (Netherlands Institute for Radio Astronomy) & University of Amsterdam, Anton Pannekoek Institute for Astronomy.
+
+<!-- imported-expertise:end -->
