@@ -24,4 +24,4 @@ user_groups:
 - **Graduate studies program:** 3e cycle d'études
 - **Start date:** 2019-09-01
 - **Director:** Gilles Joncas
-- **Co-director:** Simon ThibaUniversité Lavalt
+- **Co-director:** Simon Thibault

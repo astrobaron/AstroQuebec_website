@@ -1,10 +1,10 @@
 ---
 generated_by: scripts/import_students.py
-title: "Joseph GaUniversité Lavalin"
+title: "Joseph Gain"
 first_name: "Joseph"
-last_name: "GaUniversité Lavalin"
+last_name: "Gain"
 authors:
-  - "joseph-gauniversite-lavalin"
+  - "joseph-gain"
 superuser: false
 role: "PhD Student"
 organizations:
@@ -15,8 +15,8 @@ interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:joseph.gaUniversité Lavalin.1@ulaval.ca"
-email: "joseph.gaUniversité Lavalin.1@ulaval.ca"
+    link: "mailto:joseph.gain.1@ulaval.ca"
+email: "joseph.gain.1@ulaval.ca"
 user_groups:
   - "PhD Students"
 ---

@@ -24,4 +24,4 @@ user_groups:
 - **Cycle d'études:** 3e cycle d'études
 - **Date de début:** 2019-09-01
 - **Direction:** Gilles Joncas
-- **Codirection:** Simon ThibaUniversité Lavalt
+- **Codirection:** Simon Thibault

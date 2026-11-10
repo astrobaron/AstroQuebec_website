@@ -1,26 +1,26 @@
 ---
 generated_by: scripts/import_students.py
-title: "Noé Dia"
-first_name: "Noé"
-last_name: "Dia"
+title: "Sarah Bottega"
+first_name: "Sarah"
+last_name: "Bottega"
 authors:
-  - "noe-dia"
+  - "sarah-bottega"
 superuser: false
 role: "Master's Student"
 organizations:
-  - name: "Université de Montréal"
+  - name: "Bishop's University"
     url: ""
 bio: "Generated from the student spreadsheet."
 interests: []
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:noe.dia@umontreal.ca"
-email: "noe.dia@umontreal.ca"
+    link: "mailto:sbottega26@UBishops.ca"
+email: "sbottega26@UBishops.ca"
 user_groups:
   - "Master’s Students"
 ---
 
 - **Graduate studies program:** 2e cycle d'études
-- **Start date:** 2025-09-01
-- **Director:** Laurence Perreault Levasseur
+- **Start date:** 2026-09-01
+- **Director:** Jason Rowe

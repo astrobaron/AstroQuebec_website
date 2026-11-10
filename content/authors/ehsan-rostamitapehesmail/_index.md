@@ -24,4 +24,4 @@ user_groups:
 - **Cycle d'études:** Stage postdoctoral (après un Ph.D.)
 - **Date de début:** 2024-09-01
 - **Direction:** Mighri Frej
-- **Codirection:** Simon ThibaUniversité Lavalt
+- **Codirection:** Simon Thibault

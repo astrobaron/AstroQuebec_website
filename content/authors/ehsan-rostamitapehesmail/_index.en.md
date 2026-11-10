@@ -24,4 +24,4 @@ user_groups:
 - **Graduate studies program:** Stage postdoctoral (après un Ph.D.)
 - **Start date:** 2024-09-01
 - **Director:** Mighri Frej
-- **Co-director:** Simon ThibaUniversité Lavalt
+- **Co-director:** Simon Thibault
