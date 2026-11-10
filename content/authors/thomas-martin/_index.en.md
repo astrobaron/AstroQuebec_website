@@ -11,7 +11,7 @@ organizations:
   - name: "Cégep Garneau"
     url: ""
 bio: ""
-interests: ["Instrumentation", "Optical interferometry", "Supernova remnants", "Planetary nebulae", "Young galaxies"]
+interests: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -19,13 +19,4 @@ social:
 email: "TMartin@cegepgarneau.ca"
 user_groups:
   - "Co-Investigator"
-website: ""
 ---
-
-<!-- imported-expertise:start -->
-
-## Research project
-
-An expert in astronomical instrumentation, data analysis (programming, artificial intelligence, big data) and hyperspectral imaging, Thomas Martin is passionate about developing instruments and software for hyperspectral analysis and the study of astrophysical objects emitting in the visible spectrum.
-
-<!-- imported-expertise:end -->

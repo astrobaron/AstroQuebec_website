@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Intelligience artificielle"]
+interests: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -19,13 +19,4 @@ social:
 email: "ravanbakhsh@gmail.com"
 user_groups:
   - "Cochercheurs et cochercheuses"
-website: "https://www.cs.mcgill.ca/~siamak/"
 ---
-
-<!-- imported-expertise:start -->
-
-## Projet de recherche
-
-Siamak Ravanbakhsh s’intéresse aux problèmes de l’apprentissage de la représentation et de l’inférence dans l’intelligence artificielle. Ses recherches actuelles portent sur le rôle de la symétrie et de l’invariance dans l’apprentissage profond des représentations.
-
-<!-- imported-expertise:end -->

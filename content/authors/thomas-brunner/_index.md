@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Physique subatomique"]
+interests: []
 social:
   - icon: envelope
     icon_pack: fas
@@ -19,13 +19,4 @@ social:
 email: "thomas.brunner@mcgill.ca"
 user_groups:
   - "Cochercheurs et cochercheuses"
-website: "https://neutrino.physics.mcgill.ca/"
 ---
-
-<!-- imported-expertise:start -->
-
-## Projet de recherche
-
-Les recherches de Thomas Brunner visent principalement à déterminer la nature des neutrinos en étudiant les désintégrations nucléaires radioactives, ainsi qu’à comprendre la physique nucléaire qui sous-tend ces phénomènes.
-
-<!-- imported-expertise:end -->
