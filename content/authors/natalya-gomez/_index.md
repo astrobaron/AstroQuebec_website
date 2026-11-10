@@ -11,7 +11,7 @@ organizations:
   - name: "Université McGill"
     url: ""
 bio: ""
-interests: ["Planetary science", "Ice sheet", "Climate change"]
+interests: ["Science planétaire", "Calotte glaciaire", "Changements climatiques"]
 social:
   - icon: envelope
     icon_pack: fas
