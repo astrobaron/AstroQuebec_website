@@ -20,7 +20,7 @@ sections:
 
         It is also an opportunity to present new projects, discuss the challenges of astrophysics research, and strengthen ties between researchers, students, and partners across Quebec.
 
-        {{% cta cta_link="/activites/rencontre-annuelle/" cta_text="More information" %}}
+        {{% cta cta_link="rencontre-annuelle/" cta_text="More information" %}}
 
     design:
       columns: '1'

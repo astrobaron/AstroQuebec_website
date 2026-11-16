@@ -20,7 +20,7 @@ sections:
 
         C’est aussi l’occasion de présenter les nouveaux projets, d’échanger autour des enjeux de la recherche en astrophysique et de renforcer les liens entre chercheuses, chercheurs, étudiants et partenaires du Québec.
 
-        {{% cta cta_link="/activites/rencontre-annuelle/" cta_text="Plus d’informations" %}}
+        {{% cta cta_link="rencontre-annuelle/" cta_text="Plus d’informations" %}}
     design:
       columns: '1'
 
