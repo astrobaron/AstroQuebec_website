@@ -2,9 +2,9 @@
 generated_by: scripts/import_seminars.py
 title: "Séminaire — Stephan Gruber"
 event: "Colloques et séminaires"
-summary: "Titre à confirmer"
+summary: "Hidden ice in a warming Canada: Observing and simulating permafrost change"
 abstract: >-
-  Résumé à confirmer.
+  Permafrost shapes much of Canada’s landscape, and its thaw has consequences for ecosystems, infrastructure, and communities. This presentation introduces permafrost and its importance in a changing climate, then explores how monitoring and numerical simulation can provide better information to support adaptation studies. Research examples illustrate the detection of ground ice using spectral induced polarization (SIP) and the quantification of ground-ice loss over time. Together, they highlight the challenges of inferring subsurface conditions and understanding their evolution. The talk concludes with a look at current moment in Canadian permafrost research as we approach the fifth International Polar Year 2032 and 2033.
 presenter: "Stephan Gruber"
 presenter_institution: "Carleton"
 date: "2026-11-24T15:30:00-05:00"
@@ -20,8 +20,8 @@ featured: false
 
 ## Titre
 
-Titre à confirmer
+Hidden ice in a warming Canada: Observing and simulating permafrost change
 
 ## Résumé
 
-Résumé à confirmer.
+Permafrost shapes much of Canada’s landscape, and its thaw has consequences for ecosystems, infrastructure, and communities. This presentation introduces permafrost and its importance in a changing climate, then explores how monitoring and numerical simulation can provide better information to support adaptation studies. Research examples illustrate the detection of ground ice using spectral induced polarization (SIP) and the quantification of ground-ice loss over time. Together, they highlight the challenges of inferring subsurface conditions and understanding their evolution. The talk concludes with a look at current moment in Canadian permafrost research as we approach the fifth International Polar Year 2032 and 2033.
