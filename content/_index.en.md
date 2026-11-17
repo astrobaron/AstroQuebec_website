@@ -39,17 +39,16 @@ sections:
       text: |
         <br>
 
-        The Centre for Research in Astrophysics of Quebec (AstroQuébec) is an interdisciplinary organisation whose mission is to understand the Universe – its origin, evolution, structure, constituents, and our place within it.
-
+        The Centre for Research in Astrophysics of Québec (AstroQuébec) is a group of researchers from the Universities of Montréal, McGill, Laval and Bishop’s, whose shared mission is to understand the Universe. Their work seeks to answer questions such as: Where did the Universe come from? What is it made of? How did galaxies and stars come into being? How did the Solar System form? Is there life anywhere other than on Earth? 
+        
+        AstroQuébec is funded by the Fonds de Recherche du Québec – Nature et Technologie.
   - block: markdown
     id: mission
     content:
       title: Our Mission
       subtitle: ''
       text: |
-        Where did the Universe come from? What is it made of? How did galaxies and stars emerge within it? How did the Solar System form? Is there life beyond Earth? These major questions are at the heart of the work of researchers at the Centre for Research in Astrophysics of Quebec (AstroQuébec), united under the theme Understanding the Universe.
-
-        AstroQuébec's mission is to ensure leading scientific research in astronomy and astrophysics in Quebec, and to promote Quebec astronomy on the world stage. To achieve this, the centre brings together its members' expertise in observations, instrumentation, modeling, and data analysis to better understand planets, stars, galaxies, and the evolution of the Universe.
+        AstroQuébec’s mission is to promote excellence, collaboration and dynamism in astrophysics research in Québec; to provide a richer, more diverse and more inclusive environment for welcoming and training the next generation of students in this field; and to raise the profile of Québec astronomy on the world stage.
     design:
       columns: '1'
 
@@ -59,7 +58,10 @@ sections:
       title: "[Activities](/en/activites/)"
       subtitle: ''
       text: |
-        AstroQuébec members organize and participate in seminars, colloquia, summer schools, training workshops, public activities, and scientific meetings. These activities support collaboration, research communication, and the sharing of research tools.
+         AstroQuébec organises scientific meetings, training workshops, seminars and conferences to enable its members to exchange ideas and keep up to date with the latest developments in the field.
+         AstroQuébec also offers several research grants to its members to support the training of the next generation of scientists, encourage inter-institutional and interdisciplinary scientific collaboration, and enhance the profile of astrophysics research in Québec and internationally.
+         AstroQuébec also facilitates the shared use of its members’ material and human resources to support cutting-edge scientific research and promote its profile.
+
     design:
       columns: '1'
 

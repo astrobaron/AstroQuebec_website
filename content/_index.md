@@ -40,17 +40,16 @@ sections:
       text: |
         <br>
 
-        Le Centre de recherche en astrophysique du Québec (AstroQuébec) est un regroupement interdisciplinaire dont la mission est de Comprendre l’Univers, soit son origine, son évolution, sa structure, ses constituants, et notre place en son sein.
-
+        Le Centre de recherche en astrophysique du Québec (AstroQuébec) est un regroupement de chercheuses et chercheurs issus des Universités de Montréal, McGill, Laval et Bishop’s, dont la mission commune est de Comprendre l’Univers. Leurs travaux visent à répondre à des questions telles que d’où vient l’univers? De quoi est-il fait? Comment les galaxies et les étoiles y sont-elles apparues? Comment s’est formé le système solaire? Y a-t-il de la vie ailleurs que sur Terre? 
+        
+        AstroQuébec est financé par le Fonds de Recherche du Québec – Nature et Technologie. 
   - block: markdown
     id: mission
     content:
       title: Notre mission
       subtitle: ''
       text: |
-        D’où vient l’univers? De quoi est-il fait? Comment les galaxies et les étoiles y sont-elles apparues? Comment s’est formé le système solaire? Y a-t-il de la vie ailleurs que sur Terre? Ces grandes questions sont au coeur des travaux des chercheurs du Centre de recherche en astrophysique du Québec (AstroQuébec), réunis sous la thématique, Comprendre l’Univers.
-
-        La mission d'AstroQuébec est d’assurer une recherche scientifique de pointe dans le domaine de l’astronomie et de l’astrophysique au Québec, et de faire rayonner l’astronomie québécoise sur la scène mondiale. Pour ce faire, le centre met en commun l’expertise en observations, instrumentation, modélisation et analyse de données de ses membres afin de mieux comprendre les planètes, les étoiles, les galaxies et l’évolution de l’Univers.
+        La mission d’AstroQuébec est de promouvoir l'excellence, la collaboration et le dynamisme en recherche en astrophysique au Québec, d’offrir un milieu d’accueil et de formation plus riche, plus diversifié et plus inclusif à la relève étudiante dans ce domaine, et de faire rayonner l’astronomie québécoise sur la scène mondiale.
     design:
       columns: '1'
 
@@ -60,7 +59,11 @@ sections:
       title: "[Activités](/activites/)"
       subtitle: ''
       text: |
-        Les membres d’AstroQuébec organisent et participent à des séminaires, colloques, écoles d’été, ateliers de formation, activités publiques et rencontres scientifiques. Ces activités favorisent la collaboration, la diffusion des résultats et le partage des outils de recherche.
+        AstroQuébec organise des rencontres scientifiques, des ateliers de formation, des séminaires et des colloques, pour permettre à ses membres d’échanger entre eux et de se maintenir à jours sur les dernières avancées du domaine.
+        
+        AstroQuébec offre de plus plusieurs bourses de recherche à ses membres pour favoriser la formation de la relève, stimuler les collaborations scientifiques interinstitutionnelles et interdisciplinaires, et renforcer le rayonnement de la recherche en astrophysique au Québec et à l’international.
+
+        AstroQuébec facilite aussi la mise en commun des ressources matérielles et humaines de ses membres pour une recherche scientifique de pointe et pour son rayonnement.
     design:
       columns: '1'
 
