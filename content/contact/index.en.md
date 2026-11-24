@@ -10,8 +10,6 @@ sections:
       title: Contact us
       subtitle: ''
       text: |-
-        ## Leadership
-
         **David Lafrenière**  
         Director, Centre de recherche en astrophysique du Québec  
         Department of Physics  
